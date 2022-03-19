@@ -654,6 +654,12 @@ BOOLEAN_UNION = 1
 BOOLEAN_DIFF = 2
 BOOLEAN_AND = 3
 BOOLEAN_XOR = 4
+BOOLEAN_MIRROR_DIFF = 5
+
+
+
+
+
 
 # -------------- User interface ---------------------
 
@@ -666,6 +672,7 @@ TARGET_COLUMN = 3
 X_COLUMN = 4
 Y_COLUMN = 5
 Z_COLUMN = 6
+
 
 #------------ Navigation defaults -------------------
 
