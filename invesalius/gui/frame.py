@@ -118,8 +118,8 @@ class Frame(wx.Frame):
         main_menu = MenuBar(self)
 
         self.actived_interpolated_slices = main_menu.view_menu
-        self.actived_navigation_mode = main_menu.mode_menu
-        self.actived_dbs_mode = main_menu.mode_dbs
+        #self.actived_navigation_mode = main_menu.mode_menu
+        #self.actived_dbs_mode = main_menu.mode_dbs
         self.tools_menu = main_menu.tools_menu
 
         # Set menus, status and task bar
@@ -921,7 +921,7 @@ class MenuBar(wx.MenuBar):
         sub(self.OnUpdateSliceInterpolation, "Update Slice Interpolation MenuBar")
         sub(self.OnUpdateNavigationMode, "Update Navigation Mode MenuBar")
 
-        sub(self.AddPluginsItems, "Add plugins menu items")
+        #sub(self.AddPluginsItems, "Add plugins menu items")
 
         self.num_masks = 0
 
@@ -1126,22 +1126,22 @@ class MenuBar(wx.MenuBar):
         options_menu.Append(const.ID_PREFERENCES, _("Preferences..."))
 
         #Mode
-        self.mode_menu = mode_menu = wx.Menu()
-        nav_menu = wx.Menu()
-        nav_menu.Append(const.ID_MODE_NAVIGATION, _(u'Transcranial Magnetic Stimulation Mode\tCtrl+T'), "", wx.ITEM_CHECK)
+        #self.mode_menu = mode_menu = wx.Menu()
+        #nav_menu = wx.Menu()
+        #nav_menu.Append(const.ID_MODE_NAVIGATION, _(u'Transcranial Magnetic Stimulation Mode\tCtrl+T'), "", wx.ITEM_CHECK)
         #Under development
-        self.mode_dbs = nav_menu.Append(const.ID_MODE_DBS, _(u'Deep Brain Stimulation Mode\tCtrl+B'), "", wx.ITEM_CHECK)
-        self.mode_dbs.Enable(0)
-        mode_menu.Append(-1,_('Navigation Mode'),nav_menu)
+        #self.mode_dbs = nav_menu.Append(const.ID_MODE_DBS, _(u'Deep Brain Stimulation Mode\tCtrl+B'), "", wx.ITEM_CHECK)
+        #self.mode_dbs.Enable(0)
+        #mode_menu.Append(-1,_('Navigation Mode'),nav_menu)
 
-        v = self.NavigationModeStatus()
-        self.mode_menu.Check(const.ID_MODE_NAVIGATION, v)
+        #v = self.NavigationModeStatus()
+        #self.mode_menu.Check(const.ID_MODE_NAVIGATION, v)
 
-        self.actived_navigation_mode = self.mode_menu
+        #self.actived_navigation_mode = self.mode_menu
 
-        plugins_menu = wx.Menu()
-        plugins_menu.Append(const.ID_PLUGINS_SHOW_PATH, _("Open Plugins folder"))
-        self.plugins_menu = plugins_menu
+        #plugins_menu = wx.Menu()
+        #plugins_menu.Append(const.ID_PLUGINS_SHOW_PATH, _("Open Plugins folder"))
+        #self.plugins_menu = plugins_menu
 
         # HELP
         help_menu = wx.Menu()
@@ -1160,13 +1160,13 @@ class MenuBar(wx.MenuBar):
         self.Append(file_edit, _("Edit"))
         self.Append(view_menu, _(u"View"))
         self.Append(tools_menu, _(u"Tools"))
-        self.Append(plugins_menu, _(u"Plugins"))
+        #self.Append(plugins_menu, _(u"Plugins"))
         #self.Append(tools_menu, "Tools")
         self.Append(options_menu, _("Options"))
-        self.Append(mode_menu, _("Mode"))
+        #self.Append(mode_menu, _("Mode"))
         self.Append(help_menu, _("Help"))
 
-        plugins_menu.Bind(wx.EVT_MENU, self.OnPluginMenu)
+        #plugins_menu.Bind(wx.EVT_MENU, self.OnPluginMenu)
 
     def OnPluginMenu(self, evt):
         id = evt.GetId()
@@ -1205,17 +1205,17 @@ class MenuBar(wx.MenuBar):
         v = self.NavigationModeStatus()
         self.mode_menu.Check(const.ID_MODE_NAVIGATION, v)
 
-    def AddPluginsItems(self, items):
-        for menu_item in self.plugins_menu.GetMenuItems():
-            if menu_item.GetId() != const.ID_PLUGINS_SHOW_PATH:
-                self.plugins_menu.DestroyItem(menu_item)
+    #def AddPluginsItems(self, items):
+    #    for menu_item in self.plugins_menu.GetMenuItems():
+    #        if menu_item.GetId() != const.ID_PLUGINS_SHOW_PATH:
+    #            self.plugins_menu.DestroyItem(menu_item)
 
-        for item in items:
-            _new_id = wx.NewId()
-            self._plugins_menu_ids[_new_id] = items[item]
-            menu_item = self.plugins_menu.Append(_new_id, item, items[item]["description"])
-            menu_item.Enable(items[item]["enable_startup"])
-            print(">>> menu", item)
+    #    for item in items:
+    #        _new_id = wx.NewId()
+    #        self._plugins_menu_ids[_new_id] = items[item]
+    #        menu_item = self.plugins_menu.Append(_new_id, item, items[item]["description"])
+    #        menu_item.Enable(items[item]["enable_startup"])
+    #        print(">>> menu", item)
 
     def OnEnableState(self, state):
         """
