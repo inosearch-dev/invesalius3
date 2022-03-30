@@ -416,7 +416,7 @@ msgstr "Vascular IV"
 
 #: constants.py:427
 msgid "Yellow bone"
-msgstr ""
+msgstr "Os galben"
 
 #: constants.py:444 volume.py:670
 msgid "Cut plane"
@@ -424,11 +424,11 @@ msgstr "Tăiere plan"
 
 #: constants.py:702
 msgid "Select tracker:"
-msgstr ""
+msgstr "Selecteaza urma"
 
 #: constants.py:702
 msgid "Claron MicronTracker"
-msgstr ""
+msgstr "Claron MicronTracker"
 
 #: constants.py:703
 msgid "Polhemus FASTRAK"
@@ -452,11 +452,11 @@ msgstr "Deconectare tracker"
 
 #: constants.py:710
 msgid "Static ref."
-msgstr ""
+msgstr "Ref. statica"
 
 #: constants.py:710
 msgid "Dynamic ref."
-msgstr ""
+msgstr "Ref. dinamica"
 
 #: constants.py:713
 msgid "Select coil:"
@@ -532,31 +532,31 @@ msgstr ""
 
 #: constants.py:754
 msgid "Anterior"
-msgstr ""
+msgstr "Anterior"
 
 #: constants.py:755
 msgid "Center"
-msgstr ""
+msgstr "Central"
 
 #: constants.py:756
 msgid "Fixed"
-msgstr ""
+msgstr "Fixat"
 
 #: constants.py:758
 msgid "Select left object fiducial"
-msgstr ""
+msgstr "Selecteaza obiectul stang fiducial"
 
 #: constants.py:759
 msgid "Select right object fiducial"
-msgstr ""
+msgstr "Selecteaza obiectul drept fiducial"
 
 #: constants.py:760
 msgid "Select anterior object fiducial"
-msgstr ""
+msgstr "Selecteaza obiectul anterior fiducial"
 
 #: constants.py:761
 msgid "Select object center"
-msgstr ""
+msgstr "Selecteaza centru"
 
 #: constants.py:762
 msgid "Attach sensor to object"
@@ -565,7 +565,7 @@ msgstr ""
 #: control.py:390
 #, python-format
 msgid "Loading file %d of %d ..."
-msgstr ""
+msgstr "Incarca fisierul %d din %d ..."
 
 #: control.py:840
 msgid "Fix gantry tilt applying the degrees below"
@@ -581,11 +581,11 @@ msgstr "Unghiular"
 
 #: data_notebook.py:51 measures.py:25 measures.py:1133
 msgid "Density Ellipse"
-msgstr ""
+msgstr "Densitate Elipsa"
 
 #: data_notebook.py:52 measures.py:26 measures.py:1572
 msgid "Density Polygon"
-msgstr ""
+msgstr "Densitate Poligon"
 
 #: data_notebook.py:55 measures.py:29
 msgid "3D"
@@ -619,15 +619,15 @@ msgstr "Măsuri"
 
 #: data_notebook.py:171
 msgid "Create a new measure"
-msgstr ""
+msgstr "Creaza o msaura noua"
 
 #: data_notebook.py:178
 msgid "Remove measure"
-msgstr ""
+msgstr "Strerge masura"
 
 #: data_notebook.py:184
 msgid "Duplicate measure"
-msgstr ""
+msgstr "Copiaza masura"
 
 #: data_notebook.py:197 frame.py:1512
 msgid "Measure distance"
@@ -639,15 +639,15 @@ msgstr "Masurare unghi"
 
 #: data_notebook.py:289
 msgid "Create a new mask"
-msgstr ""
+msgstr "Creaza o masca noua"
 
 #: data_notebook.py:295
 msgid "Remove mask"
-msgstr ""
+msgstr "Sterge masca"
 
 #: data_notebook.py:301
 msgid "Duplicate mask"
-msgstr ""
+msgstr "Copiaza masca"
 
 #: data_notebook.py:466 data_notebook.py:818 data_notebook.py:1093
 #: data_notebook.py:1290
@@ -660,19 +660,19 @@ msgstr "Mască"
 
 #: data_notebook.py:629
 msgid "Create a new surface"
-msgstr ""
+msgstr "Creaza o suprafata noua"
 
 #: data_notebook.py:635
 msgid "Remove surface"
-msgstr ""
+msgstr "Sterge suprafata"
 
 #: data_notebook.py:641
 msgid "Duplicate surface"
-msgstr ""
+msgstr "Copiaza suprafata"
 
 #: data_notebook.py:647
 msgid "Import a surface file into InVesalius"
-msgstr ""
+msgstr "Importa o suprafata"
 
 #: data_notebook.py:675 task_surface.py:162
 msgid "New surface"
@@ -740,7 +740,7 @@ msgstr "Felie sagitală"
 
 #: default_viewers.py:101 default_viewers.py:200 task_exporter.py:256
 msgid "Volume"
-msgstr "olum"
+msgstr Volum"
 
 #: default_viewers.py:495
 msgid "Preset name"
@@ -795,19 +795,19 @@ msgstr "Alegeti un director care contine fisiere tip TIFF, BMP, JPG sau PNG:"
 
 #: dialogs.py:396
 msgid "Import Analyze 7.5 file"
-msgstr ""
+msgstr "Importa fisier Analyze 7.5"
 
 #: dialogs.py:402
 msgid "Import NIFTi 1 file"
-msgstr ""
+msgstr "Importa fisier NIFTi"
 
 #: dialogs.py:405
 msgid "Import PAR/REC file"
-msgstr ""
+msgstr "Importa fisier PAR/REC"
 
 #: dialogs.py:441
 msgid "Import surface file"
-msgstr ""
+msgstr "Importa fisier suprafata"
 
 #: dialogs.py:476
 msgid "Save project as..."
@@ -815,35 +815,35 @@ msgstr "Salvează proiectul ca..."
 
 #: dialogs.py:513
 msgid "Save markers as..."
-msgstr ""
+msgstr "Salveaza marcaje ca..."
 
 #: dialogs.py:516 dialogs.py:577
 msgid "Markers files (*.mks)|*.mks"
-msgstr ""
+msgstr "Fisiere marcaje (*.mks)|*.mks"
 
 #: dialogs.py:543
 msgid "Save coords as..."
-msgstr ""
+msgstr "Salveaza coordonate ca..."
 
 #: dialogs.py:546
 msgid "Coordinates files (*.csv)|*.csv"
-msgstr ""
+msgstr "Fisiere de coordonate (*.csv)|*.csv"
 
 #: dialogs.py:574
 msgid "Load markers"
-msgstr ""
+msgstr "Incarca marcaje"
 
 #: dialogs.py:603
 msgid "Save object registration as..."
-msgstr ""
+msgstr "Salveaza obiectul inregistrat ca ... "
 
 #: dialogs.py:606 dialogs.py:637
 msgid "Registration files (*.obr)|*.obr"
-msgstr ""
+msgstr "Fisiere inregistrate (*.obr)|*.obr"
 
 #: dialogs.py:634
 msgid "Load object registration"
-msgstr ""
+msgstr "Incarca obiecte inregistrate (*.obr)|*.obr"
 
 #: dialogs.py:704 utils.py:388
 msgid ""
@@ -1008,6 +1008,11 @@ msgid ""
 "\n"
 " Contact: invesalius@cti.gov.br"
 msgstr ""
+"Acest program  este un framework pentru reconstructia 3D a imaginilor medicale. Foloseste o secventa de imagini 2D DICOM obtinute cu ajutorul CT sau MRI. Permite exportarea volumelor 3D sau a suprafetelor sub forma de fisiere mesh pentru a creea modele fizice si anatomice ale pacientilor folosind imprimante si tehnolofii 3D. Acest soft este bazat pe softul dezvoltat de CCentrul de Tehnologie a Informatiei Renato Archer (CTI), Consiliul National pentru Dezvoltare Tehnica si Stiintifica si Ministerul Sanatatii al Braziliei \n"
+"\n"
+" Trebuie folosit doar pentru scopuri de cercetare. Pana la acest stadiu, dezvoltatorii sunt exonerati de orice incovenienta clinica data de folosirea programului.\n"
+"\n"
+" Contact: invesalius@cti.gov.br"
 
 #: dialogs.py:1273
 msgid "GNU GPL (General Public License) version 2"
@@ -1083,7 +1088,7 @@ msgstr "Modalitate creare suprafata"
 
 #: dialogs.py:1703 preferences.py:225
 msgid "Fill border holes"
-msgstr ""
+msgstr " Umple goluri margine"
 
 #: dialogs.py:1757 frame.py:1013
 msgid "Options"
@@ -1099,11 +1104,11 @@ msgstr "Distanta Max.:"
 
 #: dialogs.py:1777
 msgid "Min. weight:"
-msgstr ""
+msgstr " Greutate minima"
 
 #: dialogs.py:1779
 msgid "N. steps:"
-msgstr ""
+msgstr "Numar pasi"
 
 #: dialogs.py:1798 dialogs.py:1834 dialogs.py:1879
 msgid "Context aware smoothing"
@@ -1116,7 +1121,7 @@ msgstr "Binar"
 #: dialogs.py:1817
 msgid ""
 "It is not possible to use the Default method because the mask was edited."
-msgstr ""
+msgstr "Nu este posibila folosirea metodei Default deoarece masca a fost editata"
 
 #: dialogs.py:1820
 msgid "Method:"
@@ -1128,7 +1133,7 @@ msgstr "Metoda"
 
 #: dialogs.py:1975
 msgid "Gaussian sigma"
-msgstr ""
+msgstr "Sigma gaussiana"
 
 #: dialogs.py:1995 task_slice.py:308
 msgid "Watershed"
@@ -1136,11 +1141,11 @@ msgstr ""
 
 #: dialogs.py:2039
 msgid "Boolean operations"
-msgstr ""
+msgstr "Operatii booleane"
 
 #: dialogs.py:2067 slice_.py:1347
 msgid "Union"
-msgstr ""
+msgstr "Combinare"
 
 #: dialogs.py:2068
 msgid "Difference"
@@ -1152,35 +1157,35 @@ msgstr "Intersectie"
 
 #: dialogs.py:2070
 msgid "Exclusive disjunction"
-msgstr ""
+msgstr "Disjunctie exclusiva"
 
 #: dialogs.py:2091
 msgid "Mask 1"
-msgstr ""
+msgstr "Masca 1"
 
 #: dialogs.py:2093
 msgid "Operation"
-msgstr ""
+msgstr "Operatie"
 
 #: dialogs.py:2095
 msgid "Mask 2"
-msgstr ""
+msgstr "Masca 2"
 
 #: dialogs.py:2123
 msgid "Image reorientation"
-msgstr ""
+msgstr "Reorientarea imaginii"
 
 #: dialogs.py:2142
 msgid "Nearest Neighbour"
-msgstr ""
+msgstr "Cel mai aproape vecin"
 
 #: dialogs.py:2143
 msgid "Trilinear"
-msgstr ""
+msgstr "Triliniar"
 
 #: dialogs.py:2144
 msgid "Tricubic"
-msgstr ""
+msgstr "Tricubic"
 
 #: dialogs.py:2145
 msgid "Lanczos (experimental)"
@@ -1204,7 +1209,7 @@ msgstr "Unghi Z"
 
 #: dialogs.py:2171
 msgid "Interpolation method:"
-msgstr ""
+msgstr "Metoda de interpolare: "
 
 #: dialogs.py:2251 dialogs.py:2256
 msgid "Create project from bitmap"
@@ -1216,7 +1221,7 @@ msgstr "Nume proiect:"
 
 #: dialogs.py:2284
 msgid "Slices orientation:"
-msgstr ""
+msgstr "Orientare felie"
 
 #: dialogs.py:2285 dialogs.py:2461 dialogs.py:2485 dialogs.py:3714
 msgid "Sagital"
@@ -1242,7 +1247,7 @@ msgstr "Z:"
 msgid ""
 "All bitmaps files must be the same \n"
 " width and height size."
-msgstr ""
+msgstr "Toate fisierele bitmap trebuie sa aibe aeeasi dimensiune XxY"
 
 #: dialogs.py:2417
 msgid "2D - Actual slice"
@@ -1254,7 +1259,7 @@ msgstr "3D - Toate sectiunile"
 
 #: dialogs.py:2452
 msgid "2D Connectivity"
-msgstr ""
+msgstr "Conectivitate 2D"
 
 #: dialogs.py:2464
 msgid "Orientation"
@@ -1262,31 +1267,31 @@ msgstr "Orientare"
 
 #: dialogs.py:2507
 msgid "3D Connectivity"
-msgstr ""
+msgstr "Conectivitate 3D"
 
 #: dialogs.py:2577 dialogs.py:2639 task_slice.py:909
 msgid "Use WW&WL"
-msgstr ""
+msgstr "Folositi WW&WL"
 
 #: dialogs.py:2601
 msgid "Deviation"
-msgstr ""
+msgstr "Deviatie"
 
 #: dialogs.py:2603
 msgid "Min:"
-msgstr ""
+msgstr "Min:"
 
 #: dialogs.py:2606
 msgid "Max:"
-msgstr ""
+msgstr "Max:"
 
 #: dialogs.py:2668
 msgid "Multiplier"
-msgstr ""
+msgstr "Multiplicator"
 
 #: dialogs.py:2671
 msgid "Iterations"
-msgstr ""
+msgstr "Iteratii"
 
 #: dialogs.py:2755 dialogs.py:2978 dialogs.py:3256
 msgid "Parameters"
@@ -1294,27 +1299,27 @@ msgstr "Parametri"
 
 #: dialogs.py:2814 dialogs.py:2817
 msgid "Select mask parts"
-msgstr ""
+msgstr "Selectati partile mastii"
 
 #: dialogs.py:2844
 msgid "Target mask name"
-msgstr ""
+msgstr "Numele mastii tinta"
 
 #: dialogs.py:2896 styles.py:2305
 msgid "Region growing"
-msgstr ""
+msgstr "Indexare regiune"
 
 #: dialogs.py:2948
 msgid "Dynamic"
-msgstr ""
+msgstr "Dinamica"
 
 #: dialogs.py:2948
 msgid "Confidence"
-msgstr ""
+msgstr "Confidenta"
 
 #: dialogs.py:3101
 msgid "Crop mask"
-msgstr ""
+msgstr "Taie masca"
 
 #: dialogs.py:3139
 msgid "Axial:"
@@ -1334,7 +1339,7 @@ msgstr "Coronal:"
 
 #: dialogs.py:3267
 msgid "Max hole size"
-msgstr ""
+msgstr "Dimensiune maxima gol"
 
 #: dialogs.py:3269
 msgid "voxels"
@@ -1342,89 +1347,89 @@ msgstr ""
 
 #: dialogs.py:3328 dialogs.py:3331
 msgid "Mask density"
-msgstr ""
+msgstr "Densitate masca"
 
 #: dialogs.py:3347
 msgid "Calculate"
-msgstr ""
+msgstr "Calculeaza"
 
 #: dialogs.py:3357
 msgid "Mask:"
-msgstr ""
+msgstr "Masca"
 
 #: dialogs.py:3364
 msgid "Mean:"
-msgstr ""
+msgstr "Medie"
 
 #: dialogs.py:3367
 msgid "Minimun:"
-msgstr ""
+msgstr "Minim"
 
 #: dialogs.py:3370
 msgid "Maximun:"
-msgstr ""
+msgstr "Maxim"
 
 #: dialogs.py:3373
 msgid "Standard deviation:"
-msgstr ""
+msgstr "Deviatie standard"
 
 #: dialogs.py:3409
 msgid "Calculating "
-msgstr ""
+msgstr "Calculeaza"
 
 #: dialogs.py:3444 dialogs.py:3448
 msgid "Object calibration"
-msgstr ""
+msgstr "Calibrare obiect"
 
 #: dialogs.py:3467
 msgid "Choose the object reference mode"
-msgstr ""
+msgstr "Alegeti modul de referinta obiect"
 
 #: dialogs.py:3477
 msgid "Registration done"
-msgstr ""
+msgstr "Inregistrare terminata"
 
 #: dialogs.py:3479
 msgid "Done"
-msgstr ""
+msgstr "Terminat"
 
 #: dialogs.py:3522
 msgid "Would like to use InVesalius default object?"
-msgstr ""
+msgstr "Doriti folosirea obiectului implicit al programului"
 
 #: dialogs.py:3553 surface.py:315 viewer_volume.py:1147
 msgid "File format not reconized by InVesalius"
-msgstr ""
+msgstr "Format de fisier incompatibil cu programul"
 
 #: dialogs.py:3553 dialogs.py:3572 surface.py:315 surface.py:327
 #: viewer_volume.py:1147 viewer_volume.py:1163
 msgid "Import surface error"
-msgstr ""
+msgstr "Importa eroare suprafata"
 
 #: dialogs.py:3572 surface.py:327 viewer_volume.py:1163
 msgid "InVesalius was not able to import this surface"
-msgstr ""
+msgstr "Programul nu a putut importa aceasta suprafata"
 
 #: dialogs.py:3681
 msgid "Creating 3D surface ..."
-msgstr ""
+msgstr "Creaza suprafata 3D ..."
 
 #: dialogs.py:3706
 msgid "Go to slice ..."
-msgstr ""
+msgstr "Mergi la felia ..."
 
 #: dialogs.py:3740
 msgid "Slice number"
-msgstr ""
+msgstr "Felia numarul"
 
 #: dicom.py:1560 dicom.py:1564 dicom.py:1566
 msgid "unnamed"
-msgstr ""
+msgstr "fara nume"
 
 #: dicom_preview_panel.py:426
 #, python-format
 msgid "%d images"
-msgstr ""
+msgstr "%d imagini"
 
 #: dicom_preview_panel.py:555 dicom_preview_panel.py:562
 #: dicom_preview_panel.py:587 dicom_preview_panel.py:594
@@ -1442,7 +1447,7 @@ msgstr "Previzualizare date medicale care trebuie reconstruite"
 
 #: frame.py:202
 msgid "Preview bitmap to be reconstructed"
-msgstr ""
+msgstr "Previzualizare bitmap pentru reconstructie"
 
 #: frame.py:552
 msgid "Currently the Navigation mode is only working on Windows"
@@ -1486,7 +1491,7 @@ msgstr ""
 
 #: frame.py:827
 msgid "Export project"
-msgstr ""
+msgstr "Exportă proiect"
 
 #: frame.py:828
 msgid "Close project"
@@ -1506,7 +1511,7 @@ msgstr "Reexecuta\tCtrl+Y"
 
 #: frame.py:861
 msgid "Go to slice ...\tCtrl+G"
-msgstr ""
+msgstr "Mergi la felia ...\tCtrl+G"
 
 #: frame.py:871
 msgid "New\tCtrl+Shift+M"
@@ -1514,39 +1519,39 @@ msgstr ""
 
 #: frame.py:874
 msgid "Boolean operations\tCtrl+Shift+B"
-msgstr ""
+msgstr "Operatii booleane\tCtrl+Shift+B"
 
 #: frame.py:877
 msgid "Clean Mask\tCtrl+Shift+A"
-msgstr ""
+msgstr "Curata Masca\tCtrl+Shift+A"
 
 #: frame.py:882
 msgid "Fill holes manually\tCtrl+Shift+H"
-msgstr ""
+msgstr "Umple goluri manual\tCtrl+Shift+H"
 
 #: frame.py:885
 msgid "Fill holes automatically\tCtrl+Shift+J"
-msgstr ""
+msgstr "Umple goluri automat\tCtrl+Shift+J"
 
 #: frame.py:890
 msgid "Remove parts\tCtrl+Shift+K"
-msgstr ""
+msgstr "Sterge parti\tCtrl+Shift+K"
 
 #: frame.py:893
 msgid "Select parts\tCtrl+Shift+L"
-msgstr ""
+msgstr "Selecteaza parti\tCtrl+Shift+L"
 
 #: frame.py:898
 msgid "Crop"
-msgstr ""
+msgstr "Taie"
 
 #: frame.py:903
 msgid "Threshold\tCtrl+Shift+T"
-msgstr ""
+msgstr "Prag\tCtrl+Shift+T"
 
 #: frame.py:904
 msgid "Manual segmentation\tCtrl+Shift+E"
-msgstr ""
+msgstr "Segmentare manuala\tCtrl+Shift+E"
 
 #: frame.py:905
 msgid "Watershed\tCtrl+Shift+W"
@@ -1554,51 +1559,51 @@ msgstr ""
 
 #: frame.py:906
 msgid "Region growing\tCtrl+Shift+G"
-msgstr ""
+msgstr "Incrementare regiune\tCtrl+Shift+G"
 
 #: frame.py:919
 msgid "Right - Left"
-msgstr ""
+msgstr "Dreapta - Stanga"
 
 #: frame.py:920
 msgid "Anterior - Posterior"
-msgstr ""
+msgstr "Fata - Spate"
 
 #: frame.py:921
 msgid "Top - Bottom"
-msgstr ""
+msgstr "Sus - Jos"
 
 #: frame.py:924
 msgid "From Right-Left to Anterior-Posterior"
-msgstr ""
+msgstr "De la Dreapta - Stanga la Fata - Spate"
 
 #: frame.py:925
 msgid "From Right-Left to Top-Bottom"
-msgstr ""
+msgstr ""De la Dreapta - Stanga la Sus - Jos"
 
 #: frame.py:926
 msgid "From Anterior-Posterior to Top-Bottom"
-msgstr ""
+msgstr "De la Fata - Spate la Sus - Jos"
 
 #: frame.py:928
 msgid "Flip"
-msgstr ""
+msgstr "Intoarce"
 
 #: frame.py:929
 msgid "Swap axes"
-msgstr ""
+msgstr "Comuta axe"
 
 #: frame.py:931
 msgid "Mask Density measure"
-msgstr ""
+msgstr "Masoara densitate masca"
 
 #: frame.py:932
 msgid "Reorient image\tCtrl+Shift+R"
-msgstr ""
+msgstr "Reorienteaza imagine\tCtrl+Shift+R"
 
 #: frame.py:937
 msgid "Segmentation"
-msgstr ""
+msgstr "Segmentare"
 
 #: frame.py:938 preferences.py:108
 msgid "Surface"
@@ -1610,23 +1615,23 @@ msgstr "Sectiuni interpolate"
 
 #: frame.py:979
 msgid "Preferences..."
-msgstr ""
+msgstr "Preferinte ..."
 
 #: frame.py:984
 msgid "Transcranial Magnetic Stimulation Mode\tCtrl+T"
-msgstr ""
+msgstr "Modalitate de stimulare magnetica transcraniana"
 
 #: frame.py:986
 msgid "Deep Brain Stimulation Mode\tCtrl+B"
-msgstr ""
+msgstr "Modalitate de stimulare profunda a creierului"
 
 #: frame.py:988
 msgid "Navigation Mode"
-msgstr ""
+msgstr "Modalitate navigare"
 
 #: frame.py:997
 msgid "Getting started..."
-msgstr ""
+msgstr "Inceput..."
 
 #: frame.py:1000
 msgid "About..."
@@ -1646,7 +1651,7 @@ msgstr "Vizualizare"
 
 #: frame.py:1014
 msgid "Mode"
-msgstr ""
+msgstr "Modalitate"
 
 #: frame.py:1015
 msgid "Help"
@@ -1663,11 +1668,11 @@ msgstr "Importa imagini DICOM ...\tCtrl+I"
 
 #: frame.py:1319
 msgid "Open InVesalius project..."
-msgstr "Deschide proiect InVesalius ..."
+msgstr "Deschide proiect  ..."
 
 #: frame.py:1325
 msgid "Save InVesalius project"
-msgstr "Salvează proiect InVesalius"
+msgstr "Salvează proiect"
 
 #: frame.py:1482
 msgid "Zoom"
@@ -1691,11 +1696,11 @@ msgstr "Contrast"
 
 #: frame.py:1525
 msgid "Measure density ellipse"
-msgstr ""
+msgstr "Masoara denstitatea elipsa"
 
 #: frame.py:1532
 msgid "Measure density polygon"
-msgstr ""
+msgstr ""Masoara denstitatea poligon"
 
 #: frame.py:1682
 msgid "Scroll slices"
@@ -1744,11 +1749,11 @@ msgstr "Cale"
 
 #: import_bitmap_panel.py:203
 msgid "Width x Height"
-msgstr ""
+msgstr "Latime x Inaltime"
 
 #: import_bitmap_panel.py:210 import_network_panel.py:266 import_panel.py:251
 msgid "InVesalius Database"
-msgstr "Baza de date InVesalius"
+msgstr "Baza de date "
 
 #: import_network_panel.py:239 import_panel.py:224
 msgid "Patient name"
@@ -1812,7 +1817,7 @@ msgstr "Activ"
 
 #: import_network_panel.py:665
 msgid "Host"
-msgstr ""
+msgstr "Gazda"
 
 #: import_network_panel.py:666
 msgid "Port"
@@ -1824,7 +1829,7 @@ msgstr ""
 
 #: import_network_panel.py:668
 msgid "Status"
-msgstr ""
+msgstr "Stare"
 
 #: import_network_panel.py:698
 msgid "Add"
@@ -1836,7 +1841,7 @@ msgstr "Sterge"
 
 #: import_network_panel.py:700
 msgid "Check status"
-msgstr ""
+msgstr "Verifica stare"
 
 #: import_network_panel.py:773
 msgid "ok"
@@ -1866,11 +1871,11 @@ msgstr ""
 
 #: polydata_utils.py:155
 msgid "Analysing selected regions..."
-msgstr ""
+msgstr "Analizeaza regiunea selectata..."
 
 #: polydata_utils.py:211
 msgid "Splitting disconnected regions..."
-msgstr ""
+msgstr "Impartire regiuni deconectate..."
 
 #: preferences.py:17
 msgid "Preferences"
@@ -1886,7 +1891,7 @@ msgstr "Vizualizare 3D"
 
 #: preferences.py:49 preferences.py:196
 msgid "Language"
-msgstr ""
+msgstr "Limba"
 
 #: preferences.py:111
 msgid "Interpolation "
@@ -1894,11 +1899,11 @@ msgstr "Interpolare"
 
 #: preferences.py:119
 msgid "Volume rendering"
-msgstr ""
+msgstr "Randare volum"
 
 #: preferences.py:122
 msgid "Rendering"
-msgstr ""
+msgstr "Randare"
 
 #: preferences.py:126
 msgid "GPU (NVidia video cards only)"
@@ -1910,7 +1915,7 @@ msgstr "Sectiuni"
 
 #: preferences.py:161
 msgid "Interpolated "
-msgstr ""
+msgstr "Interpolare"
 
 #: preferences.py:165 preferences.py:225
 msgid "Yes"
@@ -1925,6 +1930,8 @@ msgid ""
 "Language settings will be applied \n"
 " the next time InVesalius starts."
 msgstr ""
+"Setarile de limba vor fi aplicare \n"
+" dupa restartarea programului."
 
 #: presets.py:33 presets.py:51 presets.py:107 presets.py:138
 msgid "Soft Tissue"
@@ -2016,15 +2023,15 @@ msgstr ""
 
 #: slice_menu.py:160
 msgid "Window width and level"
-msgstr ""
+msgstr "Largime fereastra si nivel"
 
 #: slice_menu.py:161
 msgid "Pseudo color"
-msgstr ""
+msgstr "Pseudo culoare"
 
 #: slice_menu.py:162
 msgid "Projection type"
-msgstr ""
+msgstr "Tip proiectie"
 
 #: styles.py:68 task_slice.py:888
 msgid "Foreground"
@@ -2036,7 +2043,7 @@ msgstr "Fundal"
 
 #: styles.py:1122
 msgid "Applying watershed ..."
-msgstr ""
+msgstr "Aplicare watershed .."
 
 #: styles.py:1957
 msgid "Fill hole"
@@ -2044,27 +2051,27 @@ msgstr "Umple gaura ..."
 
 #: styles.py:1958
 msgid "Filling hole ..."
-msgstr ""
+msgstr " Umplere gaura ..."
 
 #: styles.py:2055
 msgid "Remove parts"
-msgstr ""
+msgstr "Sterge parti"
 
 #: styles.py:2056
 msgid "Remove part"
-msgstr ""
+msgstr "Sterge parte"
 
 #: styles.py:2057
 msgid "Removing part ..."
-msgstr ""
+msgstr "Stergere parti ..."
 
 #: styles.py:2306
 msgid "Segmenting ..."
-msgstr ""
+msgstr "Segmentare ..."
 
 #: surface.py:645
 msgid "InVesalius was not able to create the surface"
-msgstr ""
+msgstr "Programul nu a putut crea suprafata"
 
 #: surface.py:709
 msgid "Creating 3D surface..."
@@ -2072,7 +2079,7 @@ msgstr "Creare suprafata 3D"
 
 #: task_exporter.py:115
 msgid "Export InVesalius screen to an image file"
-msgstr "Exportă ecranul InVesalius ca imagine către un fișier"
+msgstr "Exportă ecranul programului  ca imagine către un fișier"
 
 #: task_exporter.py:117
 msgid "Export picture..."
@@ -2092,15 +2099,15 @@ msgstr "Salvează suprafața 3D ca..."
 
 #: task_exporter.py:350
 msgid "It was not possible to save the surface."
-msgstr ""
+msgstr "Nu a fost posibil sa se salveze suprafata."
 
 #: task_exporter.py:351
 msgid "Error saving surface"
-msgstr ""
+msgstr "Eroarea la salvarea suprafetei"
 
 #: task_exporter.py:357
 msgid "You need to create a surface and make it "
-msgstr ""
+msgstr "Trebuie sa creati o suprafata"
 
 #: task_exporter.py:358
 msgid "visible before exporting it."
@@ -2112,7 +2119,7 @@ msgstr "Testare..."
 
 #: task_importer.py:71
 msgid "Select DICOM, Analyze, NIfTI or REC/PAR files to be reconstructed"
-msgstr ""
+msgstr "Selectati fisierele  DICOM, Analyze, NIfTI sau REC/PAR pentru a fi reconstruite"
 
 #: task_importer.py:72
 msgid "Import medical images..."
@@ -2120,7 +2127,7 @@ msgstr "Import imagini medicale ..."
 
 #: task_importer.py:91
 msgid "Open an existing InVesalius project..."
-msgstr "Deschide un proiect InVesalius existent..."
+msgstr "Deschide un proiect  existent..."
 
 #: task_importer.py:92
 msgid "Open an existing project..."
@@ -2128,7 +2135,7 @@ msgstr "Deschide un proiect existent..."
 
 #: task_navigator.py:80
 msgid "Select fiducials and navigate"
-msgstr ""
+msgstr "Selectati regiunile fiduciale si navigati"
 
 #: task_navigator.py:151
 msgid "Neuronavigation"
@@ -2136,7 +2143,7 @@ msgstr "Neuronavigatie"
 
 #: task_navigator.py:160
 msgid "Object registration"
-msgstr ""
+msgstr "Inregistrare obiect"
 
 #: task_navigator.py:168
 msgid "Extra tools"
@@ -2144,11 +2151,11 @@ msgstr "Instrumente suplimentare"
 
 #: task_navigator.py:177
 msgid "Deep Brain Stimulation"
-msgstr ""
+msgstr "Stimulare profunda creier"
 
 #: task_navigator.py:186
 msgid "Update camera in volume"
-msgstr ""
+msgstr "Actualizare camera in volum"
 
 #: task_navigator.py:187
 msgid "Vol. camera"
@@ -2156,11 +2163,11 @@ msgstr ""
 
 #: task_navigator.py:194
 msgid "Enable external trigger for creating markers"
-msgstr ""
+msgstr "Activati declansatorul extern pentru creearea markerilor"
 
 #: task_navigator.py:195
 msgid "Ext. trigger"
-msgstr ""
+msgstr "Declansator extern"
 
 #: task_navigator.py:202
 msgid "Show and track TMS coil"
@@ -2168,15 +2175,15 @@ msgstr ""
 
 #: task_navigator.py:203
 msgid "Show coil"
-msgstr ""
+msgstr "Aratati bucla"
 
 #: task_navigator.py:312
 msgid "Choose the tracking device"
-msgstr ""
+msgstr "Alegeti dispozitiv inregistrare"
 
 #: task_navigator.py:321
 msgid "Choose the navigation reference mode"
-msgstr ""
+msgstr "Alegeti modalitatea referinta de navigare"
 
 #: task_navigator.py:355
 msgid "FRE:"
@@ -2184,7 +2191,7 @@ msgstr ""
 
 #: task_navigator.py:358
 msgid "Fiducial registration error"
-msgstr ""
+msgstr "Eroare de inregistrare fiduciala"
 
 #: task_navigator.py:367
 msgid "Start navigation"
@@ -2196,27 +2203,27 @@ msgstr "Navigatie"
 
 #: task_navigator.py:465
 msgid "Configuring tracker ..."
-msgstr ""
+msgstr "Cnfigurare inregistrator ..."
 
 #: task_navigator.py:481
 msgid "Disconnecting tracker..."
-msgstr ""
+msgstr "Deconectare inregistrator"
 
 #: task_navigator.py:487
 msgid "Tracker disconnected successfully"
-msgstr ""
+msgstr "Inregistrator deconectat cu succes"
 
 #: task_navigator.py:502
 msgid "Disconnecting tracker ..."
-msgstr ""
+msgstr "Deconectare inregistrator ..."
 
 #: task_navigator.py:511
 msgid "Tracker disconnected"
-msgstr ""
+msgstr "Inregistrator deconectat"
 
 #: task_navigator.py:515
 msgid "Tracker still connected"
-msgstr ""
+msgstr "Inregistrator conectat"
 
 #: task_navigator.py:614
 msgid "Stop neuronavigation"
@@ -2228,15 +2235,15 @@ msgstr "Initiere neuronavigatie"
 
 #: task_navigator.py:762
 msgid "Create new coil"
-msgstr ""
+msgstr "Creaza bucla noua"
 
 #: task_navigator.py:763
 msgid "New"
-msgstr ""
+msgstr "Nou"
 
 #: task_navigator.py:770
 msgid "Load coil configuration file"
-msgstr ""
+msgstr "Incarca fisier de configurare bucla"
 
 #: task_navigator.py:771 task_navigator.py:952 task_navigator.py:1025
 msgid "Load"
@@ -2252,43 +2259,43 @@ msgstr "Salvare"
 
 #: task_navigator.py:792
 msgid "Angle threshold [degrees]:"
-msgstr ""
+msgstr "Prag Unghi [grade]:"
 
 #: task_navigator.py:800
 msgid "Distance threshold [mm]:"
-msgstr ""
+msgstr "Distanta prag [mm]:"
 
 #: task_navigator.py:808
 msgid "Timestamp interval [s]:"
-msgstr ""
+msgstr "Interval timestamp [s]:"
 
 #: task_navigator.py:830
 msgid "Record coordinates"
-msgstr ""
+msgstr "Inregistreaza coordonate"
 
 #: task_navigator.py:837
 msgid "Track object"
-msgstr ""
+msgstr "Obiect inregistrat"
 
 #: task_navigator.py:952
 msgid "Object file successfully loaded"
-msgstr ""
+msgstr "Fisierul obiect incarcat cu succes"
 
 #: task_navigator.py:956
 msgid "Digitize all object fiducials before saving"
-msgstr ""
+msgstr "Digitizeaza toate obiectele fiduciale inainte de salvare"
 
 #: task_navigator.py:956
 msgid "Save error"
-msgstr ""
+msgstr "Eroare de salvare"
 
 #: task_navigator.py:963
 msgid "Object file successfully saved"
-msgstr ""
+msgstr "Fisierul obiect salvat cu succes"
 
 #: task_navigator.py:1013
 msgid "Create marker"
-msgstr ""
+msgstr "Creeaza marker"
 
 #: task_navigator.py:1028
 msgid "Hide"
@@ -2296,7 +2303,7 @@ msgstr "Ascunde"
 
 #: task_navigator.py:1040
 msgid "Delete all"
-msgstr ""
+msgstr "Sterge tot"
 
 #: task_navigator.py:1098
 msgid "Edit ID"
@@ -2304,11 +2311,11 @@ msgstr "Editeaza ID"
 
 #: task_navigator.py:1100
 msgid "Edit color"
-msgstr ""
+msgstr "Editeaza culoare"
 
 #: task_navigator.py:1103
 msgid "Set as target"
-msgstr ""
+msgstr "Seteaza ca tinta"
 
 #: task_slice.py:92
 msgid "Create mask for slice segmentation and editing"
@@ -2356,11 +2363,11 @@ msgstr "Intervalul pragurilor pensulei:"
 
 #: task_slice.py:908
 msgid "Overwrite mask"
-msgstr ""
+msgstr "Suprascrie masca"
 
 #: task_slice.py:918
 msgid "Expand watershed to 3D"
-msgstr ""
+msgstr "Extinde watershedul la 3D"
 
 #: task_surface.py:94
 msgid "Create 3D surface based on a mask"
@@ -2396,6 +2403,8 @@ msgid ""
 "Automatically select disconnected regions and create a new surface per "
 "region"
 msgstr ""
+"Selecteaza automat regiunile deconectate si creaza o noua suprafata pe "
+"regiune"
 
 #: task_surface.py:313
 msgid "Split all disconnected surfaces"
@@ -2403,7 +2412,7 @@ msgstr "Desparte toate suprafețele întrerupte"
 
 #: task_surface.py:321
 msgid "Manually insert seeds of regions of interest and create a new surface"
-msgstr ""
+msgstr "Insereaza manoual o zona a regiunii de interes si creaza o noua suprafata"
 
 #: task_surface.py:322
 msgid "Select regions of interest..."
@@ -2435,11 +2444,11 @@ msgstr "Adaugă adnotări de text"
 
 #: trigger.py:46
 msgid "Connection with port COM1 failed"
-msgstr ""
+msgstr "Conectarea la portul COM1 a esuat"
 
 #: trigger.py:46
 msgid "Communication error"
-msgstr ""
+msgstr "Eroare de comunicare"
 
 #: viewer_slice.py:79
 msgid "Number of slices used to compound the visualization."
@@ -2460,6 +2469,8 @@ msgid ""
 "If checked, the slices are traversed in descending order to compound the "
 "visualization instead of ascending order."
 msgstr ""
+"Daca selectati, feliile vor fi accesate in ordine descrescatoare pentru a compune "
+"vizualizarea substituind ordinea crescatoare."
 
 #: viewer_slice.py:103
 msgid "Number of slices"
@@ -2633,35 +2644,35 @@ msgstr ""
 
 #: viewer_slice.py:963 viewer_volume.py:429
 msgid "InVesalius was not able to export this picture"
-msgstr ""
+msgstr "Programul nu a putut exporta aceasta imagine"
 
 #: viewer_slice.py:963 viewer_volume.py:429
 msgid "Export picture error"
-msgstr ""
+msgstr "Eroare la exportul imaginii"
 
 #~ msgid "Save raycasting preset"
-#~ msgstr "Save raycasting preset"
+#~ msgstr "Salvare  raycasting prestabilita"
 
 #~ msgid "Untitled"
-#~ msgstr "Untitled"
+#~ msgstr "Fara nume"
 
 #~ msgid "Import DICOM images..."
-#~ msgstr "Import DICOM files..."
+#~ msgstr "Importa fisiere  DICOM ..."
 
 #~ msgid "Advanced editing tools"
-#~ msgstr "Advanced editing tools"
+#~ msgstr "Instrumente de editare avansate"
 
 #~ msgid "Exit"
-#~ msgstr "Exit"
+#~ msgstr "Iesire"
 
 #~ msgid "Off"
-#~ msgstr " Off"
+#~ msgstr " Oprit"
 
 #~ msgid "Save Project As..."
-#~ msgstr "Save Project As..."
+#~ msgstr "Salveaza proiectul ca..."
 
 #~ msgid "Open a InVesalius project..."
-#~ msgstr "Open a InVesalius project..."
+#~ msgstr Deschide un proiect..."
 
 #~ msgid "Image Tiling"
-#~ msgstr "Image Tiling"
+#~ msgstr "Imagine de lucru"
