@@ -88,7 +88,7 @@ EVT_MASK_SET = wx.PyEventBinder(myEVT_MASK_SET, 1)
 
 class NumberDialog(wx.Dialog):
     def __init__(self, message, value=0):
-        wx.Dialog.__init__(self, None, -1, "InVesalius 3", size=wx.DefaultSize,
+        wx.Dialog.__init__(self, None, -1, "INO-ORBITAL", size=wx.DefaultSize,
                            pos=wx.DefaultPosition,
                            style=wx.DEFAULT_DIALOG_STYLE)
 
@@ -136,7 +136,7 @@ class NumberDialog(wx.Dialog):
 class ResizeImageDialog(wx.Dialog):
 
     def __init__(self):#, message, value=0):
-        wx.Dialog.__init__(self, None, -1, "InVesalius 3", size=wx.DefaultSize,
+        wx.Dialog.__init__(self, None, -1, "INO-ORBITAL", size=wx.DefaultSize,
                           pos=wx.DefaultPosition,
                           style=wx.DEFAULT_DIALOG_STYLE)
 
@@ -200,7 +200,7 @@ def ShowNumberDialog(message, value=0):
 
 class ProgressDialog(object):
     def __init__(self, parent, maximum, abort=False):
-        self.title = "InVesalius 3"
+        self.title = "INO-ORBITAL"
         self.msg = _("Loading DICOM files")
         self.maximum = maximum
         self.current = 0
@@ -480,7 +480,7 @@ def ImportMeshCoordSystem():
         dlg = wx.MessageDialog(None, "", msg,
                                wx.YES_NO)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                wx.YES_NO)
 
     if dlg.ShowModal() == wx.ID_YES:
@@ -566,7 +566,7 @@ def ShowLoadSaveDialog(message=_(u"Load File"), current_dir=os.path.abspath(".")
 
 class MessageDialog(wx.Dialog):
     def __init__(self, message):
-        wx.Dialog.__init__(self, None, -1, "InVesalius 3",  size=(360, 370), pos=wx.DefaultPosition,
+        wx.Dialog.__init__(self, None, -1, "INO-ORBITAL",  size=(360, 370), pos=wx.DefaultPosition,
                            style=wx.DEFAULT_DIALOG_STYLE|wx.ICON_INFORMATION)
 
         # Static text which contains message to user
@@ -744,7 +744,7 @@ def ImportEmptyDirectory(dirpath):
                                 wx.ICON_INFORMATION | wx.OK)
     else:
         dlg = wx.MessageDialog(None, msg,
-                               "InVesalius 3",
+                               "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -753,7 +753,7 @@ def ImportEmptyDirectory(dirpath):
 def ImportOldFormatInvFile():
     msg = _("File was created in a newer InVesalius version. Some functionalities may not work correctly.")
     dlg = wx.MessageDialog(None, msg,
-                           "InVesalius 3",
+                           "INO-ORBITAL",
                            wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -771,7 +771,7 @@ def ImportInvalidFiles(ftype="DICOM"):
         dlg = wx.MessageDialog(None, "", msg,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -784,7 +784,7 @@ def ImportAnalyzeWarning():
         dlg = wx.MessageDialog(None, "", msg1 + msg2,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg1 + msg2, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg1 + msg2, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -796,7 +796,7 @@ def InexistentMask():
         dlg = wx.MessageDialog(None, "", msg,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -807,7 +807,7 @@ def MaskSelectionRequiredForRemoval():
         dlg = wx.MessageDialog(None, "", msg,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -818,7 +818,7 @@ def SurfaceSelectionRequiredForRemoval():
         dlg = wx.MessageDialog(None, "", msg,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -830,7 +830,7 @@ def MeasureSelectionRequiredForRemoval():
         dlg = wx.MessageDialog(None, "", msg,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -841,7 +841,7 @@ def MaskSelectionRequiredForDuplication():
         dlg = wx.MessageDialog(None, "", msg,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -854,7 +854,7 @@ def SurfaceSelectionRequiredForDuplication():
         dlg = wx.MessageDialog(None, "", msg,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -893,7 +893,7 @@ def ShowNavigationTrackerWarning(trck_id, lib_mode):
         dlg = wx.MessageDialog(None, "", msg,
                                wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3 - Neuronavigator",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL - Neuronavigator",
                                wx.ICON_INFORMATION | wx.OK)
 
     dlg.ShowModal()
@@ -906,7 +906,7 @@ def ICPcorregistration(fre):
         dlg = wx.MessageDialog(None, "", msg,
                                wx.YES_NO)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                wx.YES_NO)
 
     if dlg.ShowModal() == wx.ID_YES:
@@ -924,7 +924,7 @@ def ReportICPerror(prev_error, final_error):
         dlg = wx.MessageDialog(None, "", msg,
                                wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -934,7 +934,7 @@ def ShowEnterMarkerID(default):
     if sys.platform == 'darwin':
         dlg = wx.TextEntryDialog(None, "", msg, defaultValue=default)
     else:
-        dlg = wx.TextEntryDialog(None, msg, "InVesalius 3", value=default)
+        dlg = wx.TextEntryDialog(None, msg, "INO-ORBITAL", value=default)
     dlg.ShowModal()
     result = dlg.GetValue()
     dlg.Destroy()
@@ -947,7 +947,7 @@ def ShowConfirmationDialog(msg=_('Proceed?')):
         dlg = wx.MessageDialog(None, "", msg,
                                wx.OK | wx.CANCEL | wx.ICON_QUESTION)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                wx.OK | wx.CANCEL | wx.ICON_QUESTION)
     result = dlg.ShowModal()
     dlg.Destroy()
@@ -975,7 +975,7 @@ class NewMask(wx.Dialog):
     def __init__(self,
                  parent=None,
                  ID=-1,
-                 title="InVesalius 3",
+                 title="INO-ORBITAL",
                  size=wx.DefaultSize,
                  pos=wx.DefaultPosition,
                  style=wx.DEFAULT_DIALOG_STYLE,
@@ -1115,7 +1115,7 @@ def InexistentPath(path):
         dlg = wx.MessageDialog(None, "", msg,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -1126,7 +1126,7 @@ def MissingFilesForReconstruction():
         dlg = wx.MessageDialog(None, "", msg,
                                 wx.ICON_INFORMATION | wx.OK)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                                 wx.ICON_INFORMATION | wx.OK)
     dlg.ShowModal()
     dlg.Destroy()
@@ -1138,7 +1138,7 @@ def SaveChangesDialog(filename, parent):
         dlg = wx.MessageDialog(None, "", msg,
                                wx.ICON_QUESTION | wx.YES_NO | wx.CANCEL)
     else:
-        dlg = wx.MessageDialog(None, msg, "InVesalius 3",
+        dlg = wx.MessageDialog(None, msg, "INO-ORBITAL",
                          wx.ICON_QUESTION | wx.YES_NO | wx.CANCEL)
 
     try:
@@ -1164,7 +1164,7 @@ def SaveChangesDialog2(filename):
                                wx.ICON_QUESTION | wx.YES_NO)
     else:
         dlg = wx.MessageDialog(None, msg,
-                               "InVesalius 3",
+                               "INO-ORBITAL",
                                wx.ICON_QUESTION | wx.YES_NO)
 
     answer = dlg.ShowModal()
@@ -1194,12 +1194,12 @@ def ShowAboutDialog(parent):
     icon = wx.Icon(os.path.join(inv_paths.ICON_DIR, "invesalius_64x64.ico"),\
             wx.BITMAP_TYPE_ICO)
 
-    info.SetWebSite("https://www.cti.gov.br/invesalius")
+    info.SetWebSite("https://www.cti.gov.br/invesalius\nhttps://www.github.com/inosearch-dev")
     info.SetIcon(icon)
 
     info.License = _("GNU GPL (General Public License) version 2")
 
-    info.Developers = [u"Paulo Henrique Junqueira Amorim",
+    info.Developers = [u"InVesalius: Paulo Henrique Junqueira Amorim",
                        u"Thiago Franco de Moraes",
                        u"Hélio Pedrini",
                        u"Jorge Vicente Lopes da Silva",
@@ -1211,7 +1211,9 @@ def ShowAboutDialog(parent):
                        u"Guilherme Cesar Soares Ruppert (former)",
                        u"Fabio de Souza Azevedo (former)",
                        u"Bruno Lara Bottazzini (contributor)",
-                       u"Olly Betts (patches to support wxPython3)"]
+                       u"Olly Betts (patches to support wxPython3)",
+                       u"INO-ORBITAL: Dorel Pietreanu",
+                       u"Matei-Eugen Vasile"]
 
     info.Translators = [u"Alex P. Natsios",
                         u"Alicia Perez",
@@ -1241,7 +1243,9 @@ def ShowAboutDialog(parent):
                         u"Silvério Santos",
                         u"Vasily Shishkin",
                         u"Yohei Sotsuka",
-                        u"Yoshihiro Sato"]
+                        u"Yoshihiro Sato",
+                        u"Dorel Pietreanu",
+                        u"Matei-Eugen Vasile"]
 
     #info.DocWriters = ["Fabio Francisco da Silva (PT)"]
 
@@ -1254,7 +1258,7 @@ def ShowAboutDialog(parent):
 def ShowSavePresetDialog(default_filename="raycasting"):
     dlg = wx.TextEntryDialog(None,
                              _("Save raycasting preset as:"),
-                             "InVesalius 3")
+                             "INO-ORBITAL")
     #dlg.SetFilterIndex(0) # default is VTI
     filename = None
     try:
@@ -1266,7 +1270,7 @@ def ShowSavePresetDialog(default_filename="raycasting"):
     return filename
 
 class NewSurfaceDialog(wx.Dialog):
-    def __init__(self, parent=None, ID=-1, title="InVesalius 3", size=wx.DefaultSize,
+    def __init__(self, parent=None, ID=-1, title="INO-ORBITAL", size=wx.DefaultSize,
             pos=wx.DefaultPosition, style=wx.DEFAULT_DIALOG_STYLE,
             useMetal=False):
         import invesalius.constants as const
@@ -3427,7 +3431,7 @@ class ObjectCalibrationDialog(wx.Dialog):
                                    wx.ICON_QUESTION | wx.YES_NO)
         else:
             dlg = wx.MessageDialog(None, msg,
-                                   "InVesalius 3",
+                                   "INO-ORBITAL",
                                    wx.ICON_QUESTION | wx.YES_NO)
         answer = dlg.ShowModal()
         dlg.Destroy()
@@ -4055,7 +4059,7 @@ class ICPCorregistrationDialog(wx.Dialog):
 
 class SurfaceProgressWindow(object):
     def __init__(self):
-        self.title = "InVesalius 3"
+        self.title = "INO-ORBITAL"
         self.msg = _("Creating 3D surface ...")
         self.style = wx.PD_APP_MODAL | wx.PD_APP_MODAL | wx.PD_CAN_ABORT | wx.PD_ELAPSED_TIME
         self.dlg = wx.ProgressDialog(self.title,

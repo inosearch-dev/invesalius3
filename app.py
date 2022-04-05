@@ -113,7 +113,7 @@ class InVesalius(wx.App):
         from multiprocessing import freeze_support
         freeze_support()
 
-        self.SetAppName("InVesalius 3")
+        self.SetAppName("INO-ORBITAL")
         self.splash = Inv3SplashScreen()
         self.splash.Show()
         wx.CallLater(1000,self.Startup2)

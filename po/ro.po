@@ -28,1838 +28,630 @@ msgstr ""
 
 #: bitmap_preview_panel.py:25 dicom_preview_panel.py:57
 #, python-format
-msgid "Image size: %d x %d"
-msgstr "Dimensiunea imaginii: %d x %d"
+#msgid "Image size: %d x %d"
+#msgstr "Dimensiunea imaginii: %d x %d"
 
 #: bitmap_preview_panel.py:26 dicom_preview_panel.py:58
 #, python-format
-msgid "Spacing: %.2f"
-msgstr "Spațiere: %.2f"
+#msgid "Spacing: %.2f"
+#msgstr "Spațiere: %.2f"
 
 #: bitmap_preview_panel.py:27 dicom_preview_panel.py:59
 #, python-format
-msgid "Location: %.2f"
-msgstr "Locație: %.2f"
+#msgid "Location: %.2f"
+#msgstr "Locație: %.2f"
 
 #: bitmap_preview_panel.py:29 dicom_preview_panel.py:61
 #, python-format
-msgid ""
-"%s %s\n"
-"Made in InVesalius"
-msgstr "%s %s\nRealizat in InVesalius"
+#msgid ""
+#"%s %s\n"
+#"Made in InVesalius"
+#msgstr "%s %s\nRealizat in INO-ORBITAL - InVesalius"
 
 #: bitmap_preview_panel.py:166 bitmap_preview_panel.py:167
 #: dicom_preview_panel.py:200 dicom_preview_panel.py:201 frame.py:935
-msgid "Image"
-msgstr "Imagine"
+#msgid "Image"
+#msgstr "Imagine"
 
 #: bitmap_preview_panel.py:447 bitmap_preview_panel.py:448 constants.py:225
 #: constants.py:313 control.py:496 dialogs.py:1096 dialogs.py:1109
 #: dicom_preview_panel.py:715 dicom_preview_panel.py:716 presets.py:32
 #: presets.py:50 presets.py:106 presets.py:137
-msgid "Bone"
-msgstr "Os"
+#msgid "Bone"
+#msgstr "Os"
 
 #: bitmap_preview_panel.py:515 dicom_preview_panel.py:783
-msgid "Auto-play"
-msgstr "Auto-redare"
+#msgid "Auto-play"
+#msgstr "Auto-redare"
 
 #: clut_raycasting.py:535
 #, python-format
-msgid "Value: %-6d"
-msgstr "Valoare: %-6d"
+#msgid "Value: %-6d"
+#msgstr "Valoare: %-6d"
 
 #: clut_raycasting.py:536
 #, python-format
-msgid "Alpha: %-.3f"
-msgstr "Alpha: %-.3f"
+#msgid "Alpha: %-.3f"
+#msgstr "Alpha: %-.3f"
 
 #: constants.py:36
 #, python-format
 msgid "M %d"
 msgstr "M %d"
 
-#: constants.py:48 constants.py:441 constants.py:443
+#: invesalius/constants.py:50 invesalius/constants.py:397
+#: invesalius/constants.py:399
 msgid " Off"
 msgstr "Închidere"
 
-#: constants.py:49
+#: invesalius/constants.py:51
 msgid "Red-blue"
 msgstr "Rosu-albastru"
 
-#: constants.py:50
+#: invesalius/constants.py:52
 msgid "CristalEyes"
 msgstr ""
 
-#: constants.py:51
+#: invesalius/constants.py:53
 msgid "Interlaced"
-msgstr ""
+msgstr "Intretesut"
 
-#: constants.py:52 constants.py:389 constants.py:752
+#: invesalius/constants.py:54 invesalius/constants.py:346
+#: invesalius/constants.py:790
 msgid "Left"
 msgstr "Stânga"
 
-#: constants.py:53 constants.py:388 constants.py:753
+#: invesalius/constants.py:55 invesalius/constants.py:345
+#: invesalius/constants.py:796
 msgid "Right"
 msgstr "Dreapta"
 
-#: constants.py:54
+#: invesalius/constants.py:56
 msgid "Dresden"
 msgstr ""
 
-#: constants.py:55
+#: invesalius/constants.py:57
 msgid "Checkboard"
 msgstr ""
 
-#: constants.py:56
+#: invesalius/constants.py:58
 msgid "Anaglyph"
 msgstr ""
 
-#: constants.py:116
+#: invesalius/constants.py:119
 msgid "Keep all slices"
 msgstr "Păstrează toate sectiunile"
 
-#: constants.py:116
+#: invesalius/constants.py:119
 msgid "Skip 1 for each 2 slices"
 msgstr "Treci la 1 pentru fiecare 2 sectiuni"
 
-#: constants.py:117
+#: invesalius/constants.py:120
 msgid "Skip 2 for each 3 slices"
 msgstr "Treci la 2 pentru fiecare 3 felii"
 
-#: constants.py:117
+#: invesalius/constants.py:120
 msgid "Skip 3 for each 4 slices"
 msgstr "Treci la 3 pentru fiecare 4 felii"
 
-#: constants.py:118
+#: invesalius/constants.py:121
 msgid "Skip 4 for each 5 slices"
 msgstr "Treci la 4 pentru fiecare 5 felii"
 
-#: constants.py:118
+#: invesalius/constants.py:121
 msgid "Skip 5 for each 6 slices"
 msgstr "Treci la 5 pentru fiecare 6 felii"
 
-#: constants.py:175 slice_menu.py:102 slice_menu.py:109
+#: invesalius/constants.py:178 invesalius/gui/widgets/slice_menu.py:102
+#: invesalius/gui/widgets/slice_menu.py:109
 msgid "Default "
 msgstr "Implicit"
 
-#: constants.py:176
+#: invesalius/constants.py:179
 msgid "Hue"
 msgstr "Nuanţa"
 
-#: constants.py:177
+#: invesalius/constants.py:180
 msgid "Saturation"
 msgstr "Saturație"
 
-#: constants.py:178
+#: invesalius/constants.py:181
 msgid "Desert"
 msgstr "Deșert"
 
-#: constants.py:179
+#: invesalius/constants.py:182
 msgid "Rainbow"
 msgstr "Curcubeu"
 
-#: constants.py:180
+#: invesalius/constants.py:183
 msgid "Ocean"
 msgstr "Ocean"
 
-#: constants.py:181
+#: invesalius/constants.py:184
 msgid "Inverse Gray"
 msgstr "Inverseaza gri"
 
-#: constants.py:231
+#: invesalius/constants.py:228 invesalius/constants.py:316
+#: invesalius/control.py:562 invesalius/gui/bitmap_preview_panel.py:447
+#: invesalius/gui/bitmap_preview_panel.py:448 invesalius/gui/dialogs.py:1016
+#: invesalius/gui/dialogs.py:1029 invesalius/gui/dicom_preview_panel.py:716
+#: invesalius/gui/dicom_preview_panel.py:717 invesalius/presets.py:35
+#: invesalius/presets.py:53 invesalius/presets.py:109
+#: invesalius/presets.py:141
+msgid "Bone"
+msgstr "Os"
+
+#: invesalius/constants.py:234
 #, python-format
 msgid "Mask %d"
 msgstr "Mască %d"
 
-#: constants.py:287 task_surface.py:50
+#: invesalius/constants.py:290 invesalius/gui/task_surface.py:54
 msgid "Draw"
 msgstr "Desenează"
 
-#: constants.py:287 styles.py:67 task_slice.py:890 task_surface.py:50
+#: invesalius/constants.py:290 invesalius/data/styles.py:73
+#: invesalius/gui/task_slice.py:892 invesalius/gui/task_surface.py:54
 msgid "Erase"
 msgstr "Șterge"
 
-#: constants.py:287 data_notebook.py:467 dialogs.py:2948 task_surface.py:50
+#: invesalius/constants.py:290 invesalius/gui/data_notebook.py:529
+#: invesalius/gui/dialogs.py:2843 invesalius/gui/task_surface.py:54
 msgid "Threshold"
 msgstr "Prag"
 
-#: constants.py:299 constants.py:304
+#: invesalius/constants.py:302 invesalius/constants.py:307
 msgid "Low"
 msgstr "Mic"
 
-#: constants.py:300 constants.py:304
+#: invesalius/constants.py:303 invesalius/constants.py:307
 msgid "Medium"
 msgstr "Mediu"
 
-#: constants.py:301 constants.py:304
+#: invesalius/constants.py:304 invesalius/constants.py:307
 msgid "High"
 msgstr "Mare"
 
-#: constants.py:302 constants.py:303 constants.py:304 task_slice.py:187
+#: invesalius/constants.py:312
 msgid "Optimal *"
 msgstr "Optimă *"
 
-#: constants.py:309
 #, python-format
+
 msgid "Surface %d"
 msgstr "Suprafață %d"
 
-#: constants.py:312
+#: invesalius/constants.py:315
 msgid "Abdomen"
 msgstr "Abdomen"
 
-#: constants.py:314
+#: invesalius/constants.py:317
 msgid "Brain posterior fossa"
-msgstr ""
+msgstr "Fosa posterioara a creierului"
 
-#: constants.py:315
+#: invesalius/constants.py:318 invesalius/gui/task_navigator.py:1799
 msgid "Brain"
 msgstr "Craniu"
 
-#: constants.py:316 control.py:498 dialogs.py:1797 dialogs.py:1800
-#: dialogs.py:1808 dialogs.py:1883 slice_menu.py:59 slice_menu.py:71
+#: invesalius/constants.py:319 invesalius/control.py:564
+#: invesalius/gui/dialogs.py:1700 invesalius/gui/dialogs.py:1703
+#: invesalius/gui/dialogs.py:1711 invesalius/gui/dialogs.py:1786
+#: invesalius/gui/widgets/slice_menu.py:59
+#: invesalius/gui/widgets/slice_menu.py:71
 msgid "Default"
 msgstr "Implicit"
 
-#: constants.py:317
+#: invesalius/constants.py:320
 msgid "Emphysema"
-msgstr "Emfizemul pulmonar"
+msgstr "Emfizem pulmonar"
 
-#: constants.py:318
+#: invesalius/constants.py:321
 msgid "Ischemia - Hard, non contrast"
-msgstr ""
+msgstr "Ischemie - Dura, fara contrast"
 
-#: constants.py:319
+#: invesalius/constants.py:322
 msgid "Ischemia - Soft, non contrast"
-msgstr ""
+msgstr "Ischemie - Moale, fara contrast"
 
-#: constants.py:320
+#: invesalius/constants.py:323
 msgid "Larynx"
 msgstr "Laringe"
 
-#: constants.py:321
+#: invesalius/constants.py:324
 msgid "Liver"
 msgstr "Ficat"
 
-#: constants.py:322
+#: invesalius/constants.py:325
 msgid "Lung - Soft"
 msgstr "Plămân - Moale"
 
-#: constants.py:323
+#: invesalius/constants.py:326
 msgid "Lung - Hard"
 msgstr "Plămân - Tare"
 
-#: constants.py:324
+#: invesalius/constants.py:327
 msgid "Mediastinum"
 msgstr "Mediastin"
 
-#: constants.py:325 control.py:499 slice_menu.py:66 slice_menu.py:71
+#: invesalius/constants.py:328 invesalius/control.py:565
+#: invesalius/gui/widgets/slice_menu.py:66
+#: invesalius/gui/widgets/slice_menu.py:71
 msgid "Manual"
 msgstr "Manual"
 
-#: constants.py:326
+#: invesalius/constants.py:329
 msgid "Pelvis"
 msgstr "Pelvis"
 
-#: constants.py:327
+#: invesalius/constants.py:330
 msgid "Sinus"
 msgstr "Sinus"
 
-#: constants.py:328
+#: invesalius/constants.py:331
 msgid "Vasculature - Hard"
 msgstr "Vascularizare - Puternică"
 
-#: constants.py:329
+#: invesalius/constants.py:332
 msgid "Vasculature - Soft"
 msgstr "Vascularizare - Slabă"
 
-#: constants.py:330
+#: invesalius/constants.py:333
 msgid "Contour"
 msgstr "Contur"
 
-#: constants.py:384
+#: invesalius/constants.py:341
 msgid "Front"
 msgstr "În față"
 
-#: constants.py:385
+#: invesalius/constants.py:342
 msgid "Back"
 msgstr "În spate"
 
-#: constants.py:386
+#: invesalius/constants.py:343
 msgid "Top"
 msgstr "Deasupra"
 
-#: constants.py:387
+#: invesalius/constants.py:344
 msgid "Bottom"
-msgstr "Dedesupt"
+msgstr "Dedesubt"
 
-#: constants.py:390
+#: invesalius/constants.py:347
 msgid "Isometric"
-msgstr "Isometric"
+msgstr "Izometric"
 
-#: constants.py:397
+#: invesalius/constants.py:354
 msgid "Airways"
 msgstr "Căi respiratorii"
 
-#: constants.py:398
+#: invesalius/constants.py:355
 msgid "Airways II"
 msgstr "Căi respiratorii II"
 
-#: constants.py:399
+#: invesalius/constants.py:356
 msgid "Black & White"
 msgstr "Alb și Negru"
 
-#: constants.py:400
+#: invesalius/constants.py:357
 msgid "Bone + Skin"
 msgstr "Os + Piele"
 
-#: constants.py:401
+#: invesalius/constants.py:358
 msgid "Bone + Skin II"
 msgstr "Os + Piele II"
 
-#: constants.py:402
+#: invesalius/constants.py:359
 msgid "Dark bone"
-msgstr ""
+msgstr "Os intunecat"
 
-#: constants.py:403
+#: invesalius/constants.py:360
 msgid "Glossy"
 msgstr "Lucios"
 
-#: constants.py:404
+#: invesalius/constants.py:361
 msgid "Glossy II"
 msgstr "Lucios II"
 
-#: constants.py:405
+#: invesalius/constants.py:362
 msgid "Gold bone"
-msgstr ""
+msgstr "Os auriu"
 
-#: constants.py:406
+#: invesalius/constants.py:363
 msgid "High contrast"
 msgstr "Contrast ridicat"
 
-#: constants.py:407
+#: invesalius/constants.py:364
 msgid "Low contrast"
-msgstr ""
+msgstr "Contrast scazut"
 
-#: constants.py:408 constants.py:416
+#: invesalius/constants.py:365 invesalius/constants.py:373
 msgid "Soft on white"
-msgstr ""
+msgstr "Difuz pe alb"
 
-#: constants.py:409
+#: invesalius/constants.py:366
 msgid "Mid contrast"
-msgstr ""
+msgstr "Semicontrast"
 
-#: constants.py:410
+#: invesalius/constants.py:367
 msgid "MIP"
 msgstr ""
 
-#: constants.py:411
+#: invesalius/constants.py:368
 msgid "No shading"
 msgstr "Fara umbra"
 
-#: constants.py:412
+#: invesalius/constants.py:369
 msgid "Pencil"
 msgstr "Creion"
 
-#: constants.py:413
+#: invesalius/constants.py:370
 msgid "Red on white"
 msgstr "Rosu pe alb"
 
-#: constants.py:414
+#: invesalius/constants.py:371
 msgid "Skin on blue"
-msgstr ""
+msgstr "Piele pe albastru"
 
-#: constants.py:415
+#: invesalius/constants.py:372
 msgid "Skin on blue II"
-msgstr ""
+msgstr "Piele pe albastru II"
 
-#: constants.py:417
+#: invesalius/constants.py:374
 msgid "Soft + Skin"
-msgstr "Estompat + Înveliș"
+msgstr "Difuz + Piele"
 
-#: constants.py:418
+#: invesalius/constants.py:375
 msgid "Soft + Skin II"
-msgstr "Estompat + Înveliș II"
+msgstr "Difuz + Piele II"
 
-#: constants.py:419
+#: invesalius/constants.py:376
 msgid "Soft + Skin III"
-msgstr "Estompat + Înveliș III"
+msgstr "Difuz + Piele III"
 
-#: constants.py:420
+#: invesalius/constants.py:377
 msgid "Soft on blue"
-msgstr ""
+msgstr "Difuz pe albastru"
 
-#: constants.py:421
+#: invesalius/constants.py:378
 msgid "Soft"
-msgstr "Estompat"
+msgstr "Difuz"
 
-#: constants.py:422
+#: invesalius/constants.py:379
 msgid "Standard"
 msgstr "Standard"
 
-#: constants.py:423
+#: invesalius/constants.py:380
 msgid "Vascular"
 msgstr "Vascular"
 
-#: constants.py:424
+#: invesalius/constants.py:381
 msgid "Vascular II"
 msgstr "Vascular II"
 
-#: constants.py:425
+#: invesalius/constants.py:382
 msgid "Vascular III"
 msgstr "Vascular III"
 
-#: constants.py:426
+#: invesalius/constants.py:383
 msgid "Vascular IV"
 msgstr "Vascular IV"
 
-#: constants.py:427
+#: invesalius/constants.py:384
 msgid "Yellow bone"
 msgstr "Os galben"
 
-#: constants.py:444 volume.py:670
+#: invesalius/constants.py:400 invesalius/data/volume.py:677
 msgid "Cut plane"
 msgstr "Tăiere plan"
 
-#: constants.py:702
-msgid "Select tracker:"
-msgstr "Selecteaza urma"
-
-#: constants.py:702
+#: invesalius/constants.py:703
 msgid "Claron MicronTracker"
 msgstr "Claron MicronTracker"
 
-#: constants.py:703
+#: invesalius/constants.py:704
 msgid "Polhemus FASTRAK"
 msgstr ""
 
-#: constants.py:703
+#: invesalius/constants.py:704
 msgid "Polhemus ISOTRAK II"
 msgstr ""
 
-#: constants.py:704
+#: invesalius/constants.py:705
 msgid "Polhemus PATRIOT"
 msgstr ""
 
-#: constants.py:704
-msgid "Debug tracker"
+#: invesalius/constants.py:705
+msgid "Camera tracker"
 msgstr ""
 
-#: constants.py:705
-msgid "Disconnect tracker"
-msgstr "Deconectare tracker"
+#: invesalius/constants.py:706
+msgid "NDI Polaris"
+msgstr ""
 
-#: constants.py:710
+#: invesalius/constants.py:706
+msgid "NDI Polaris P4"
+msgstr ""
+
+#: invesalius/constants.py:707
+msgid "Optitrack"
+msgstr ""
+
+#: invesalius/constants.py:707
+msgid "Robot tracker"
+msgstr ""
+
+#: invesalius/constants.py:708
+msgid "Debug tracker (random)"
+msgstr ""
+
+#: invesalius/constants.py:708
+msgid "Debug tracker (approach)"
+msgstr ""
+
+#: invesalius/constants.py:713
 msgid "Static ref."
-msgstr "Ref. statica"
-
-#: constants.py:710
-msgid "Dynamic ref."
-msgstr "Ref. dinamica"
-
-#: constants.py:713
-msgid "Select coil:"
 msgstr ""
 
-#: constants.py:713
+#: invesalius/constants.py:713
+msgid "Dynamic ref."
+msgstr ""
+
+#: invesalius/constants.py:714
+msgid "Sensor 3"
+msgstr "Senzor 3"
+
+#: invesalius/constants.py:714
+msgid "Sensor 4"
+msgstr "Senzor 4"
+
+#: invesalius/constants.py:717
+msgid "Select coil:"
+msgstr "Selecteaza bucla"
+
+#: invesalius/constants.py:717
 msgid "Neurosoft Figure-8"
 msgstr ""
 
-#: constants.py:714
+#: invesalius/constants.py:718
 msgid "Magstim 70 mm"
 msgstr ""
 
-#: constants.py:714
+#: invesalius/constants.py:718
 msgid "Nexstim"
 msgstr ""
 
-#: constants.py:724
-msgid "LEI"
-msgstr ""
-
-#: constants.py:725
-msgid "REI"
-msgstr ""
-
-#: constants.py:726
-msgid "NAI"
-msgstr ""
-
-#: constants.py:732
+#: invesalius/constants.py:734
 msgid "Select left ear in image"
 msgstr "Selectati urechea stanga in imagine"
 
-#: constants.py:733
+#: invesalius/constants.py:741
 msgid "Select right ear in image"
 msgstr "Selectati urechea dreapta in imagine"
 
-#: constants.py:734
+#: invesalius/constants.py:748
 msgid "Select nasion in image"
 msgstr "Selectati piramida nazala in imagine"
 
-#: constants.py:736
-msgid "LET"
-msgstr ""
-
-#: constants.py:737
-msgid "RET"
-msgstr ""
-
-#: constants.py:738
-msgid "NAT"
-msgstr ""
-
-#: constants.py:739
-msgid "SET"
-msgstr ""
-
-#: constants.py:741
+#: invesalius/constants.py:758
 msgid "Select left ear with spatial tracker"
-msgstr ""
+msgstr "Selecteaza urechea stanga cu tracker spatial"
 
-#: constants.py:742
+#: invesalius/constants.py:765
 msgid "Select right ear with spatial tracker"
-msgstr ""
+msgstr "Selecteaza urechea dreapta cu tracker spatial"
 
-#: constants.py:743
+#: invesalius/constants.py:772
 msgid "Select nasion with spatial tracker"
-msgstr ""
+msgstr "Selecteaza piramida nazala cu tracker spatial"
 
-#: constants.py:744
-msgid "Show set coordinates in image"
-msgstr ""
-
-#: constants.py:754
-msgid "Anterior"
-msgstr "Anterior"
-
-#: constants.py:755
-msgid "Center"
-msgstr "Central"
-
-#: constants.py:756
-msgid "Fixed"
-msgstr "Fixat"
-
-#: constants.py:758
+#: invesalius/constants.py:791
 msgid "Select left object fiducial"
 msgstr "Selecteaza obiectul stang fiducial"
 
-#: constants.py:759
+#: invesalius/constants.py:797
 msgid "Select right object fiducial"
 msgstr "Selecteaza obiectul drept fiducial"
 
-#: constants.py:760
+#: invesalius/constants.py:802
+msgid "Anterior"
+msgstr "Anterior"
+
+#: invesalius/constants.py:803
 msgid "Select anterior object fiducial"
 msgstr "Selecteaza obiectul anterior fiducial"
 
-#: constants.py:761
+#: invesalius/constants.py:808
+msgid "Center"
+msgstr "Central"
+
+#: invesalius/constants.py:809
 msgid "Select object center"
-msgstr "Selecteaza centru"
+msgstr "Selecteaza centru obiectului"
 
-#: constants.py:762
+#: invesalius/constants.py:814
+msgid "Fixed"
+msgstr "Fixat"
+
+#: invesalius/constants.py:815
 msgid "Attach sensor to object"
-msgstr ""
+msgstr "Ataseaza senzor la obiect"
 
-#: control.py:390
+#: invesalius/constants.py:867
+msgid "Marker scanner coord files (*.mkss)|*.mkss"
+msgstr "Fisiere de coordonate marker scanner (*.mkss)|*.mkss"
+
+#: invesalius/control.py:405 invesalius/data/surface.py:511
+#: invesalius/gui/dialogs.py:4240 invesalius/gui/frame.py:1363
+#: invesalius/gui/task_navigator.py:699 invesalius/gui/task_navigator.py:1071
+msgid "Ready"
+msgstr "Gata"
+
+#: invesalius/control.py:424
 #, python-format
 msgid "Loading file %d of %d ..."
 msgstr "Incarca fisierul %d din %d ..."
 
-#: control.py:840
+#: invesalius/control.py:906
+msgid ""
+"this is a rgb image, it's necessary to convert to grayscale to open on "
+"invesalius.\n"
+"do you want to convert it to grayscale?"
+msgstr ""
+
+#: invesalius/control.py:906
+msgid "Confirm"
+msgstr "Confirma"
+
+#: invesalius/control.py:1012
 msgid "Fix gantry tilt applying the degrees below"
 msgstr "Fixează scheletul înclinării aplicând gradele specificate mai jos"
 
-#: data_notebook.py:49 measures.py:23
+#: invesalius/data/imagedata_utils.py:113
+#: invesalius/data/imagedata_utils.py:318
+#: invesalius/data/imagedata_utils.py:439
+msgid "Generating multiplanar visualization..."
+msgstr "Genereaza vizualizare multiplanara ..."
+
+#: invesalius/data/measures.py:21 invesalius/gui/data_notebook.py:53
 msgid "Linear"
 msgstr "Linear"
 
-#: data_notebook.py:50 measures.py:24
+#: invesalius/data/measures.py:22 invesalius/gui/data_notebook.py:54
 msgid "Angular"
 msgstr "Unghiular"
 
-#: data_notebook.py:51 measures.py:25 measures.py:1133
+#: invesalius/data/measures.py:23 invesalius/data/measures.py:1131
+#: invesalius/gui/data_notebook.py:55
 msgid "Density Ellipse"
 msgstr "Densitate Elipsa"
 
-#: data_notebook.py:52 measures.py:26 measures.py:1572
+#: invesalius/data/measures.py:24 invesalius/data/measures.py:1570
+#: invesalius/gui/data_notebook.py:56
 msgid "Density Polygon"
 msgstr "Densitate Poligon"
 
-#: data_notebook.py:55 measures.py:29
+#: invesalius/data/measures.py:27 invesalius/gui/data_notebook.py:59
 msgid "3D"
 msgstr "3D"
 
-#: data_notebook.py:56 dialogs.py:2285 dialogs.py:2461 dialogs.py:2483
-#: dialogs.py:3712 measures.py:30
+#: invesalius/data/measures.py:28 invesalius/gui/data_notebook.py:60
+#: invesalius/gui/dialogs.py:2162 invesalius/gui/dialogs.py:2338
+#: invesalius/gui/dialogs.py:2360 invesalius/gui/dialogs.py:4094
+#: invesalius/gui/project_properties.py:27
 msgid "Axial"
 msgstr "Axial"
 
-#: data_notebook.py:57 dialogs.py:2285 dialogs.py:2461 dialogs.py:2484
-#: dialogs.py:3713 measures.py:31
+#: invesalius/data/measures.py:29 invesalius/gui/data_notebook.py:61
+#: invesalius/gui/dialogs.py:2162 invesalius/gui/dialogs.py:2338
+#: invesalius/gui/dialogs.py:2361 invesalius/gui/dialogs.py:4095
+#: invesalius/gui/project_properties.py:28
 msgid "Coronal"
 msgstr "Coronal"
 
-#: data_notebook.py:58 measures.py:32
+#: invesalius/data/measures.py:30 invesalius/gui/data_notebook.py:62
 msgid "Sagittal"
 msgstr "Sagital"
 
-#: data_notebook.py:73
-msgid "Masks"
-msgstr "Măști"
-
-#: data_notebook.py:74
-msgid "3D surfaces"
-msgstr "Suprafete 3D"
-
-#: data_notebook.py:75
-msgid "Measures"
-msgstr "Măsuri"
-
-#: data_notebook.py:171
-msgid "Create a new measure"
-msgstr "Creaza o msaura noua"
-
-#: data_notebook.py:178
-msgid "Remove measure"
-msgstr "Strerge masura"
-
-#: data_notebook.py:184
-msgid "Duplicate measure"
-msgstr "Copiaza masura"
-
-#: data_notebook.py:197 frame.py:1512
-msgid "Measure distance"
-msgstr "Măsurare distanță"
-
-#: data_notebook.py:200 frame.py:1518
-msgid "Measure angle"
-msgstr "Masurare unghi"
-
-#: data_notebook.py:289
-msgid "Create a new mask"
-msgstr "Creaza o masca noua"
-
-#: data_notebook.py:295
-msgid "Remove mask"
-msgstr "Sterge masca"
-
-#: data_notebook.py:301
-msgid "Duplicate mask"
-msgstr "Copiaza masca"
-
-#: data_notebook.py:466 data_notebook.py:818 data_notebook.py:1093
-#: data_notebook.py:1290
-msgid "Name"
-msgstr "Nume"
-
-#: data_notebook.py:537 frame.py:936
-msgid "Mask"
-msgstr "Mască"
-
-#: data_notebook.py:629
-msgid "Create a new surface"
-msgstr "Creaza o suprafata noua"
-
-#: data_notebook.py:635
-msgid "Remove surface"
-msgstr "Sterge suprafata"
-
-#: data_notebook.py:641
-msgid "Duplicate surface"
-msgstr "Copiaza suprafata"
-
-#: data_notebook.py:647
-msgid "Import a surface file into InVesalius"
-msgstr "Importa o suprafata"
-
-#: data_notebook.py:675 task_surface.py:162
-msgid "New surface"
-msgstr "Suprafata noua"
-
-#: data_notebook.py:819
-msgid "Volume (mm³)"
-msgstr "Volum (mm³)"
-
-#: data_notebook.py:820
-msgid "Area (mm²)"
-msgstr "Arie (mm²)"
-
-#: data_notebook.py:821
-msgid "Transparency"
-msgstr "Transparență"
-
-#: data_notebook.py:1094
-msgid "Location"
-msgstr "Locație"
-
-#: data_notebook.py:1095 data_notebook.py:1291 import_bitmap_panel.py:202
-msgid "Type"
-msgstr "Tip"
-
-#: data_notebook.py:1096 data_notebook.py:1292
-msgid "Value"
-msgstr "Valoare"
-
-#: default_tasks.py:154
-msgid "Data"
-msgstr "Dată"
-
-#: default_tasks.py:246 default_tasks.py:252
-msgid "Load data"
-msgstr "Incarcare date"
-
-#: default_tasks.py:247 default_tasks.py:253 default_tasks.py:282
-msgid "Select region of interest"
-msgstr "Selectează regiune de interes"
-
-#: default_tasks.py:248 default_tasks.py:254 default_tasks.py:284
-msgid "Configure 3D surface"
-msgstr "Configurare suprafață 3D"
-
-#: default_tasks.py:249 default_tasks.py:255
-msgid "Export data"
-msgstr "Export date"
-
-#: default_tasks.py:256 default_tasks.py:325
-msgid "Navigation system"
-msgstr "Sistem navigatie"
-
-#: default_viewers.py:85 default_viewers.py:182 task_exporter.py:253
-msgid "Axial slice"
-msgstr "Felie axială"
-
-#: default_viewers.py:90 default_viewers.py:188 task_exporter.py:254
-msgid "Coronal slice"
-msgstr "Felie coronală"
-
-#: default_viewers.py:95 default_viewers.py:194 task_exporter.py:255
-msgid "Sagittal slice"
-msgstr "Felie sagitală"
-
-#: default_viewers.py:101 default_viewers.py:200 task_exporter.py:256
-msgid "Volume"
-msgstr Volum"
-
-#: default_viewers.py:495
-msgid "Preset name"
-msgstr "Nume presetat"
-
-#: default_viewers.py:530 frame.py:1011
-msgid "Tools"
-msgstr "Unelte"
-
-#: dialogs.py:104
-msgid "Value will be applied."
-msgstr "Valoare va fi aplicată"
-
-#: dialogs.py:108
-msgid "Value will not be applied."
-msgstr "Valoare nu va fi aplicată"
-
-#: dialogs.py:147
-msgid ""
-"InVesalius is running on a 32-bit operating system or has insufficient memory. \n"
-"If you want to work with 3D surfaces or volume rendering, \n"
-"it is recommended to reduce the medical images resolution."
-msgstr "InVesalius ruleaza pe un sistem de operare pe 32 de biti sau nu are suficienta memorie. \nDaca doriti sa lucrati cu suprafete 3D sau sa executati generari tridimensionale, \neste recomandat sa reduceti rezolutia imaginilor medicale."
-
-#: dialogs.py:161
-msgid "Percentage of original resolution"
-msgstr "Procent din rezolutia initiala"
-
-#: dialogs.py:209
-msgid "Loading DICOM files"
-msgstr "Încarcă fișierele DICOM"
-
-#: dialogs.py:248
-msgid "InVesalius project (*.inv3)|*.inv3"
-msgstr "Proiect InVesalius (*.inv3)|*.inv3"
-
-#: dialogs.py:249
-msgid "InVesalius project compressed (*.inv3)|*.inv3"
-msgstr ""
-
-#: dialogs.py:277
-msgid "Open InVesalius 3 project..."
-msgstr "Deschide proiectul InVesalius 3:"
-
-#: dialogs.py:319
-msgid "Choose a DICOM folder:"
-msgstr "Alege un fișier DICOM:"
-
-#: dialogs.py:362
-msgid "Choose a folder with TIFF, BMP, JPG or PNG:"
-msgstr "Alegeti un director care contine fisiere tip TIFF, BMP, JPG sau PNG:"
-
-#: dialogs.py:396
-msgid "Import Analyze 7.5 file"
-msgstr "Importa fisier Analyze 7.5"
-
-#: dialogs.py:402
-msgid "Import NIFTi 1 file"
-msgstr "Importa fisier NIFTi"
-
-#: dialogs.py:405
-msgid "Import PAR/REC file"
-msgstr "Importa fisier PAR/REC"
-
-#: dialogs.py:441
-msgid "Import surface file"
-msgstr "Importa fisier suprafata"
-
-#: dialogs.py:476
-msgid "Save project as..."
-msgstr "Salvează proiectul ca..."
-
-#: dialogs.py:513
-msgid "Save markers as..."
-msgstr "Salveaza marcaje ca..."
-
-#: dialogs.py:516 dialogs.py:577
-msgid "Markers files (*.mks)|*.mks"
-msgstr "Fisiere marcaje (*.mks)|*.mks"
-
-#: dialogs.py:543
-msgid "Save coords as..."
-msgstr "Salveaza coordonate ca..."
-
-#: dialogs.py:546
-msgid "Coordinates files (*.csv)|*.csv"
-msgstr "Fisiere de coordonate (*.csv)|*.csv"
-
-#: dialogs.py:574
-msgid "Load markers"
-msgstr "Incarca marcaje"
-
-#: dialogs.py:603
-msgid "Save object registration as..."
-msgstr "Salveaza obiectul inregistrat ca ... "
-
-#: dialogs.py:606 dialogs.py:637
-msgid "Registration files (*.obr)|*.obr"
-msgstr "Fisiere inregistrate (*.obr)|*.obr"
-
-#: dialogs.py:634
-msgid "Load object registration"
-msgstr "Incarca obiecte inregistrate (*.obr)|*.obr"
-
-#: dialogs.py:704 utils.py:388
-msgid ""
-"A new version of InVesalius is available. Do you want to open the download "
-"website now?"
-msgstr "O versiune noua a InVesalius este disponibila. Doriti sa accesati acum site-ul de descarcare?"
-
-#: dialogs.py:705 utils.py:389
-msgid "Invesalius Update"
-msgstr "Actualizare Invesalius"
-
-#: dialogs.py:767 dialogs.py:1215 dialogs.py:1240
-#, python-format
-msgid ""
-"The project %s has been modified.\n"
-"Save changes?"
-msgstr "Proiectul %s a fost modificat.⏎\nSalvezi schimbările?"
-
-#: dialogs.py:781
-#, python-format
-msgid "%s is an empty folder."
-msgstr "%s nu contine fisiere."
-
-#: dialogs.py:795
-msgid ""
-"File was created in a newer InVesalius version. Some functionalities may not"
-" work correctly."
-msgstr ""
-
-#: dialogs.py:805
-msgid "There are no Bitmap, JPEG, PNG or TIFF files in the selected folder."
-msgstr "Nu exista fisiere tip Bitmap, JPEG, PNG sau TIFF in directorul selectat."
-
-#: dialogs.py:807
-msgid "There are no DICOM files in the selected folder."
-msgstr "Nu exista fisiere tip DICOM in directorul selectat."
-
-#: dialogs.py:809
-msgid "Invalid file."
-msgstr ""
-
-#: dialogs.py:822
-msgid "Warning! InVesalius has limited support to Analyze format.\n"
-msgstr ""
-
-#: dialogs.py:823
-msgid "Slices may be wrongly oriented and functions may not work properly."
-msgstr "Sectiunile pot fi gresit orientate si functiile vor genera rezultate incorecte."
-
-#: dialogs.py:835
-msgid "A mask is needed to create a surface."
-msgstr "O masca este necesara pentru a crea o suprafata"
-
-#: dialogs.py:846
-msgid "No mask was selected for removal."
-msgstr ""
-
-#: dialogs.py:857
-msgid "No surface was selected for removal."
-msgstr "Nicio suprafata nu a fost selectata pentru stergere."
-
-#: dialogs.py:869
-msgid "No measure was selected for removal."
-msgstr "Nicio dimensiune nu a fost selectata pentru stergere."
-
-#: dialogs.py:880
-msgid "No mask was selected for duplication."
-msgstr ""
-
-#: dialogs.py:893
-msgid "No surface was selected for duplication."
-msgstr ""
-
-#: dialogs.py:906
-msgid "Fiducials are invalid. Select all coordinates."
-msgstr ""
-
-#: dialogs.py:918
-msgid "Perform coil registration before navigation."
-msgstr ""
-
-#: dialogs.py:940
-msgid "No tracking device selected"
-msgstr ""
-
-#: dialogs.py:942
-msgid " is not installed."
-msgstr "Nu este instalat"
-
-#: dialogs.py:944
-msgid " disconnected."
-msgstr "Deconectat."
-
-#: dialogs.py:946
-msgid " is not connected."
-msgstr "Nu e conectat"
-
-#: dialogs.py:960
-msgid "The TXT file is invalid."
-msgstr ""
-
-#: dialogs.py:972
-msgid "No data selected"
-msgstr ""
-
-#: dialogs.py:984
-msgid "Do you really want to delete all markers?"
-msgstr ""
-
-#: dialogs.py:996
-msgid "Target deleted"
-msgstr ""
-
-#: dialogs.py:1007
-msgid "New target selected"
-msgstr ""
-
-#: dialogs.py:1018
-msgid "Sorry, you cannot use 'TARGET' ID"
-msgstr ""
-
-#: dialogs.py:1029
-msgid "Edit marker ID"
-msgstr ""
-
-#: dialogs.py:1080
-msgid "New mask name:"
-msgstr "Nume pentru masca nouă:"
-
-#: dialogs.py:1084
-msgid "Name the mask to be created"
-msgstr "Denumiți masca care va fi creată"
-
-#: dialogs.py:1091
-msgid "Threshold preset:"
-msgstr "Prag prestabilit:"
-
-#: dialogs.py:1177 presets.py:46 presets.py:64 presets.py:120 presets.py:151
-#: slice_menu.py:127 slice_menu.py:261 task_slice.py:568 task_slice.py:570
-#: task_slice.py:582 task_slice.py:584 task_slice.py:625 task_slice.py:628
-msgid "Custom"
-msgstr "Obișnuit"
-
-#: dialogs.py:1192
-#, python-format
-msgid "%s does not exist."
-msgstr "%s nu există."
-
-#: dialogs.py:1203
-msgid "Please, provide more than one DICOM file for 3D reconstruction"
-msgstr "Vă rugăam să ne furnizați mai mult de un fișier DICOM pentru reconstrucția 3D"
-
-#: dialogs.py:1264
-msgid "(c) 2007-2019 Center for Information Technology Renato Archer - CTI"
-msgstr ""
-
-#: dialogs.py:1265
-msgid ""
-"InVesalius is a medical imaging program for 3D reconstruction. It uses a sequence of 2D DICOM image files acquired with CT or MRI scanners. InVesalius allows exporting 3D volumes or surfaces as mesh files for creating physical models of a patient's anatomy using additive manufacturing (3D printing) technologies. The software is developed by Center for Information Technology Renato Archer (CTI), National Council for Scientific and Technological Development (CNPq) and the Brazilian Ministry of Health.\n"
-"\n"
-" InVesalius must be used only for research. The Center for Information Technology Renato Archer is not responsible for damages caused by the use of this software.\n"
-"\n"
-" Contact: invesalius@cti.gov.br"
-msgstr ""
-"Acest program  este un framework pentru reconstructia 3D a imaginilor medicale. Foloseste o secventa de imagini 2D DICOM obtinute cu ajutorul CT sau MRI. Permite exportarea volumelor 3D sau a suprafetelor sub forma de fisiere mesh pentru a creea modele fizice si anatomice ale pacientilor folosind imprimante si tehnolofii 3D. Acest soft este bazat pe softul dezvoltat de CCentrul de Tehnologie a Informatiei Renato Archer (CTI), Consiliul National pentru Dezvoltare Tehnica si Stiintifica si Ministerul Sanatatii al Braziliei \n"
-"\n"
-" Trebuie folosit doar pentru scopuri de cercetare. Pana la acest stadiu, dezvoltatorii sunt exonerati de orice incovenienta clinica data de folosirea programului.\n"
-"\n"
-" Contact: invesalius@cti.gov.br"
-
-#: dialogs.py:1273
-msgid "GNU GPL (General Public License) version 2"
-msgstr "GNU GPL (General Public License - Licență Publică Generală) versiunea 2"
-
-#: dialogs.py:1328
-msgid "Save raycasting preset as:"
-msgstr "Salvează presetare pentru distribuția razei ca:"
-
-#: dialogs.py:1375 dialogs.py:1644
-msgid "New surface name:"
-msgstr "Nume pentru suprafața nouă:"
-
-#: dialogs.py:1379 dialogs.py:1648
-msgid "Name the surface to be created"
-msgstr "Denumiți suprafața care va fi creată"
-
-#: dialogs.py:1386 dialogs.py:1655
-msgid "Mask of reference:"
-msgstr "Masca de referinţă:"
-
-#: dialogs.py:1403 dialogs.py:1675
-msgid "Surface quality:"
-msgstr "Calitatea suprafeței:"
-
-#: dialogs.py:1432 dialogs.py:1706 styles.py:1956
-msgid "Fill holes"
-msgstr "Umple spațiile goale"
-
-#: dialogs.py:1435 dialogs.py:1709
-msgid "Keep largest region"
-msgstr "Pastrează ceam mai mare regiune"
-
-#: dialogs.py:1475
-msgid "BMP image"
-msgstr "Imagine BPM"
-
-#: dialogs.py:1476
-msgid "JPG image"
-msgstr "Imagine JPG"
-
-#: dialogs.py:1477
-msgid "PNG image"
-msgstr "Imagine PNG"
-
-#: dialogs.py:1478
-msgid "PostScript document"
-msgstr "Document PostScript"
-
-#: dialogs.py:1479
-msgid "POV-Ray file"
-msgstr "Fișier POV-Ray"
-
-#: dialogs.py:1480
-msgid "TIFF image"
-msgstr "Imagine TIFF"
-
-#: dialogs.py:1530
-msgid "Surface generation options"
-msgstr "Optiuni generare suprafata"
-
-#: dialogs.py:1560
-msgid "Surface creation"
-msgstr "Creare suprafata"
-
-#: dialogs.py:1593
-msgid "Surface creation options"
-msgstr "Optiuni creare suprafata"
-
-#: dialogs.py:1599
-msgid "Surface creation method"
-msgstr "Modalitate creare suprafata"
-
-#: dialogs.py:1703 preferences.py:225
-msgid "Fill border holes"
-msgstr " Umple goluri margine"
-
-#: dialogs.py:1757 frame.py:1013
-msgid "Options"
-msgstr "Optiuni"
-
-#: dialogs.py:1773
-msgid "Angle:"
-msgstr "Unghi:"
-
-#: dialogs.py:1775
-msgid "Max. distance:"
-msgstr "Distanta Max.:"
-
-#: dialogs.py:1777
-msgid "Min. weight:"
-msgstr " Greutate minima"
-
-#: dialogs.py:1779
-msgid "N. steps:"
-msgstr "Numar pasi"
-
-#: dialogs.py:1798 dialogs.py:1834 dialogs.py:1879
-msgid "Context aware smoothing"
-msgstr ""
-
-#: dialogs.py:1799
-msgid "Binary"
-msgstr "Binar"
-
-#: dialogs.py:1817
-msgid ""
-"It is not possible to use the Default method because the mask was edited."
-msgstr "Nu este posibila folosirea metodei Default deoarece masca a fost editata"
-
-#: dialogs.py:1820
-msgid "Method:"
-msgstr "Metoda:"
-
-#: dialogs.py:1952 dialogs.py:2999
-msgid "Method"
-msgstr "Metoda"
-
-#: dialogs.py:1975
-msgid "Gaussian sigma"
-msgstr "Sigma gaussiana"
-
-#: dialogs.py:1995 task_slice.py:308
-msgid "Watershed"
-msgstr ""
-
-#: dialogs.py:2039
-msgid "Boolean operations"
-msgstr "Operatii booleane"
-
-#: dialogs.py:2067 slice_.py:1347
-msgid "Union"
-msgstr "Combinare"
-
-#: dialogs.py:2068
-msgid "Difference"
-msgstr "Diferenta"
-
-#: dialogs.py:2069 slice_.py:1349
-msgid "Intersection"
-msgstr "Intersectie"
-
-#: dialogs.py:2070
-msgid "Exclusive disjunction"
-msgstr "Disjunctie exclusiva"
-
-#: dialogs.py:2091
-msgid "Mask 1"
-msgstr "Masca 1"
-
-#: dialogs.py:2093
-msgid "Operation"
-msgstr "Operatie"
-
-#: dialogs.py:2095
-msgid "Mask 2"
-msgstr "Masca 2"
-
-#: dialogs.py:2123
-msgid "Image reorientation"
-msgstr "Reorientarea imaginii"
-
-#: dialogs.py:2142
-msgid "Nearest Neighbour"
-msgstr "Cel mai aproape vecin"
-
-#: dialogs.py:2143
-msgid "Trilinear"
-msgstr "Triliniar"
-
-#: dialogs.py:2144
-msgid "Tricubic"
-msgstr "Tricubic"
-
-#: dialogs.py:2145
-msgid "Lanczos (experimental)"
-msgstr ""
-
-#: dialogs.py:2155
-msgid "Apply"
-msgstr "Aplica"
-
-#: dialogs.py:2161
-msgid "Angle X"
-msgstr "Unghi X"
-
-#: dialogs.py:2164
-msgid "Angle Y"
-msgstr "Unghi Y"
-
-#: dialogs.py:2167
-msgid "Angle Z"
-msgstr "Unghi Z"
-
-#: dialogs.py:2171
-msgid "Interpolation method:"
-msgstr "Metoda de interpolare: "
-
-#: dialogs.py:2251 dialogs.py:2256
-msgid "Create project from bitmap"
-msgstr "Creaza proiect din bitmap"
-
-#: dialogs.py:2281
-msgid "Project name:"
-msgstr "Nume proiect:"
-
-#: dialogs.py:2284
-msgid "Slices orientation:"
-msgstr "Orientare felie"
-
-#: dialogs.py:2285 dialogs.py:2461 dialogs.py:2485 dialogs.py:3714
-msgid "Sagital"
-msgstr "Sagital"
-
-#: dialogs.py:2289
-msgid "Spacing (mm):"
-msgstr "Spatiere (mm):"
-
-#: dialogs.py:2310
-msgid "X:"
-msgstr "X:"
-
-#: dialogs.py:2315
-msgid "Y:"
-msgstr "Y:"
-
-#: dialogs.py:2319
-msgid "Z:"
-msgstr "Z:"
-
-#: dialogs.py:2404
-msgid ""
-"All bitmaps files must be the same \n"
-" width and height size."
-msgstr "Toate fisierele bitmap trebuie sa aibe aeeasi dimensiune XxY"
-
-#: dialogs.py:2417
-msgid "2D - Actual slice"
-msgstr "2D - Sectiune actuala"
-
-#: dialogs.py:2418
-msgid "3D - All slices"
-msgstr "3D - Toate sectiunile"
-
-#: dialogs.py:2452
-msgid "2D Connectivity"
-msgstr "Conectivitate 2D"
-
-#: dialogs.py:2464
-msgid "Orientation"
-msgstr "Orientare"
-
-#: dialogs.py:2507
-msgid "3D Connectivity"
-msgstr "Conectivitate 3D"
-
-#: dialogs.py:2577 dialogs.py:2639 task_slice.py:909
-msgid "Use WW&WL"
-msgstr "Folositi WW&WL"
-
-#: dialogs.py:2601
-msgid "Deviation"
-msgstr "Deviatie"
-
-#: dialogs.py:2603
-msgid "Min:"
-msgstr "Min:"
-
-#: dialogs.py:2606
-msgid "Max:"
-msgstr "Max:"
-
-#: dialogs.py:2668
-msgid "Multiplier"
-msgstr "Multiplicator"
-
-#: dialogs.py:2671
-msgid "Iterations"
-msgstr "Iteratii"
-
-#: dialogs.py:2755 dialogs.py:2978 dialogs.py:3256
-msgid "Parameters"
-msgstr "Parametri"
-
-#: dialogs.py:2814 dialogs.py:2817
-msgid "Select mask parts"
-msgstr "Selectati partile mastii"
-
-#: dialogs.py:2844
-msgid "Target mask name"
-msgstr "Numele mastii tinta"
-
-#: dialogs.py:2896 styles.py:2305
-msgid "Region growing"
-msgstr "Indexare regiune"
-
-#: dialogs.py:2948
-msgid "Dynamic"
-msgstr "Dinamica"
-
-#: dialogs.py:2948
-msgid "Confidence"
-msgstr "Confidenta"
-
-#: dialogs.py:3101
-msgid "Crop mask"
-msgstr "Taie masca"
-
-#: dialogs.py:3139
-msgid "Axial:"
-msgstr "Axial:"
-
-#: dialogs.py:3141 dialogs.py:3151 dialogs.py:3161
-msgid " - "
-msgstr ""
-
-#: dialogs.py:3149
-msgid "Sagital:"
-msgstr "Sagital:"
-
-#: dialogs.py:3159
-msgid "Coronal:"
-msgstr "Coronal:"
-
-#: dialogs.py:3267
-msgid "Max hole size"
-msgstr "Dimensiune maxima gol"
-
-#: dialogs.py:3269
-msgid "voxels"
-msgstr ""
-
-#: dialogs.py:3328 dialogs.py:3331
-msgid "Mask density"
-msgstr "Densitate masca"
-
-#: dialogs.py:3347
-msgid "Calculate"
-msgstr "Calculeaza"
-
-#: dialogs.py:3357
-msgid "Mask:"
-msgstr "Masca"
-
-#: dialogs.py:3364
-msgid "Mean:"
-msgstr "Medie"
-
-#: dialogs.py:3367
-msgid "Minimun:"
-msgstr "Minim"
-
-#: dialogs.py:3370
-msgid "Maximun:"
-msgstr "Maxim"
-
-#: dialogs.py:3373
-msgid "Standard deviation:"
-msgstr "Deviatie standard"
-
-#: dialogs.py:3409
-msgid "Calculating "
-msgstr "Calculeaza"
-
-#: dialogs.py:3444 dialogs.py:3448
-msgid "Object calibration"
-msgstr "Calibrare obiect"
-
-#: dialogs.py:3467
-msgid "Choose the object reference mode"
-msgstr "Alegeti modul de referinta obiect"
-
-#: dialogs.py:3477
-msgid "Registration done"
-msgstr "Inregistrare terminata"
-
-#: dialogs.py:3479
-msgid "Done"
-msgstr "Terminat"
-
-#: dialogs.py:3522
-msgid "Would like to use InVesalius default object?"
-msgstr "Doriti folosirea obiectului implicit al programului"
-
-#: dialogs.py:3553 surface.py:315 viewer_volume.py:1147
-msgid "File format not reconized by InVesalius"
-msgstr "Format de fisier incompatibil cu programul"
-
-#: dialogs.py:3553 dialogs.py:3572 surface.py:315 surface.py:327
-#: viewer_volume.py:1147 viewer_volume.py:1163
-msgid "Import surface error"
-msgstr "Importa eroare suprafata"
-
-#: dialogs.py:3572 surface.py:327 viewer_volume.py:1163
-msgid "InVesalius was not able to import this surface"
-msgstr "Programul nu a putut importa aceasta suprafata"
-
-#: dialogs.py:3681
-msgid "Creating 3D surface ..."
-msgstr "Creaza suprafata 3D ..."
-
-#: dialogs.py:3706
-msgid "Go to slice ..."
-msgstr "Mergi la felia ..."
-
-#: dialogs.py:3740
-msgid "Slice number"
-msgstr "Felia numarul"
-
-#: dicom.py:1560 dicom.py:1564 dicom.py:1566
-msgid "unnamed"
-msgstr "fara nume"
-
-#: dicom_preview_panel.py:426
-#, python-format
-msgid "%d images"
-msgstr "%d imagini"
-
-#: dicom_preview_panel.py:555 dicom_preview_panel.py:562
-#: dicom_preview_panel.py:587 dicom_preview_panel.py:594
-#, python-format
-msgid "Image %d"
-msgstr "Imagine %d"
-
-#: frame.py:190
-msgid "Data panel"
-msgstr "Panou date"
-
-#: frame.py:196
-msgid "Preview medical data to be reconstructed"
-msgstr "Previzualizare date medicale care trebuie reconstruite"
-
-#: frame.py:202
-msgid "Preview bitmap to be reconstructed"
-msgstr "Previzualizare bitmap pentru reconstructie"
-
-#: frame.py:552
-msgid "Currently the Navigation mode is only working on Windows"
-msgstr ""
-
-#: frame.py:719
-msgid "Fill holes automatically"
-msgstr "Umple gaurile automat"
-
-#: frame.py:813
-msgid "Analyze 7.5"
-msgstr ""
-
-#: frame.py:814
-msgid "NIfTI 1"
-msgstr ""
-
-#: frame.py:815
-msgid "PAR/REC"
-msgstr ""
-
-#: frame.py:821
-msgid "Import DICOM...\tCtrl+I"
-msgstr "Importă DICOM...»Ctrl+I"
-
-#: frame.py:823
-msgid "Import other files..."
-msgstr "Importa alt tip de fisiere"
-
-#: frame.py:824
-msgid "Open project...\tCtrl+O"
-msgstr "Deschide proiect ...\tCtrl+O"
-
-#: frame.py:825
-msgid "Save project\tCtrl+S"
-msgstr "Salveaza proiect\tCtrl+S"
-
-#: frame.py:826
-msgid "Save project as...\tCtrl+Shift+S"
-msgstr ""
-
-#: frame.py:827
-msgid "Export project"
-msgstr "Exportă proiect"
-
-#: frame.py:828
-msgid "Close project"
-msgstr "Inchide proiect"
-
-#: frame.py:837
-msgid "Exit\tCtrl+Q"
-msgstr "Iesire\tCtrl+Q"
-
-#: frame.py:849 frame.py:859
-msgid "Undo\tCtrl+Z"
-msgstr "Anuleaza\tCtrl+Z"
-
-#: frame.py:854 frame.py:860
-msgid "Redo\tCtrl+Y"
-msgstr "Reexecuta\tCtrl+Y"
-
-#: frame.py:861
-msgid "Go to slice ...\tCtrl+G"
-msgstr "Mergi la felia ...\tCtrl+G"
-
-#: frame.py:871
-msgid "New\tCtrl+Shift+M"
-msgstr ""
-
-#: frame.py:874
-msgid "Boolean operations\tCtrl+Shift+B"
-msgstr "Operatii booleane\tCtrl+Shift+B"
-
-#: frame.py:877
-msgid "Clean Mask\tCtrl+Shift+A"
-msgstr "Curata Masca\tCtrl+Shift+A"
-
-#: frame.py:882
-msgid "Fill holes manually\tCtrl+Shift+H"
-msgstr "Umple goluri manual\tCtrl+Shift+H"
-
-#: frame.py:885
-msgid "Fill holes automatically\tCtrl+Shift+J"
-msgstr "Umple goluri automat\tCtrl+Shift+J"
-
-#: frame.py:890
-msgid "Remove parts\tCtrl+Shift+K"
-msgstr "Sterge parti\tCtrl+Shift+K"
-
-#: frame.py:893
-msgid "Select parts\tCtrl+Shift+L"
-msgstr "Selecteaza parti\tCtrl+Shift+L"
-
-#: frame.py:898
-msgid "Crop"
-msgstr "Taie"
-
-#: frame.py:903
-msgid "Threshold\tCtrl+Shift+T"
-msgstr "Prag\tCtrl+Shift+T"
-
-#: frame.py:904
-msgid "Manual segmentation\tCtrl+Shift+E"
-msgstr "Segmentare manuala\tCtrl+Shift+E"
-
-#: frame.py:905
-msgid "Watershed\tCtrl+Shift+W"
-msgstr ""
-
-#: frame.py:906
-msgid "Region growing\tCtrl+Shift+G"
-msgstr "Incrementare regiune\tCtrl+Shift+G"
-
-#: frame.py:919
-msgid "Right - Left"
-msgstr "Dreapta - Stanga"
-
-#: frame.py:920
-msgid "Anterior - Posterior"
-msgstr "Fata - Spate"
-
-#: frame.py:921
-msgid "Top - Bottom"
-msgstr "Sus - Jos"
-
-#: frame.py:924
-msgid "From Right-Left to Anterior-Posterior"
-msgstr "De la Dreapta - Stanga la Fata - Spate"
-
-#: frame.py:925
-msgid "From Right-Left to Top-Bottom"
-msgstr ""De la Dreapta - Stanga la Sus - Jos"
-
-#: frame.py:926
-msgid "From Anterior-Posterior to Top-Bottom"
-msgstr "De la Fata - Spate la Sus - Jos"
-
-#: frame.py:928
-msgid "Flip"
-msgstr "Intoarce"
-
-#: frame.py:929
-msgid "Swap axes"
-msgstr "Comuta axe"
-
-#: frame.py:931
-msgid "Mask Density measure"
-msgstr "Masoara densitate masca"
-
-#: frame.py:932
-msgid "Reorient image\tCtrl+Shift+R"
-msgstr "Reorienteaza imagine\tCtrl+Shift+R"
-
-#: frame.py:937
-msgid "Segmentation"
-msgstr "Segmentare"
-
-#: frame.py:938 preferences.py:108
-msgid "Surface"
-msgstr "Suprafata"
-
-#: frame.py:942
-msgid "Interpolated slices"
-msgstr "Sectiuni interpolate"
-
-#: frame.py:979
-msgid "Preferences..."
-msgstr "Preferinte ..."
-
-#: frame.py:984
-msgid "Transcranial Magnetic Stimulation Mode\tCtrl+T"
-msgstr "Modalitate de stimulare magnetica transcraniana"
-
-#: frame.py:986
-msgid "Deep Brain Stimulation Mode\tCtrl+B"
-msgstr "Modalitate de stimulare profunda a creierului"
-
-#: frame.py:988
-msgid "Navigation Mode"
-msgstr "Modalitate navigare"
-
-#: frame.py:997
-msgid "Getting started..."
-msgstr "Inceput..."
-
-#: frame.py:1000
-msgid "About..."
-msgstr "Despre..."
-
-#: frame.py:1008
-msgid "File"
-msgstr "Fișier"
-
-#: frame.py:1009
-msgid "Edit"
-msgstr "Editare"
-
-#: frame.py:1010
-msgid "View"
-msgstr "Vizualizare"
-
-#: frame.py:1014
-msgid "Mode"
-msgstr "Modalitate"
-
-#: frame.py:1015
-msgid "Help"
-msgstr "Ajutor"
-
-#: frame.py:1160 surface.py:468 task_navigator.py:495 task_navigator.py:531
-#: task_navigator.py:925 task_navigator.py:951
-msgid "Ready"
-msgstr "Gata"
-
-#: frame.py:1310
-msgid "Import DICOM files...\tCtrl+I"
-msgstr "Importa imagini DICOM ...\tCtrl+I"
-
-#: frame.py:1319
-msgid "Open InVesalius project..."
-msgstr "Deschide proiect  ..."
-
-#: frame.py:1325
-msgid "Save InVesalius project"
-msgstr "Salvează proiect"
-
-#: frame.py:1482
-msgid "Zoom"
-msgstr "Zoom"
-
-#: frame.py:1488
-msgid "Zoom based on selection"
-msgstr "Zoom pe baza selecției"
-
-#: frame.py:1494
-msgid "Rotate"
-msgstr "Rotește"
-
-#: frame.py:1500
-msgid "Move"
-msgstr "Mișcă"
-
-#: frame.py:1506
-msgid "Constrast"
-msgstr "Contrast"
-
-#: frame.py:1525
-msgid "Measure density ellipse"
-msgstr "Masoara denstitatea elipsa"
-
-#: frame.py:1532
-msgid "Measure density polygon"
-msgstr ""Masoara denstitatea poligon"
-
-#: frame.py:1682
-msgid "Scroll slices"
-msgstr "Derulare felii"
-
-#: frame.py:1688
-msgid "Slices' cross intersection"
-msgstr "Felii interesectate în cruce"
-
-#: frame.py:1867 frame.py:1938 frame.py:2116
-msgid "Hide task panel"
-msgstr "Ascunde panou de activitate"
-
-#: frame.py:1873 frame.py:1960 frame.py:2138
-msgid "Hide text"
-msgstr "Ascunde text"
-
-#: frame.py:1944 frame.py:2122
-msgid "Show task panel"
-msgstr "Arată panou de activitate"
-
-#: frame.py:1954 frame.py:2132
-msgid "Show text"
-msgstr "Arată text"
-
-#: frame.py:2035
-msgid "Undo"
-msgstr "Anulare"
-
-#: frame.py:2042
-msgid "Redo"
-msgstr "Reexecuta"
-
-#: imagedata_utils.py:104 imagedata_utils.py:335 imagedata_utils.py:440
-#: imagedata_utils.py:533 imagedata_utils.py:633
-msgid "Generating multiplanar visualization..."
-msgstr "Generează vizualizare multiplan..."
-
-#: import_bitmap_panel.py:92 import_network_panel.py:101 import_panel.py:94
-msgid "Import"
-msgstr "Importa"
-
-#: import_bitmap_panel.py:201
-msgid "Path"
-msgstr "Cale"
-
-#: import_bitmap_panel.py:203
-msgid "Width x Height"
-msgstr "Latime x Inaltime"
-
-#: import_bitmap_panel.py:210 import_network_panel.py:266 import_panel.py:251
-msgid "InVesalius Database"
-msgstr "Baza de date "
-
-#: import_network_panel.py:239 import_panel.py:224
-msgid "Patient name"
-msgstr "Nume pacient"
-
-#: import_network_panel.py:240 import_panel.py:225
-msgid "Patient ID"
-msgstr "ID pacient"
-
-#: import_network_panel.py:241 import_panel.py:226
-msgid "Age"
-msgstr "Vârsta"
-
-#: import_network_panel.py:242 import_panel.py:227
-msgid "Gender"
-msgstr "Gen"
-
-#: import_network_panel.py:243 import_panel.py:228
-msgid "Study description"
-msgstr "Descrierea studiului"
-
-#: import_network_panel.py:244 import_panel.py:229
-msgid "Modality"
-msgstr "Modalitate"
-
-#: import_network_panel.py:245 import_panel.py:230
-msgid "Date acquired"
-msgstr "Dată înregistrare"
-
-#: import_network_panel.py:246 import_panel.py:231
-msgid "# Images"
-msgstr "# Imagini"
-
-#: import_network_panel.py:247 import_panel.py:232
-msgid "Institution"
-msgstr "Instituția"
-
-#: import_network_panel.py:248 import_panel.py:233
-msgid "Date of birth"
-msgstr "Zi de naștere"
-
-#: import_network_panel.py:249 import_panel.py:234
-msgid "Accession Number"
-msgstr "Număr de aderare"
-
-#: import_network_panel.py:250 import_panel.py:235
-msgid "Referring physician"
-msgstr "Medicul care a făcut trimiterea"
-
-#: import_network_panel.py:497
-msgid "Word"
-msgstr ""
-
-#: import_network_panel.py:504
-msgid "Search"
-msgstr "Cauta"
-
-#: import_network_panel.py:664
-msgid "Active"
-msgstr "Activ"
-
-#: import_network_panel.py:665
-msgid "Host"
-msgstr "Gazda"
-
-#: import_network_panel.py:666
-msgid "Port"
-msgstr "Port"
-
-#: import_network_panel.py:667
-msgid "AETitle"
-msgstr ""
-
-#: import_network_panel.py:668
-msgid "Status"
-msgstr "Stare"
-
-#: import_network_panel.py:698
-msgid "Add"
-msgstr "Adauga"
-
-#: import_network_panel.py:699 task_navigator.py:1037
-msgid "Remove"
-msgstr "Sterge"
-
-#: import_network_panel.py:700
-msgid "Check status"
-msgstr "Verifica stare"
-
-#: import_network_panel.py:773
-msgid "ok"
-msgstr "ok"
-
-#: import_network_panel.py:775
-msgid "error"
-msgstr "eroare"
-
-#: language_dialog.py:97
-msgid "Language selection"
-msgstr "Selectare limbă"
-
-#: language_dialog.py:141
-msgid "Choose user interface language"
-msgstr "Alegere limba pentru interfață utilizator"
-
-#: measures.py:1108 measures.py:1543
+#: invesalius/data/measures.py:1106 invesalius/data/measures.py:1541
 #, python-format
 msgid ""
 "Area: %.3f\n"
@@ -1868,64 +660,1994 @@ msgid ""
 "Mean: %.3f\n"
 "Std: %.3f"
 msgstr ""
-
-#: polydata_utils.py:155
+"Arie: %.3f\n"
+"Min: %.3f\n"
+"Max: %.3f\n"
+"Medie: %.3f\n"
+"Std: %.3f"
+#: invesalius/data/polydata_utils.py:155
 msgid "Analysing selected regions..."
-msgstr "Analizeaza regiunea selectata..."
+msgstr "Se analizeaza regiunile selectate ..."
 
-#: polydata_utils.py:211
+#: invesalius/data/polydata_utils.py:211
 msgid "Splitting disconnected regions..."
-msgstr "Impartire regiuni deconectate..."
+msgstr "Se separa regiunile deconectate ..."
 
-#: preferences.py:17
+#: invesalius/data/record_coords.py:54
+msgid "Save coords as..."
+msgstr "Salveaza coordonate ca ..."
+
+#: invesalius/data/record_coords.py:55
+msgid "Coordinates files (*.csv)|*.csv"
+msgstr "Fisiere de coordonate  (*.csv)|*.csv"
+
+#: invesalius/data/slice_.py:1614 invesalius/gui/dialogs.py:1954
+msgid "Union"
+msgstr "Reuniune"
+
+#: invesalius/data/slice_.py:1615
+msgid "Diff"
+msgstr "Diferenta"
+
+#: invesalius/data/slice_.py:1616 invesalius/gui/dialogs.py:1956
+msgid "Intersection"
+msgstr "Intersectie"
+
+#: invesalius/data/slice_.py:1617
+msgid "XOR"
+msgstr ""
+
+#: invesalius/data/slice_.py:1618
+msgid "MDiff"
+msgstr "Diferenta oglinda"
+
+#: invesalius/data/styles.py:74 invesalius/gui/task_slice.py:890
+msgid "Foreground"
+msgstr "Prim-Plan"
+
+#: invesalius/data/styles.py:75 invesalius/gui/task_slice.py:891
+msgid "Background"
+msgstr "Fundal"
+
+#: invesalius/data/styles.py:1455
+msgid "Applying watershed ..."
+msgstr "Se aplica watershed ..."
+
+#: invesalius/data/styles.py:2286 invesalius/gui/dialogs.py:1350
+#: invesalius/gui/dialogs.py:1609
+msgid "Fill holes"
+msgstr "Umple goluri"
+
+#: invesalius/data/styles.py:2287
+msgid "Fill hole"
+msgstr "Umple gol"
+
+#: invesalius/data/styles.py:2288
+msgid "Filling hole ..."
+msgstr "Se umple gol ..."
+
+#: invesalius/data/styles.py:2386
+msgid "Remove parts"
+msgstr "Sterge parti"
+
+#: invesalius/data/styles.py:2387
+msgid "Remove part"
+msgstr "Sterge parte"
+
+#: invesalius/data/styles.py:2388
+msgid "Removing part ..."
+msgstr "Se sterge parte ..."
+
+#: invesalius/data/styles.py:2634 invesalius/gui/dialogs.py:2796
+msgid "Region growing"
+msgstr "Extinde regiune"
+
+#: invesalius/data/styles.py:2635
+msgid "Segmenting ..."
+msgstr "Se segmenteaza ..."
+
+#: invesalius/data/surface.py:323 invesalius/data/viewer_volume.py:1305
+msgid "File format not reconized by InVesalius"
+msgstr "Formatul de fisier nu este compatibil cu framework-ul"
+
+#: invesalius/data/surface.py:323 invesalius/data/surface.py:335
+#: invesalius/data/viewer_volume.py:1305 invesalius/data/viewer_volume.py:1321
+#: invesalius/gui/dialogs.py:3460 invesalius/gui/dialogs.py:3486
+msgid "Import surface error"
+msgstr "Eroare la importul suprafeteis"
+
+#: invesalius/data/surface.py:335 invesalius/data/viewer_volume.py:1321
+#: invesalius/gui/dialogs.py:3486
+msgid "InVesalius was not able to import this surface"
+msgstr "Frameworkul nu a putut importa aceasta suprafata"
+
+#: invesalius/data/surface.py:600
+msgid ""
+"It's not possible to create a surface because there is not any voxel "
+"selected on mask"
+msgstr "Nu este posibil sa fie creata o suprafata pentru ca nu exista nici nu voxel"
+
+#: invesalius/data/surface.py:600
+msgid "Create surface warning"
+msgstr "Avertizment creeare suprafata"
+
+#: invesalius/data/surface.py:714
+msgid "InVesalius was not able to create the surface"
+msgstr "Framework-ul nu a putut crea suprafata"
+
+#: invesalius/data/surface.py:765
+msgid "Creating 3D surface..."
+msgstr "Se creeaza suprafata 3D"
+
+#: invesalius/data/surface.py:892
+msgid "It was not possible to export the surface because the surface is empty"
+msgstr "Suprafata nu a putut fi exportata pentru ca este goala"
+
+#: invesalius/data/surface.py:892 invesalius/data/surface.py:904
+msgid "Export surface error"
+msgstr "Eroare la exportul suprafetei"
+
+#: invesalius/data/surface.py:900
+msgid ""
+"It was not possible to export the surface because you don't have permission "
+"to write to {} folder: {}"
+msgstr ""
+"Suprafata nu a putut fi exportata pentru ca nu aveti permisiunea "
+"sa scrieti in {} directorul: {}"
+#: invesalius/data/viewer_slice.py:78
+msgid "Number of slices used to compound the visualization."
+msgstr "Numarul de felii folosite pentru a construi vizualizarea."
+
+#: invesalius/data/viewer_slice.py:85
+msgid ""
+"Controls the sharpness of the contour. The greater the value, the sharper "
+"the contour."
+msgstr ""
+
+"Controleaza claritatea marginei. Valoare mai mare, claritate mai mare"
+"a marginei."
+#: invesalius/data/viewer_slice.py:94
+msgid "Inverted order"
+msgstr "Ordine inversa"
+
+#: invesalius/data/viewer_slice.py:95
+msgid ""
+"If checked, the slices are traversed in descending order to compound the "
+"visualization instead of ascending order."
+msgstr ""
+
+"Selectati pentru a ordona feliile componente ale vizualizarii 3d"
+"in ordine descrescatoare."
+#: invesalius/data/viewer_slice.py:101
+msgid "Number of slices"
+msgstr "Numarul de felii"
+
+#: invesalius/data/viewer_slice.py:102
+msgid "Sharpness"
+msgstr "Claritate"
+
+#: invesalius/data/viewer_slice.py:362 invesalius/data/viewer_slice.py:366
+#: invesalius/data/viewer_slice.py:416 invesalius/data/viewer_slice.py:418
+#: invesalius/data/viewer_slice.py:430 invesalius/data/viewer_slice.py:439
+#: invesalius/data/viewer_slice.py:448 invesalius/data/viewer_slice.py:457
+#: invesalius/data/viewer_slice.py:468 invesalius/data/viewer_slice.py:477
+#: invesalius/data/viewer_slice.py:486 invesalius/data/viewer_slice.py:495
+msgid "R"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:362 invesalius/data/viewer_slice.py:366
+#: invesalius/data/viewer_slice.py:416 invesalius/data/viewer_slice.py:418
+#: invesalius/data/viewer_slice.py:430 invesalius/data/viewer_slice.py:439
+#: invesalius/data/viewer_slice.py:448 invesalius/data/viewer_slice.py:457
+#: invesalius/data/viewer_slice.py:468 invesalius/data/viewer_slice.py:477
+#: invesalius/data/viewer_slice.py:486 invesalius/data/viewer_slice.py:495
+msgid "L"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:362 invesalius/data/viewer_slice.py:364
+#: invesalius/data/viewer_slice.py:416 invesalius/data/viewer_slice.py:420
+#: invesalius/data/viewer_slice.py:430 invesalius/data/viewer_slice.py:439
+#: invesalius/data/viewer_slice.py:448 invesalius/data/viewer_slice.py:457
+#: invesalius/data/viewer_slice.py:506 invesalius/data/viewer_slice.py:515
+#: invesalius/data/viewer_slice.py:524 invesalius/data/viewer_slice.py:533
+msgid "A"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:362 invesalius/data/viewer_slice.py:364
+#: invesalius/data/viewer_slice.py:416 invesalius/data/viewer_slice.py:420
+#: invesalius/data/viewer_slice.py:430 invesalius/data/viewer_slice.py:439
+#: invesalius/data/viewer_slice.py:448 invesalius/data/viewer_slice.py:457
+#: invesalius/data/viewer_slice.py:506 invesalius/data/viewer_slice.py:515
+#: invesalius/data/viewer_slice.py:524 invesalius/data/viewer_slice.py:533
+msgid "P"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:364 invesalius/data/viewer_slice.py:366
+#: invesalius/data/viewer_slice.py:418 invesalius/data/viewer_slice.py:420
+#: invesalius/data/viewer_slice.py:468 invesalius/data/viewer_slice.py:477
+#: invesalius/data/viewer_slice.py:486 invesalius/data/viewer_slice.py:495
+#: invesalius/data/viewer_slice.py:506 invesalius/data/viewer_slice.py:515
+#: invesalius/data/viewer_slice.py:524 invesalius/data/viewer_slice.py:533
+msgid "T"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:364 invesalius/data/viewer_slice.py:366
+#: invesalius/data/viewer_slice.py:418 invesalius/data/viewer_slice.py:420
+#: invesalius/data/viewer_slice.py:468 invesalius/data/viewer_slice.py:477
+#: invesalius/data/viewer_slice.py:486 invesalius/data/viewer_slice.py:495
+#: invesalius/data/viewer_slice.py:506 invesalius/data/viewer_slice.py:515
+#: invesalius/data/viewer_slice.py:524 invesalius/data/viewer_slice.py:533
+msgid "B"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:433 invesalius/data/viewer_slice.py:442
+#: invesalius/data/viewer_slice.py:451 invesalius/data/viewer_slice.py:460
+msgid "AL"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:433 invesalius/data/viewer_slice.py:442
+#: invesalius/data/viewer_slice.py:451 invesalius/data/viewer_slice.py:460
+msgid "RA"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:433 invesalius/data/viewer_slice.py:442
+#: invesalius/data/viewer_slice.py:451 invesalius/data/viewer_slice.py:460
+msgid "PR"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:433 invesalius/data/viewer_slice.py:442
+#: invesalius/data/viewer_slice.py:451 invesalius/data/viewer_slice.py:460
+msgid "LP"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:436 invesalius/data/viewer_slice.py:445
+#: invesalius/data/viewer_slice.py:454 invesalius/data/viewer_slice.py:463
+msgid "LA"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:436 invesalius/data/viewer_slice.py:445
+#: invesalius/data/viewer_slice.py:454 invesalius/data/viewer_slice.py:463
+msgid "AR"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:436 invesalius/data/viewer_slice.py:445
+#: invesalius/data/viewer_slice.py:454 invesalius/data/viewer_slice.py:463
+msgid "RP"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:436 invesalius/data/viewer_slice.py:445
+#: invesalius/data/viewer_slice.py:454 invesalius/data/viewer_slice.py:463
+msgid "PL"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:471 invesalius/data/viewer_slice.py:480
+#: invesalius/data/viewer_slice.py:489 invesalius/data/viewer_slice.py:498
+msgid "TL"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:471 invesalius/data/viewer_slice.py:480
+#: invesalius/data/viewer_slice.py:489 invesalius/data/viewer_slice.py:498
+msgid "RT"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:471 invesalius/data/viewer_slice.py:480
+#: invesalius/data/viewer_slice.py:489 invesalius/data/viewer_slice.py:498
+msgid "BR"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:471 invesalius/data/viewer_slice.py:480
+#: invesalius/data/viewer_slice.py:489 invesalius/data/viewer_slice.py:498
+msgid "LB"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:474 invesalius/data/viewer_slice.py:483
+#: invesalius/data/viewer_slice.py:492 invesalius/data/viewer_slice.py:501
+msgid "LT"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:474 invesalius/data/viewer_slice.py:483
+#: invesalius/data/viewer_slice.py:492 invesalius/data/viewer_slice.py:501
+msgid "TR"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:474 invesalius/data/viewer_slice.py:483
+#: invesalius/data/viewer_slice.py:492 invesalius/data/viewer_slice.py:501
+msgid "RB"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:474 invesalius/data/viewer_slice.py:483
+#: invesalius/data/viewer_slice.py:492 invesalius/data/viewer_slice.py:501
+msgid "BL"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:509 invesalius/data/viewer_slice.py:518
+#: invesalius/data/viewer_slice.py:527 invesalius/data/viewer_slice.py:536
+msgid "TA"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:509 invesalius/data/viewer_slice.py:518
+#: invesalius/data/viewer_slice.py:527 invesalius/data/viewer_slice.py:536
+msgid "PT"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:509 invesalius/data/viewer_slice.py:518
+#: invesalius/data/viewer_slice.py:527 invesalius/data/viewer_slice.py:536
+msgid "BP"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:509 invesalius/data/viewer_slice.py:518
+#: invesalius/data/viewer_slice.py:527 invesalius/data/viewer_slice.py:536
+msgid "AB"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:512 invesalius/data/viewer_slice.py:521
+#: invesalius/data/viewer_slice.py:530 invesalius/data/viewer_slice.py:539
+msgid "AT"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:512 invesalius/data/viewer_slice.py:521
+#: invesalius/data/viewer_slice.py:530 invesalius/data/viewer_slice.py:539
+msgid "TP"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:512 invesalius/data/viewer_slice.py:521
+#: invesalius/data/viewer_slice.py:530 invesalius/data/viewer_slice.py:539
+msgid "PB"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:512 invesalius/data/viewer_slice.py:521
+#: invesalius/data/viewer_slice.py:530 invesalius/data/viewer_slice.py:539
+msgid "BA"
+msgstr ""
+
+#: invesalius/data/viewer_slice.py:1002 invesalius/data/viewer_volume.py:519
+msgid "InVesalius was not able to export this picture"
+msgstr "Framework ul nu a putut exporta aceasta imagine"
+
+#: invesalius/data/viewer_slice.py:1002 invesalius/data/viewer_volume.py:519
+msgid "Export picture error"
+msgstr "Eroare la exportarea imaginii"
+
+#: invesalius/gui/bitmap_preview_panel.py:25
+#: invesalius/gui/dicom_preview_panel.py:59
+#, python-format
+msgid "Image size: %d x %d"
+msgstr "marimea imaginii: %d x %d"
+
+#: invesalius/gui/bitmap_preview_panel.py:26
+#: invesalius/gui/dicom_preview_panel.py:60
+#, python-format
+msgid "Spacing: %.2f"
+msgstr "Spatiere: %.2f"
+
+#: invesalius/gui/bitmap_preview_panel.py:27
+#: invesalius/gui/dicom_preview_panel.py:61
+#, python-format
+msgid "Location: %.2f"
+msgstr "Localizare: %.2f"
+
+#: invesalius/gui/bitmap_preview_panel.py:29
+#: invesalius/gui/dicom_preview_panel.py:63
+#, python-format
+msgid ""
+"%s %s\n"
+"Made in InVesalius"
+msgstr ""
+"%s %s\n"
+"Construit cu INO-ORBITAL"
+
+#: invesalius/gui/bitmap_preview_panel.py:166
+#: invesalius/gui/bitmap_preview_panel.py:167
+#: invesalius/gui/dicom_preview_panel.py:202
+#: invesalius/gui/dicom_preview_panel.py:203 invesalius/gui/frame.py:1082
+msgid "Image"
+msgstr "Imagine"
+
+#: invesalius/gui/bitmap_preview_panel.py:531
+#: invesalius/gui/dicom_preview_panel.py:788
+msgid "Auto-play"
+msgstr "Ruleaza automat"
+
+#: invesalius/gui/brain_seg_dialog.py:59
+msgid "Brain segmentation"
+msgstr "Segmentarea creierului"
+
+#: invesalius/gui/brain_seg_dialog.py:87
+msgid "Use GPU"
+msgstr "Folositi GPU"
+
+#: invesalius/gui/brain_seg_dialog.py:95
+msgid "Device"
+msgstr "Instrument"
+
+#: invesalius/gui/brain_seg_dialog.py:109 invesalius/gui/task_slice.py:96
+msgid "Create new mask"
+msgstr "Creeaza masca noua"
+
+#: invesalius/gui/brain_seg_dialog.py:111
+msgid "Apply WW&WL"
+msgstr "Aplica WW&WL"
+
+#: invesalius/gui/brain_seg_dialog.py:114 invesalius/gui/dialogs.py:2579
+msgid "Elapsed time:"
+msgstr "Timp scurs:"
+
+#: invesalius/gui/brain_seg_dialog.py:115 invesalius/gui/dialogs.py:2580
+msgid "00:00:00"
+msgstr ""
+
+#: invesalius/gui/brain_seg_dialog.py:116
+msgid "Segment"
+msgstr ""
+
+#: invesalius/gui/brain_seg_dialog.py:117
+msgid "Stop"
+msgstr ""
+
+#: invesalius/gui/brain_seg_dialog.py:132
+msgid "Backend"
+msgstr ""
+
+#: invesalius/gui/brain_seg_dialog.py:142
+msgid "Level of certainty"
+msgstr "Nivel de certitudine"
+
+#: invesalius/gui/data_notebook.py:77
+msgid "Masks"
+msgstr "Măști"
+
+#: invesalius/gui/data_notebook.py:78
+msgid "3D surfaces"
+msgstr "Suprafete 3D"
+
+#: invesalius/gui/data_notebook.py:79
+msgid "Measures"
+msgstr "Măsuri"
+
+#: invesalius/gui/data_notebook.py:175
+msgid "Create a new measure"
+msgstr "Creaza o masura noua"
+
+#: invesalius/gui/data_notebook.py:182
+msgid "Remove measure"
+msgstr "Strerge masura"
+
+#: invesalius/gui/data_notebook.py:188
+msgid "Duplicate measure"
+msgstr "Copiaza masura"
+
+#: invesalius/gui/data_notebook.py:201 invesalius/gui/frame.py:1719
+msgid "Measure distance"
+msgstr "Măsurare distanță"
+
+#: invesalius/gui/data_notebook.py:204 invesalius/gui/frame.py:1725
+msgid "Measure angle"
+msgstr "Masurare unghi"
+
+#: invesalius/gui/data_notebook.py:293
+msgid "Create a new mask"
+msgstr "Creaza o masca noua"
+
+#: invesalius/gui/data_notebook.py:299
+msgid "Remove mask"
+msgstr "Sterge masca"
+
+#: invesalius/gui/data_notebook.py:305
+msgid "Duplicate mask"
+msgstr "Copiaza masca"
+
+#: invesalius/gui/data_notebook.py:528 invesalius/gui/data_notebook.py:847
+#: invesalius/gui/data_notebook.py:1088 invesalius/gui/data_notebook.py:1255
+#: invesalius/gui/project_properties.py:60
+msgid "Name"
+msgstr "Nume"
+
+#: invesalius/gui/data_notebook.py:574 invesalius/gui/frame.py:1083
+msgid "Mask"
+msgstr "Mască"
+
+#: invesalius/gui/data_notebook.py:666
+msgid "Create a new surface"
+msgstr "Creaza o suprafata noua"
+
+#: invesalius/gui/data_notebook.py:672
+msgid "Remove surface"
+msgstr "Sterge suprafata"
+
+#: invesalius/gui/data_notebook.py:678
+msgid "Duplicate surface"
+msgstr "Copiaza suprafata"
+
+#: invesalius/gui/data_notebook.py:684
+msgid "Import a surface file into InVesalius"
+msgstr "Importa un fisier suprafata in framework"
+
+#: invesalius/gui/data_notebook.py:712 invesalius/gui/task_surface.py:173
+msgid "New surface"
+msgstr "Suprafata noua"
+
+#: invesalius/gui/data_notebook.py:848
+msgid "Volume (mm³)"
+msgstr "Volum (mm³)"
+
+#: invesalius/gui/data_notebook.py:849
+msgid "Area (mm²)"
+msgstr "Arie (mm²)"
+
+#: invesalius/gui/data_notebook.py:850
+msgid "Transparency"
+msgstr "Transparență"
+
+#: invesalius/gui/data_notebook.py:1089
+msgid "Location"
+msgstr "Locație"
+
+#: invesalius/gui/data_notebook.py:1090 invesalius/gui/data_notebook.py:1256
+#: invesalius/gui/import_bitmap_panel.py:202
+msgid "Type"
+msgstr "Tip"
+
+#: invesalius/gui/data_notebook.py:1091 invesalius/gui/data_notebook.py:1257
+msgid "Value"
+msgstr "Valoare"
+
+#: invesalius/gui/default_tasks.py:155
+msgid "Data"
+msgstr "Dată"
+
+#: invesalius/gui/default_tasks.py:247 invesalius/gui/default_tasks.py:253
+msgid "Load data"
+msgstr "Incarcare date"
+
+#: invesalius/gui/default_tasks.py:248 invesalius/gui/default_tasks.py:254
+#: invesalius/gui/default_tasks.py:283
+msgid "Select region of interest"
+msgstr "Selectează regiune de interes"
+
+#: invesalius/gui/default_tasks.py:249 invesalius/gui/default_tasks.py:255
+#: invesalius/gui/default_tasks.py:285
+msgid "Configure 3D surface"
+msgstr "Configurare suprafață 3D"
+
+#: invesalius/gui/default_tasks.py:250 invesalius/gui/default_tasks.py:256
+msgid "Export data"
+msgstr "Export date"
+
+#: invesalius/gui/default_tasks.py:257 invesalius/gui/default_tasks.py:326
+msgid "Navigation system"
+msgstr "Sistem navigatie"
+
+#: invesalius/gui/default_viewers.py:86 invesalius/gui/default_viewers.py:183
+#: invesalius/gui/task_exporter.py:256
+msgid "Axial slice"
+msgstr "Felie axială"
+
+#: invesalius/gui/default_viewers.py:91 invesalius/gui/default_viewers.py:189
+#: invesalius/gui/task_exporter.py:257
+msgid "Coronal slice"
+msgstr "Felie coronală"
+
+#: invesalius/gui/default_viewers.py:96 invesalius/gui/default_viewers.py:195
+#: invesalius/gui/task_exporter.py:258
+msgid "Sagittal slice"
+msgstr "Felie sagitală"
+
+#: invesalius/gui/default_viewers.py:102 invesalius/gui/default_viewers.py:201
+#: invesalius/gui/task_exporter.py:259
+msgid "Volume"
+msgstr "Volum"
+
+#: invesalius/gui/default_viewers.py:473
+msgid "Preset name"
+msgstr "Nume presetat"
+
+#: invesalius/gui/default_viewers.py:508 invesalius/gui/frame.py:1164
+msgid "Tools"
+msgstr "Unelte"
+
+#: invesalius/gui/dialogs.py:107
+msgid "Value will be applied."
+msgstr "Valoare va fi aplicată"
+
+#: invesalius/gui/dialogs.py:111
+msgid "Value will not be applied."
+msgstr "Valoare nu va fi aplicată"
+
+#: invesalius/gui/dialogs.py:143
+msgid ""
+"InVesalius is running on a 32-bit operating system or has insufficient "
+"memory. \n"
+"If you want to work with 3D surfaces or volume rendering, \n"
+"it is recommended to reduce the medical images resolution."
+msgstr ""
+
+"Frameworkul ruleaza pe un sistem de operare in 32 bit sau nu are suficienta "
+"memorie. \n"
+"Daca doriti sa lucrati cu suprafete 3D sau randari de volume \n"
+"este recomandat sa reduceti rezolutia imaginilor medicale."
+#: invesalius/gui/dialogs.py:157
+msgid "Percentage of original resolution"
+msgstr "Procent din rezolutia initiala"
+
+#: invesalius/gui/dialogs.py:204
+msgid "Loading DICOM files"
+msgstr "Încarcă fișierele DICOM"
+
+#: invesalius/gui/dialogs.py:243
+msgid "InVesalius project (*.inv3)|*.inv3"
+msgstr "Proiect InVesalius (*.inv3)|*.inv3"
+
+#: invesalius/gui/dialogs.py:244
+msgid "InVesalius project compressed (*.inv3)|*.inv3"
+msgstr "Proiect InVesalius comprimat (*.inv3)|*.inv3"
+
+#: invesalius/gui/dialogs.py:270
+msgid "Open InVesalius 3 project..."
+msgstr "Deschide proiectul ..."
+
+#: invesalius/gui/dialogs.py:312
+msgid "Choose a DICOM folder:"
+msgstr "Alege un fișier DICOM:"
+
+#: invesalius/gui/dialogs.py:355
+msgid "Choose a folder with TIFF, BMP, JPG or PNG:"
+msgstr "Alegeti un director care contine fisiere tip TIFF, BMP, JPG sau PNG:"
+
+#: invesalius/gui/dialogs.py:409
+msgid "Import PAR/REC file"
+msgstr "Importa fisier  PAR/REC"
+
+#: invesalius/gui/dialogs.py:412
+msgid "Import Analyze 7.5 file"
+msgstr "Importa fisier Analyze 7.5"
+
+#: invesalius/gui/dialogs.py:448
+msgid "Import surface file"
+msgstr "Importa fisier suprafata"
+
+#: invesalius/gui/dialogs.py:478
+msgid "Was the imported mesh created by InVesalius?"
+msgstr "Mesa importata a fost creata in InVesalius?"
+
+#: invesalius/gui/dialogs.py:499
+msgid "Save project as..."
+msgstr "Salveaza proiect ca ..."
+
+#: invesalius/gui/dialogs.py:532
+msgid "Load File"
+msgstr "Incarca fisier"
+
+#: invesalius/gui/dialogs.py:533 invesalius/gui/task_navigator.py:1091
+#: invesalius/gui/task_navigator.py:1126
+msgid "Registration files (*.obr)|*.obr"
+msgstr "Fisiere inregistrate (*.obr)|*.obr"
+
+#: invesalius/gui/dialogs.py:605 invesalius/utils.py:404
+msgid ""
+"A new version of InVesalius is available. Do you want to open the download "
+"website now?"
+msgstr "O versiune noua a frameworkului este disponibila. Doriti sa accesati acum site-ul de descarcare?"
+
+#: invesalius/gui/dialogs.py:606 invesalius/utils.py:405
+msgid "Invesalius Update"
+msgstr "Actualizare Framework"
+
+#: invesalius/gui/dialogs.py:726 invesalius/gui/dialogs.py:1136
+#: invesalius/gui/dialogs.py:1161
+#, python-format
+msgid ""
+"The project %s has been modified.\n"
+"Save changes?"
+msgstr "Proiectul %s a fost modificat.\nSalvezi schimbările?"
+
+#: invesalius/gui/dialogs.py:740
+#, python-format
+msgid "%s is an empty folder."
+msgstr "%s nu contine fisiere."
+
+#: invesalius/gui/dialogs.py:754
+msgid ""
+"File was created in a newer InVesalius version. Some functionalities may not "
+"work correctly."
+msgstr ""
+
+"Fisierul a fost creat intr-o versiune mai recenta a frameworkului. Anumite functionalitati "
+"s-ar putea sa nu functioneze corect."
+#: invesalius/gui/dialogs.py:764
+msgid "There are no Bitmap, JPEG, PNG or TIFF files in the selected folder."
+msgstr "Nu exista fisiere tip Bitmap, JPEG, PNG sau TIFF in directorul selectat."
+
+#: invesalius/gui/dialogs.py:766
+msgid "There are no DICOM files in the selected folder."
+msgstr "Nu exista fisiere tip DICOM in directorul selectat."
+
+#: invesalius/gui/dialogs.py:768
+msgid "Invalid file."
+msgstr "Fisier invalid"
+
+#: invesalius/gui/dialogs.py:781
+msgid "Warning! InVesalius has limited support to Analyze format.\n"
+msgstr "Atentie! Frameworkul are suport limitat pentru formatul Analyze\n"
+
+#: invesalius/gui/dialogs.py:782
+msgid "Slices may be wrongly oriented and functions may not work properly."
+msgstr "Sectiunile pot fi gresit orientate si functiile vor genera rezultate incorecte."
+
+#: invesalius/gui/dialogs.py:794
+msgid "A mask is needed to create a surface."
+msgstr "O masca este necesara pentru a crea o suprafata"
+
+#: invesalius/gui/dialogs.py:805
+msgid "No mask was selected for removal."
+msgstr "Nici o masca selectata pentru stergere"
+
+#: invesalius/gui/dialogs.py:816
+msgid "No surface was selected for removal."
+msgstr "Nicio suprafata nu a fost selectata pentru stergere."
+
+#: invesalius/gui/dialogs.py:828
+msgid "No measure was selected for removal."
+msgstr "Nicio dimensiune nu a fost selectata pentru stergere."
+
+#: invesalius/gui/dialogs.py:839
+msgid "No mask was selected for duplication."
+msgstr "Nici o masca selectata pentru copiere."
+
+#: invesalius/gui/dialogs.py:852
+msgid "No surface was selected for duplication."
+msgstr "Nici o suprafata selectata pentru copiere"
+
+#: invesalius/gui/dialogs.py:884
+msgid "No tracking device selected"
+msgstr "Nici un instrument de inregistrare selectat"
+
+#: invesalius/gui/dialogs.py:886
+msgid " is not installed."
+msgstr "nu este instalat"
+
+#: invesalius/gui/dialogs.py:888
+msgid " disconnected."
+msgstr "deconectat"
+
+#: invesalius/gui/dialogs.py:890
+msgid " is not connected."
+msgstr "nu este conectat"
+
+#: invesalius/gui/dialogs.py:903
+msgid "The fiducial registration error is: "
+msgstr "Eroarea de inregistrare fiduciala este:"
+
+#: invesalius/gui/dialogs.py:904
+msgid "Would you like to improve accuracy?"
+msgstr "Doriti sa imbunatatiti acuratetea?"
+
+#: invesalius/gui/dialogs.py:921
+msgid "Error after refine: "
+msgstr "Eroare dupa repocesare fina"
+
+#: invesalius/gui/dialogs.py:922
+msgid "Previous error: "
+msgstr "Eroarea precedenta:"
+
+#: invesalius/gui/dialogs.py:933
+msgid "Edit marker ID"
+msgstr "Editare marker ID"
+
+#: invesalius/gui/dialogs.py:944
+msgid "Proceed?"
+msgstr "Continuati?"
+
+#: invesalius/gui/dialogs.py:1000
+msgid "New mask name:"
+msgstr "Numele noii masti:"
+
+#: invesalius/gui/dialogs.py:1004
+msgid "Name the mask to be created"
+msgstr "Alegeti numele noii masti"
+
+#: invesalius/gui/dialogs.py:1011
+msgid "Threshold preset:"
+msgstr "Presetare prag:"
+
+#: invesalius/gui/dialogs.py:1098 invesalius/gui/task_slice.py:579
+#: invesalius/gui/task_slice.py:581 invesalius/gui/task_slice.py:593
+#: invesalius/gui/task_slice.py:595 invesalius/gui/task_slice.py:636
+#: invesalius/gui/task_slice.py:639 invesalius/gui/widgets/slice_menu.py:127
+#: invesalius/gui/widgets/slice_menu.py:261 invesalius/presets.py:49
+#: invesalius/presets.py:67 invesalius/presets.py:123
+#: invesalius/presets.py:155
+msgid "Custom"
+msgstr "Obișnuit"
+
+#: invesalius/gui/dialogs.py:1113
+#, python-format
+msgid "%s does not exist."
+msgstr "%s nu există."
+
+#: invesalius/gui/dialogs.py:1124
+msgid "Please, provide more than one DICOM file for 3D reconstruction"
+msgstr "Vă rugăam să ne furnizați mai mult de un fișier DICOM pentru reconstrucția 3D"
+
+#: invesalius/gui/dialogs.py:1185
+msgid "(c) 2007-2022 Center for Information Technology Renato Archer - CTI"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:1186
+msgid ""
+"InVesalius is a medical imaging program for 3D reconstruction. It uses a "
+"sequence of 2D DICOM image files acquired with CT or MRI scanners. "
+"InVesalius allows exporting 3D volumes or surfaces as mesh files for "
+"creating physical models of a patient's anatomy using additive manufacturing "
+"(3D printing) technologies. The software is developed by Center for "
+"Information Technology Renato Archer (CTI), National Council for Scientific "
+"and Technological Development (CNPq) and the Brazilian Ministry of Health.\n"
+"\n"
+" InVesalius must be used only for research. The Center for Information "
+"Technology Renato Archer is not responsible for damages caused by the use of "
+"this software.\n"
+"\n"
+" Contact: invesalius@cti.gov.br"
+msgstr ""
+"Acest program  este un framework pentru reconstructia 3D a imaginilor medicale. Foloseste o secventa de imagini 2D DICOM obtinute cu ajutorul CT sau MRI. Permite exportarea volumelor 3D sau a suprafetelor sub forma de fisiere mesh pentru a creea modele fizice si anatomice ale pacientilor folosind imprimante si tehnolofii 3D. Acest soft este bazat pe softul dezvoltat de Centrul de Tehnologie a Informatiei Renato Archer (CTI), Consiliul National pentru Dezvoltare Tehnica si Stiintifica si Ministerul Sanatatii al Braziliei \n"
+"\n"
+" Trebuie folosit doar pentru scopuri de cercetare. Pana la acest stadiu, dezvoltatorii sunt exonerati de orice incovenienta clinica data de folosirea programului.\n"
+"\n"
+" Contact Invesalius: invesalius@cti.gov.br\n"
+" Contact INO-ORBITAL: info@inosearch.ro"
+
+#: invesalius/gui/dialogs.py:1200
+msgid "GNU GPL (General Public License) version 2"
+msgstr "GNU GPL (General Public License - Licență Publică Generală) versiunea 2"
+
+#: invesalius/gui/dialogs.py:1260
+msgid "Save raycasting preset as:"
+msgstr "Salvează presetare pentru distribuția razei ca:"
+
+#: invesalius/gui/dialogs.py:1293 invesalius/gui/dialogs.py:1544
+msgid "New surface name:"
+msgstr "Nume pentru suprafața nouă:"
+
+#: invesalius/gui/dialogs.py:1297 invesalius/gui/dialogs.py:1548
+msgid "Name the surface to be created"
+msgstr "Denumiți suprafața care va fi creată"
+
+#: invesalius/gui/dialogs.py:1304 invesalius/gui/dialogs.py:1555
+msgid "Mask of reference:"
+msgstr "Masca de referinţă:"
+
+#: invesalius/gui/dialogs.py:1321 invesalius/gui/dialogs.py:1578
+msgid "Surface quality:"
+msgstr "Calitatea suprafeței:"
+
+#: invesalius/gui/dialogs.py:1353 invesalius/gui/dialogs.py:1612
+msgid "Keep largest region"
+msgstr "Pastrează ceam mai mare regiune"
+
+#: invesalius/gui/dialogs.py:1393
+msgid "BMP image"
+msgstr "Imagine BPM"
+
+#: invesalius/gui/dialogs.py:1394
+msgid "JPG image"
+msgstr "Imagine JPG"
+
+#: invesalius/gui/dialogs.py:1395
+msgid "PNG image"
+msgstr "Imagine PNG"
+
+#: invesalius/gui/dialogs.py:1396
+msgid "PostScript document"
+msgstr "Document PostScript"
+
+#: invesalius/gui/dialogs.py:1397
+msgid "POV-Ray file"
+msgstr "Fișier POV-Ray"
+
+#: invesalius/gui/dialogs.py:1398
+msgid "TIFF image"
+msgstr "Imagine TIFF"
+
+#: invesalius/gui/dialogs.py:1448
+msgid "Surface generation options"
+msgstr "Optiuni generare suprafata"
+
+#: invesalius/gui/dialogs.py:1478
+msgid "Surface creation"
+msgstr "Creare suprafata"
+
+#: invesalius/gui/dialogs.py:1493
+msgid "Surface creation options"
+msgstr "Optiuni creare suprafata"
+
+#: invesalius/gui/dialogs.py:1499
+msgid "Surface creation method"
+msgstr "Modalitate creare suprafata"
+
+#: invesalius/gui/dialogs.py:1606 invesalius/gui/preferences.py:243
+msgid "Fill border holes"
+msgstr " Umple goluri margine"
+
+#: invesalius/gui/dialogs.py:1660 invesalius/gui/frame.py:1167
+msgid "Options"
+msgstr "Optiuni"
+
+#: invesalius/gui/dialogs.py:1676
+msgid "Angle:"
+msgstr "Unghi:"
+
+#: invesalius/gui/dialogs.py:1678
+msgid "Max. distance:"
+msgstr "Distanta Max.:"
+
+#: invesalius/gui/dialogs.py:1680
+msgid "Min. weight:"
+msgstr " Greutate minima"
+
+#: invesalius/gui/dialogs.py:1682
+msgid "N. steps:"
+msgstr "Numar pasi"
+
+#: invesalius/gui/dialogs.py:1701 invesalius/gui/dialogs.py:1737
+#: invesalius/gui/dialogs.py:1782
+msgid "Context aware smoothing"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:1702
+msgid "Binary"
+msgstr "Binar"
+
+#: invesalius/gui/dialogs.py:1720
+msgid ""
+"It is not possible to use the Default method because the mask was edited."
+msgstr "Nu este posibila folosirea metodei Default deoarece masca a fost editata"
+
+#: invesalius/gui/dialogs.py:1723
+msgid "Method:"
+msgstr "Metoda:"
+
+#: invesalius/gui/dialogs.py:1850 invesalius/gui/dialogs.py:2898
+msgid "Method"
+msgstr "Metoda"
+
+#: invesalius/gui/dialogs.py:1873
+msgid "Gaussian sigma"
+msgstr "Sigma gaussiana"
+
+#: invesalius/gui/dialogs.py:1893 invesalius/gui/task_slice.py:318
+msgid "Watershed"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:1931
+msgid "Boolean operations"
+msgstr "Operatii booleane"
+
+#: invesalius/gui/dialogs.py:1955
+msgid "Difference"
+msgstr "Diferenta"
+
+#: invesalius/gui/dialogs.py:1957
+msgid "Exclusive disjunction"
+msgstr "Disjunctie exclusiva"
+
+#: invesalius/gui/dialogs.py:1958
+msgid "Mirror Difference"
+msgstr "Diferenta oglinda"
+
+#: invesalius/gui/dialogs.py:1979
+msgid "Mask 1"
+msgstr "Masca 1"
+
+#: invesalius/gui/dialogs.py:1981
+msgid "Operation"
+msgstr "Operatie"
+
+#: invesalius/gui/dialogs.py:1983
+msgid "Mask 2"
+msgstr "Masca 2"
+
+#: invesalius/gui/dialogs.py:2011
+msgid "Image reorientation"
+msgstr "Reorientarea imaginii"
+
+#: invesalius/gui/dialogs.py:2025
+msgid "Nearest Neighbour"
+msgstr "Cel mai aproape vecin"
+
+#: invesalius/gui/dialogs.py:2026
+msgid "Trilinear"
+msgstr "Triliniar"
+
+#: invesalius/gui/dialogs.py:2027
+msgid "Tricubic"
+msgstr "Tricubic"
+
+#: invesalius/gui/dialogs.py:2028
+msgid "Lanczos (experimental)"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:2038 invesalius/gui/dialogs.py:4463
+msgid "Apply"
+msgstr "Aplica"
+
+#: invesalius/gui/dialogs.py:2044
+msgid "Angle X"
+msgstr "Unghi X"
+
+#: invesalius/gui/dialogs.py:2047
+msgid "Angle Y"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:2050
+msgid "Angle Z"
+msgstr "Unghi Z"
+
+#: invesalius/gui/dialogs.py:2054
+msgid "Interpolation method:"
+msgstr "Metoda de interpolare: "
+
+#: invesalius/gui/dialogs.py:2133
+msgid "Create project from bitmap"
+msgstr "Creaza proiect din bitmap"
+
+#: invesalius/gui/dialogs.py:2158
+msgid "Project name:"
+msgstr "Nume proiect:"
+
+#: invesalius/gui/dialogs.py:2161
+msgid "Slices orientation:"
+msgstr "Orientare felie"
+
+#: invesalius/gui/dialogs.py:2162 invesalius/gui/dialogs.py:2338
+#: invesalius/gui/dialogs.py:2362 invesalius/gui/dialogs.py:4096
+#: invesalius/gui/project_properties.py:29
+msgid "Sagital"
+msgstr "Sagital"
+
+#: invesalius/gui/dialogs.py:2166
+msgid "Spacing (mm):"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:2187
+msgid "X:"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:2192
+msgid "Y:"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:2196
+msgid "Z:"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:2281
+msgid ""
+"All bitmaps files must be the same \n"
+" width and height size."
+msgstr "Toate fisierele bitmap trebuie sa aibe aeeasi dimensiune XxY"
+
+#: invesalius/gui/dialogs.py:2294
+msgid "2D - Actual slice"
+msgstr "2D - Sectiune actuala"
+
+#: invesalius/gui/dialogs.py:2295
+msgid "3D - All slices"
+msgstr "3D - Toate sectiunile"
+
+#: invesalius/gui/dialogs.py:2329
+msgid "2D Connectivity"
+msgstr "Conectivitate 2D"
+
+#: invesalius/gui/dialogs.py:2341 invesalius/gui/project_properties.py:68
+msgid "Orientation"
+msgstr "Orientare"
+
+#: invesalius/gui/dialogs.py:2384
+msgid "3D Connectivity"
+msgstr "Conectivitate 3D"
+
+#: invesalius/gui/dialogs.py:2454 invesalius/gui/dialogs.py:2515
+#: invesalius/gui/task_slice.py:911
+msgid "Use WW&WL"
+msgstr "Folositi WW&WL"
+
+#: invesalius/gui/dialogs.py:2477
+msgid "Deviation"
+msgstr "Deviatie"
+
+#: invesalius/gui/dialogs.py:2479
+msgid "Min:"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:2482
+msgid "Max:"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:2543
+msgid "Multiplier"
+msgstr "Multiplicator"
+
+#: invesalius/gui/dialogs.py:2546
+msgid "Iterations"
+msgstr "Iteratii"
+
+#: invesalius/gui/dialogs.py:2660 invesalius/gui/dialogs.py:2877
+#: invesalius/gui/dialogs.py:3146
+msgid "Parameters"
+msgstr "Parametri"
+
+#: invesalius/gui/dialogs.py:2717
+msgid "Select mask parts"
+msgstr "Selectati partile mastii"
+
+#: invesalius/gui/dialogs.py:2744
+msgid "Target mask name"
+msgstr "Numele mastii tinta"
+
+#: invesalius/gui/dialogs.py:2843
+msgid "Dynamic"
+msgstr "Dinamica"
+
+#: invesalius/gui/dialogs.py:2843
+msgid "Confidence"
+msgstr "Confidenta"
+
+#: invesalius/gui/dialogs.py:3005
+msgid "Crop mask"
+msgstr "Taie masca"
+
+#: invesalius/gui/dialogs.py:3035
+msgid "Axial:"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:3037 invesalius/gui/dialogs.py:3047
+#: invesalius/gui/dialogs.py:3057
+msgid " - "
+msgstr ""
+
+#: invesalius/gui/dialogs.py:3045
+msgid "Sagital:"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:3055
+msgid "Coronal:"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:3157
+msgid "Max hole size"
+msgstr "Dimensiune maxima gol"
+
+#: invesalius/gui/dialogs.py:3159
+msgid "voxels"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:3216
+msgid "Mask density"
+msgstr "Densitate masca"
+
+#: invesalius/gui/dialogs.py:3231
+msgid "Calculate"
+msgstr "Calculeaza"
+
+#: invesalius/gui/dialogs.py:3241
+msgid "Mask:"
+msgstr "Masca"
+
+#: invesalius/gui/dialogs.py:3248
+msgid "Mean:"
+msgstr "Medie"
+
+#: invesalius/gui/dialogs.py:3251
+msgid "Minimun:"
+msgstr "Minim"
+
+#: invesalius/gui/dialogs.py:3254
+msgid "Maximun:"
+msgstr "Maxim"
+
+#: invesalius/gui/dialogs.py:3257
+msgid "Standard deviation:"
+msgstr "Deviatie standard"
+
+#: invesalius/gui/dialogs.py:3293
+msgid "Calculating "
+msgstr "Calculeaza"
+
+#: invesalius/gui/dialogs.py:3330
+msgid "Object calibration"
+msgstr "Calibrare obiect"
+
+#: invesalius/gui/dialogs.py:3354
+msgid "Choose the object reference mode"
+msgstr "Alegeti modul de referinta obiect"
+
+#: invesalius/gui/dialogs.py:3367
+msgid "Choose the FASTRAK sensor port"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:3380
+msgid "Registration done"
+msgstr "Inregistrare terminata"
+
+#: invesalius/gui/dialogs.py:3382 invesalius/gui/dialogs.py:3746
+msgid "Done"
+msgstr "Terminat"
+
+#: invesalius/gui/dialogs.py:3428
+msgid "Would like to use InVesalius default object?"
+msgstr "Doriti folosirea obiectului implicit al programului"
+
+#: invesalius/gui/dialogs.py:3460
+msgid "File format not recognized by InVesalius"
+msgstr "Format de fisier neidentificat de framework"
+
+#: invesalius/gui/dialogs.py:3686
+msgid "Refine Corregistration"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:3702
+msgid "Select the surface:"
+msgstr "Selectati suprafata"
+
+#: invesalius/gui/dialogs.py:3703
+msgid "Registration mode:"
+msgstr "Modalitate inregistrare"
+
+#: invesalius/gui/dialogs.py:3721
+msgid "Choose the registration mode:"
+msgstr "Alegeti modalitatea de inregistrare:"
+
+#: invesalius/gui/dialogs.py:3723
+msgid "Affine"
+msgstr "Asemanare"
+
+#: invesalius/gui/dialogs.py:3723
+msgid "Similarity"
+msgstr "Similaritate"
+
+#: invesalius/gui/dialogs.py:3723
+msgid "RigidBody"
+msgstr "Corp solid"
+
+#: invesalius/gui/dialogs.py:3730
+msgid "Create point"
+msgstr "Creeaza punct"
+
+#: invesalius/gui/dialogs.py:3733
+msgid "Continuous acquisition"
+msgstr "Achizitie continua"
+
+#: invesalius/gui/dialogs.py:3737
+msgid "Remove points"
+msgstr "Sterge puncte"
+
+#: invesalius/gui/dialogs.py:3740
+msgid "Apply registration"
+msgstr "Confirma inregistrare"
+
+#: invesalius/gui/dialogs.py:3745
+msgid "Refine done"
+msgstr "Terminare reprocesare fina"
+
+#: invesalius/gui/dialogs.py:4063
+msgid "Creating 3D surface ..."
+msgstr "Creaza suprafata 3D ..."
+
+#: invesalius/gui/dialogs.py:4088
+msgid "Go to slice ..."
+msgstr "Mergi la felia ..."
+
+#: invesalius/gui/dialogs.py:4122
+msgid "Slice number"
+msgstr "Felia numarul"
+
+#: invesalius/gui/dialogs.py:4174
+msgid "Go to scanner coord..."
+msgstr "Mergi la coordonatele scanate ..."
+
+#: invesalius/gui/dialogs.py:4196
+msgid "Sagital coordinate:"
+msgstr "Coordonate sagitale:"
+
+#: invesalius/gui/dialogs.py:4197
+msgid "Coronal coordinate:"
+msgstr "Coordonate coronale:"
+
+#: invesalius/gui/dialogs.py:4198
+msgid "Axial coordinate:"
+msgstr "Coordonate axiale:"
+
+#: invesalius/gui/dialogs.py:4235
+msgid "Calculating the transformation ..."
+msgstr "Se calculeaza transformarea ..."
+
+#: invesalius/gui/dialogs.py:4250
+msgid "Setting Optitrack configs:"
+msgstr "Setati configurarea Optitrack"
+
+#: invesalius/gui/dialogs.py:4322
+msgid "Setting tracker device:"
+msgstr "Setati instrumentul de inregistrare:"
+
+#: invesalius/gui/dialogs.py:4330 invesalius/gui/task_navigator.py:389
+msgid "Choose the tracking device"
+msgstr "Alegeti instrumentul de inregistrare"
+
+#: invesalius/gui/dialogs.py:4334 invesalius/gui/task_navigator.py:385
+msgid "Select tracker:"
+msgstr "Alegeti inregistratorul:"
+
+#: invesalius/gui/dialogs.py:4374
+msgid "Setting Robot IP"
+msgstr "Se seteazai IP-ul robotului"
+
+#: invesalius/gui/dialogs.py:4382
+msgid "Choose or type the robot IP"
+msgstr "Alegeti sau scrieti IP-ul robotului"
+
+#: invesalius/gui/dialogs.py:4383
+msgid "Select robot IP:"
+msgstr "Alegeti Ip-ul robotului"
+
+#: invesalius/gui/dialogs.py:4426
+msgid "Create transformation matrix to robot space"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4447
+msgid "Poses acquisition for robot registration:"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4449
+msgid "Single"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4452
+msgid "Continuous"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4456
+msgid "0"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4457
+msgid "Poses recorded"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4460
+msgid "Reset"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4469
+msgid "Registration file"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4471 invesalius/gui/task_navigator.py:929
+#: invesalius/gui/task_navigator.py:1133 invesalius/gui/task_navigator.py:1314
+msgid "Save"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4476 invesalius/gui/task_navigator.py:921
+#: invesalius/gui/task_navigator.py:1317
+msgid "Load"
+msgstr "Incarca"
+
+#: invesalius/gui/dialogs.py:4600
+msgid "Save robot transformation file as..."
+msgstr "Salveaza transformarea robot ca ..."
+
+#: invesalius/gui/dialogs.py:4601 invesalius/gui/dialogs.py:4613
+msgid "Robot transformation files (*.rbtf)|*.rbtf"
+msgstr "Fisiere transformare robot (*.rbtf)|*.rbtf"
+
+#: invesalius/gui/dialogs.py:4612
+msgid "Load robot transformation"
+msgstr "incarca transformare robot"
+
+#: invesalius/gui/dialogs.py:4627
+msgid "Setting NDI polaris configs:"
+msgstr "Seteaza configurari NDI polaris:"
+
+#: invesalius/gui/dialogs.py:4752
+msgid "Select COM port"
+msgstr "Selecteaza port COM"
+
+#: invesalius/gui/dialogs.py:4835
+msgid "Set WW&WL manually"
+msgstr "Seteaza WW&WL manual"
+
+#: invesalius/gui/dialogs.py:4845
+msgid "Window Level"
+msgstr "Nivel Fereastra"
+
+#: invesalius/gui/dialogs.py:4847
+msgid "WL"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4851
+msgid "Window Width"
+msgstr "Largime Fereastra"
+
+#: invesalius/gui/dialogs.py:4853
+msgid "WW"
+msgstr ""
+
+#: invesalius/gui/dialogs.py:4911
+msgid "Set spacing"
+msgstr "Seteaza spatiu"
+
+#: invesalius/gui/dialogs.py:4948
+msgid ""
+"It was not possible to obtain the image spacings.\n"
+"Please set it correctly:"
+msgstr ""
+"Nu a fost posibila obtinerea spatierii imaginii.\n"
+"Va rugam sa o setati corect:"
+
+#: invesalius/gui/dialogs.py:5049
+msgid "From mask"
+msgstr "Din masca"
+
+#: invesalius/gui/dialogs.py:5067
+msgid "From files"
+msgstr "Din fisiere"
+
+#: invesalius/gui/dialogs.py:5070
+msgid "Mask file"
+msgstr "Fisier masca"
+
+#: invesalius/gui/dialogs.py:5071
+msgid "Choose Mask file"
+msgstr "Alege fisierul masca"
+
+#: invesalius/gui/dicom_preview_panel.py:428
+#, python-format
+msgid "%d images"
+msgstr "%d imagini"
+
+#: invesalius/gui/dicom_preview_panel.py:557
+#: invesalius/gui/dicom_preview_panel.py:564
+#: invesalius/gui/dicom_preview_panel.py:589
+#: invesalius/gui/dicom_preview_panel.py:596
+#, python-format
+msgid "Image %d"
+msgstr "Imagine %d"
+
+#: invesalius/gui/frame.py:193
+msgid "Data panel"
+msgstr "Panou date"
+
+#: invesalius/gui/frame.py:199
+msgid "Preview medical data to be reconstructed"
+msgstr "Previzualizare date medicale care trebuie reconstruite"
+
+#: invesalius/gui/frame.py:205
+msgid "Preview bitmap to be reconstructed"
+msgstr "Previzualizare bitmap pentru reconstructie"
+
+#: invesalius/gui/frame.py:583
+msgid "Currently the Navigation mode is only working on Windows"
+msgstr "Modul curent de navigare este functional doar in Windows"
+
+#: invesalius/gui/frame.py:785
+msgid "Fill holes automatically"
+msgstr "Umple gaurile automat"
+
+#: invesalius/gui/frame.py:804
+msgid ""
+"It's not possible to run brain segmenter because your system doesn't have "
+"the following modules installed:"
+msgstr ""
+
+"Nu este posibila segmentarea creierului deoarece sistemul dumneavoastra nu are "
+"urmatoarele module instalate:"
+#: invesalius/gui/frame.py:938
+msgid "Analyze 7.5"
+msgstr ""
+
+#: invesalius/gui/frame.py:939
+msgid "NIfTI 1"
+msgstr ""
+
+#: invesalius/gui/frame.py:940
+msgid "PAR/REC"
+msgstr ""
+
+#: invesalius/gui/frame.py:946
+msgid "Import DICOM...\tCtrl+I"
+msgstr "Importă DICOM...»Ctrl+I"
+
+#: invesalius/gui/frame.py:948
+msgid "Import other files..."
+msgstr "Importa alt tip de fisiere"
+
+#: invesalius/gui/frame.py:949
+msgid "Open project...\tCtrl+O"
+msgstr "Deschide proiect ...\tCtrl+O"
+
+#: invesalius/gui/frame.py:950
+msgid "Save project\tCtrl+S"
+msgstr "Salveaza proiect\tCtrl+S"
+
+#: invesalius/gui/frame.py:951
+msgid "Save project as...\tCtrl+Shift+S"
+msgstr "Salveaza proiectul ca...\tCtrl+Shift+S"
+
+#: invesalius/gui/frame.py:952
+msgid "Export project"
+msgstr "Exportă proiect"
+
+#: invesalius/gui/frame.py:953
+msgid "Project properties"
+msgstr "Proprietati proiect"
+
+#: invesalius/gui/frame.py:954
+msgid "Close project"
+msgstr "Inchide proiect"
+
+#: invesalius/gui/frame.py:963
+msgid "Exit\tCtrl+Q"
+msgstr "Iesire\tCtrl+Q"
+
+#: invesalius/gui/frame.py:975 invesalius/gui/frame.py:985
+msgid "Undo\tCtrl+Z"
+msgstr "Anuleaza\tCtrl+Z"
+
+#: invesalius/gui/frame.py:980 invesalius/gui/frame.py:986
+msgid "Redo\tCtrl+Y"
+msgstr "Reexecuta\tCtrl+Y"
+
+#: invesalius/gui/frame.py:987
+msgid "Go to slice ...\tCtrl+G"
+msgstr "Mergi la felia ...\tCtrl+G"
+
+#: invesalius/gui/frame.py:988
+msgid "Go to scanner coord ...\t"
+msgstr "Mergi la coordonatele scanate ...\t"
+
+#: invesalius/gui/frame.py:999
+msgid "New\tCtrl+Shift+M"
+msgstr "Nou\tCtrl+Shift+M"
+
+#: invesalius/gui/frame.py:1002
+msgid "Boolean operations\tCtrl+Shift+B"
+msgstr "Operatii booleane\tCtrl+Shift+B"
+
+#: invesalius/gui/frame.py:1005
+msgid "Clean Mask\tCtrl+Shift+A"
+msgstr "Curata Masca\tCtrl+Shift+A"
+
+#: invesalius/gui/frame.py:1010
+msgid "Fill holes manually\tCtrl+Shift+H"
+msgstr "Umple goluri manual\tCtrl+Shift+H"
+
+#: invesalius/gui/frame.py:1013
+msgid "Fill holes automatically\tCtrl+Shift+J"
+msgstr "Umple goluri automat\tCtrl+Shift+J"
+
+#: invesalius/gui/frame.py:1018
+msgid "Remove parts\tCtrl+Shift+K"
+msgstr "Sterge parti\tCtrl+Shift+K"
+
+#: invesalius/gui/frame.py:1021
+msgid "Select parts\tCtrl+Shift+L"
+msgstr "Selecteaza parti\tCtrl+Shift+L"
+
+#: invesalius/gui/frame.py:1026
+msgid "Crop"
+msgstr "Taie"
+
+#: invesalius/gui/frame.py:1033
+msgid "Enable"
+msgstr "Activeaza"
+
+#: invesalius/gui/frame.py:1036
+msgid "Auto reload"
+msgstr "Reincarcare automata"
+
+#: invesalius/gui/frame.py:1040
+msgid "Reload"
+msgstr "Reincarca"
+
+#: invesalius/gui/frame.py:1043
+msgid "Mask 3D Preview"
+msgstr "Previzualizare masca 3D"
+
+#: invesalius/gui/frame.py:1047
+msgid "Threshold\tCtrl+Shift+T"
+msgstr "Prag\tCtrl+Shift+T"
+
+#: invesalius/gui/frame.py:1048
+msgid "Manual segmentation\tCtrl+Shift+E"
+msgstr "Segmentare manuala\tCtrl+Shift+E"
+
+#: invesalius/gui/frame.py:1049
+msgid "Watershed\tCtrl+Shift+W"
+msgstr ""
+
+#: invesalius/gui/frame.py:1050
+msgid "Region growing\tCtrl+Shift+G"
+msgstr "Extindere regiune\tCtrl+Shift+G"
+
+#: invesalius/gui/frame.py:1053
+msgid "Brain segmentation (MRI T1)"
+msgstr "Segmentare creier (MRI T1)"
+
+#: invesalius/gui/frame.py:1065
+msgid "Right - Left"
+msgstr "Dreapta - Stanga"
+
+#: invesalius/gui/frame.py:1066
+msgid "Anterior - Posterior"
+msgstr "Fata - Spate"
+
+#: invesalius/gui/frame.py:1067
+msgid "Top - Bottom"
+msgstr "Sus - Jos"
+
+#: invesalius/gui/frame.py:1070
+msgid "From Right-Left to Anterior-Posterior"
+msgstr "De la Dreapta - Stanga la Fata - Spate"
+
+#: invesalius/gui/frame.py:1071
+msgid "From Right-Left to Top-Bottom"
+msgstr "De la Dreapta - Stanga la Sus - Jos"
+
+#: invesalius/gui/frame.py:1072
+msgid "From Anterior-Posterior to Top-Bottom"
+msgstr "De la Fata - Spate la Sus - Jos"
+
+#: invesalius/gui/frame.py:1074
+msgid "Flip"
+msgstr "Intoarce"
+
+#: invesalius/gui/frame.py:1075
+msgid "Swap axes"
+msgstr "Comuta axe"
+
+#: invesalius/gui/frame.py:1077
+msgid "Mask Density measure"
+msgstr "Dimensiune densitate masca"
+
+#: invesalius/gui/frame.py:1078
+msgid "Reorient image\tCtrl+Shift+R"
+msgstr "Reorienteaza imagine\tCtrl+Shift+R"
+
+#: invesalius/gui/frame.py:1079
+msgid "Set WW&&WL manually"
+msgstr "Selecteaza WW&&WL manual"
+
+#: invesalius/gui/frame.py:1084
+msgid "Segmentation"
+msgstr "Segmentare"
+
+#: invesalius/gui/frame.py:1085 invesalius/gui/preferences.py:85
+msgid "Surface"
+msgstr "Suprafata"
+
+#: invesalius/gui/frame.py:1086
+msgid "Run postprocessing software"
+msgstr "Ruleaza soft de postprocesare fina"
+
+#: invesalius/gui/frame.py:1091
+msgid "Interpolated slices"
+msgstr "Sectiuni interpolate"
+
+#: invesalius/gui/frame.py:1128
+msgid "Preferences..."
+msgstr "Preferinte ..."
+
+#: invesalius/gui/frame.py:1133
+msgid "Transcranial Magnetic Stimulation Mode\tCtrl+T"
+msgstr "Modalitate de stimulare magnetica transcraniana\tCtrl+T"
+
+#: invesalius/gui/frame.py:1135
+msgid "Deep Brain Stimulation Mode\tCtrl+B"
+msgstr "Modalitate de stimulare profunda a creierului\tCtrl+B"
+
+#: invesalius/gui/frame.py:1137
+msgid "Navigation Mode"
+msgstr "Modalitate navigare"
+
+#: invesalius/gui/frame.py:1145
+msgid "Open Plugins folder"
+msgstr "Deschide director de plugin-uri"
+
+#: invesalius/gui/frame.py:1150
+msgid "Getting started..."
+msgstr "Inceput..."
+
+#: invesalius/gui/frame.py:1153
+msgid "About..."
+msgstr "Despre..."
+
+#: invesalius/gui/frame.py:1161
+msgid "File"
+msgstr "Fișier"
+
+#: invesalius/gui/frame.py:1162
+msgid "Edit"
+msgstr "Editare"
+
+#: invesalius/gui/frame.py:1163
+msgid "View"
+msgstr "Vizualizare"
+
+#: invesalius/gui/frame.py:1165
+msgid "Plugins"
+msgstr "Pluginuri"
+
+#: invesalius/gui/frame.py:1168
+msgid "Mode"
+msgstr "Modalitate"
+
+#: invesalius/gui/frame.py:1169
+msgid "Help"
+msgstr "Ajutor"
+
+#: invesalius/gui/frame.py:1513
+msgid "Import DICOM files...\tCtrl+I"
+msgstr "Importa imagini DICOM ...\tCtrl+I"
+
+#: invesalius/gui/frame.py:1522
+msgid "Open InVesalius project..."
+msgstr "Deschide proiect  ..."
+
+#: invesalius/gui/frame.py:1528
+msgid "Save InVesalius project"
+msgstr "Salvează proiect"
+
+#: invesalius/gui/frame.py:1689
+msgid "Zoom"
+msgstr ""
+
+#: invesalius/gui/frame.py:1695
+msgid "Zoom based on selection"
+msgstr "Zoom pe baza selecției"
+
+#: invesalius/gui/frame.py:1701
+msgid "Rotate"
+msgstr "Rotește"
+
+#: invesalius/gui/frame.py:1707
+msgid "Move"
+msgstr "Mișcă"
+
+#: invesalius/gui/frame.py:1713
+msgid "Constrast"
+msgstr "Contrast"
+
+#: invesalius/gui/frame.py:1732
+msgid "Measure density ellipse"
+msgstr "Dimensiune denstitate elipsa"
+
+#: invesalius/gui/frame.py:1739
+msgid "Measure density polygon"
+msgstr "Dimensiune denstitate poligon"
+
+#: invesalius/gui/frame.py:1889
+msgid "Scroll slices"
+msgstr "Derulare felii"
+
+#: invesalius/gui/frame.py:1895
+msgid "Slices' cross intersection"
+msgstr "Felii interesectate în cruce"
+
+#: invesalius/gui/frame.py:2074 invesalius/gui/frame.py:2145
+#: invesalius/gui/frame.py:2323
+msgid "Hide task panel"
+msgstr "Ascunde panou de activitate"
+
+#: invesalius/gui/frame.py:2080 invesalius/gui/frame.py:2167
+#: invesalius/gui/frame.py:2345
+msgid "Hide text"
+msgstr "Ascunde text"
+
+#: invesalius/gui/frame.py:2151 invesalius/gui/frame.py:2329
+msgid "Show task panel"
+msgstr "Arată panou de activitate"
+
+#: invesalius/gui/frame.py:2161 invesalius/gui/frame.py:2339
+msgid "Show text"
+msgstr "Arată text"
+
+#: invesalius/gui/frame.py:2242
+msgid "Undo"
+msgstr "Anulare"
+
+#: invesalius/gui/frame.py:2249
+msgid "Redo"
+msgstr "Reexecuta"
+
+#: invesalius/gui/import_bitmap_panel.py:92
+#: invesalius/gui/import_network_panel.py:101
+#: invesalius/gui/import_panel.py:94
+msgid "Import"
+msgstr "Importa"
+
+#: invesalius/gui/import_bitmap_panel.py:201
+msgid "Path"
+msgstr "Cale"
+
+#: invesalius/gui/import_bitmap_panel.py:203
+msgid "Width x Height"
+msgstr "Latime x Inaltime"
+
+#: invesalius/gui/import_bitmap_panel.py:210
+#: invesalius/gui/import_network_panel.py:266
+#: invesalius/gui/import_panel.py:248
+msgid "InVesalius Database"
+msgstr "Baza de date "
+
+#: invesalius/gui/import_network_panel.py:239
+#: invesalius/gui/import_panel.py:221
+msgid "Patient name"
+msgstr "Nume pacient"
+
+#: invesalius/gui/import_network_panel.py:240
+#: invesalius/gui/import_panel.py:222
+msgid "Patient ID"
+msgstr "ID pacient"
+
+#: invesalius/gui/import_network_panel.py:241
+#: invesalius/gui/import_panel.py:223
+msgid "Age"
+msgstr "Vârsta"
+
+#: invesalius/gui/import_network_panel.py:242
+#: invesalius/gui/import_panel.py:224
+msgid "Gender"
+msgstr "Gen"
+
+#: invesalius/gui/import_network_panel.py:243
+#: invesalius/gui/import_panel.py:225
+msgid "Study description"
+msgstr "Descrierea studiului"
+
+#: invesalius/gui/import_network_panel.py:244
+#: invesalius/gui/import_panel.py:226 invesalius/gui/project_properties.py:64
+msgid "Modality"
+msgstr "Modalitate"
+
+#: invesalius/gui/import_network_panel.py:245
+#: invesalius/gui/import_panel.py:227
+msgid "Date acquired"
+msgstr "Dată înregistrare"
+
+#: invesalius/gui/import_network_panel.py:246
+#: invesalius/gui/import_panel.py:228
+msgid "# Images"
+msgstr "# Imagini"
+
+#: invesalius/gui/import_network_panel.py:247
+#: invesalius/gui/import_panel.py:229
+msgid "Institution"
+msgstr "Instituția"
+
+#: invesalius/gui/import_network_panel.py:248
+#: invesalius/gui/import_panel.py:230
+msgid "Date of birth"
+msgstr "Zi de naștere"
+
+#: invesalius/gui/import_network_panel.py:249
+#: invesalius/gui/import_panel.py:231
+msgid "Accession Number"
+msgstr "Număr de aderare"
+
+#: invesalius/gui/import_network_panel.py:250
+#: invesalius/gui/import_panel.py:232
+msgid "Referring physician"
+msgstr "Medicul care a făcut trimiterea"
+
+#: invesalius/gui/import_network_panel.py:497
+msgid "Word"
+msgstr "Cuvant"
+
+#: invesalius/gui/import_network_panel.py:504
+msgid "Search"
+msgstr "Cauta"
+
+#: invesalius/gui/import_network_panel.py:664
+msgid "Active"
+msgstr "Activ"
+
+#: invesalius/gui/import_network_panel.py:665
+msgid "Host"
+msgstr "Gazda"
+
+#: invesalius/gui/import_network_panel.py:666
+msgid "Port"
+msgstr "Port"
+
+#: invesalius/gui/import_network_panel.py:667
+msgid "AETitle"
+msgstr ""
+
+#: invesalius/gui/import_network_panel.py:668
+msgid "Status"
+msgstr "Stare"
+
+#: invesalius/gui/import_network_panel.py:698
+msgid "Add"
+msgstr "Adauga"
+
+#: invesalius/gui/import_network_panel.py:699
+#: invesalius/gui/task_navigator.py:1329
+msgid "Remove"
+msgstr "Sterge"
+
+#: invesalius/gui/import_network_panel.py:700
+msgid "Check status"
+msgstr "Verifica stare"
+
+#: invesalius/gui/import_network_panel.py:773
+msgid "ok"
+msgstr ""
+
+#: invesalius/gui/import_network_panel.py:775
+msgid "error"
+msgstr "eroare"
+
+#: invesalius/gui/language_dialog.py:103
+msgid "Language selection"
+msgstr "Selectare limbă"
+
+#: invesalius/gui/language_dialog.py:145
+msgid "Choose user interface language"
+msgstr "Alegere limba pentru interfață utilizator"
+
+#: invesalius/gui/preferences.py:15
 msgid "Preferences"
 msgstr "Preferinte"
 
-#: preferences.py:46
+#: invesalius/gui/preferences.py:27
 msgid "2D Visualization"
 msgstr "Vizualizare 2D"
 
-#: preferences.py:47
+#: invesalius/gui/preferences.py:28
 msgid "3D Visualization"
 msgstr "Vizualizare 3D"
 
-#: preferences.py:49 preferences.py:196
+#: invesalius/gui/preferences.py:30 invesalius/gui/preferences.py:174
 msgid "Language"
 msgstr "Limba"
 
-#: preferences.py:111
+#: invesalius/gui/preferences.py:31
+msgid "Binding"
+msgstr ""
+
+#: invesalius/gui/preferences.py:86
 msgid "Interpolation "
 msgstr "Interpolare"
 
-#: preferences.py:119
+#: invesalius/gui/preferences.py:100
 msgid "Volume rendering"
 msgstr "Randare volum"
 
-#: preferences.py:122
+#: invesalius/gui/preferences.py:101
 msgid "Rendering"
 msgstr "Randare"
 
-#: preferences.py:126
+#: invesalius/gui/preferences.py:105
 msgid "GPU (NVidia video cards only)"
 msgstr "GPU (numai pentru placa video NVidia)"
 
-#: preferences.py:158
+#: invesalius/gui/preferences.py:141
 msgid "Slices"
 msgstr "Sectiuni"
 
-#: preferences.py:161
+#: invesalius/gui/preferences.py:142
 msgid "Interpolated "
 msgstr "Interpolare"
 
-#: preferences.py:165 preferences.py:225
+#: invesalius/gui/preferences.py:146 invesalius/gui/preferences.py:244
+#: invesalius/gui/task_navigator.py:1447
 msgid "Yes"
 msgstr "Da"
 
-#: preferences.py:165 preferences.py:225
+#: invesalius/gui/preferences.py:146 invesalius/gui/preferences.py:244
 msgid "No"
 msgstr "Nu"
 
-#: preferences.py:199
+#: invesalius/gui/preferences.py:180
 msgid ""
 "Language settings will be applied \n"
 " the next time InVesalius starts."
@@ -1933,746 +2655,708 @@ msgstr ""
 "Setarile de limba vor fi aplicare \n"
 " dupa restartarea programului."
 
-#: presets.py:33 presets.py:51 presets.py:107 presets.py:138
-msgid "Soft Tissue"
-msgstr "Țesut estompat"
+#: invesalius/gui/preferences.py:208
+msgid "Bindings"
+msgstr "Conexiuni"
 
-#: presets.py:34 presets.py:52 presets.py:108 presets.py:139
-msgid "Enamel (Adult)"
-msgstr "Smalț (Adult)"
-
-#: presets.py:35 presets.py:53 presets.py:109 presets.py:140
-msgid "Enamel (Child)"
-msgstr "Smalț (Copil)"
-
-#: presets.py:36 presets.py:54 presets.py:110 presets.py:141
-msgid "Compact Bone (Adult)"
-msgstr "Os Compact (Adult)"
-
-#: presets.py:37 presets.py:55 presets.py:111 presets.py:142
-msgid "Compact Bone (Child)"
-msgstr "Os Compact (Copil)"
-
-#: presets.py:38 presets.py:56 presets.py:112 presets.py:143
-msgid "Spongial Bone (Adult)"
-msgstr "Os Spongios (Adult)"
-
-#: presets.py:39 presets.py:57 presets.py:113 presets.py:144
-msgid "Spongial Bone (Child)"
-msgstr "Os Spongios (Copil)"
-
-#: presets.py:40 presets.py:58 presets.py:114 presets.py:145
-msgid "Muscle Tissue (Adult)"
-msgstr "Țesut Muscular (Adult)"
-
-#: presets.py:41 presets.py:59 presets.py:115 presets.py:146
-msgid "Muscle Tissue (Child)"
-msgstr "Țesut Muscular (Copil)"
-
-#: presets.py:42 presets.py:60 presets.py:116 presets.py:147
-msgid "Fat Tissue (Adult)"
-msgstr "Țesut gras (Adult)"
-
-#: presets.py:43 presets.py:61 presets.py:117 presets.py:148
-msgid "Fat Tissue (Child)"
-msgstr "Țesut Tissue (Child)"
-
-#: presets.py:44 presets.py:62 presets.py:118 presets.py:149
-msgid "Skin Tissue (Adult)"
-msgstr "Țesut Piele (Adult)"
-
-#: presets.py:45 presets.py:63 presets.py:119 presets.py:150
-msgid "Skin Tissue (Child)"
-msgstr "Țesut Piele (Copil)"
-
-#: slice_.py:1348
-msgid "Diff"
+#: invesalius/gui/preferences.py:217
+msgid ""
+"Bindings settings will be applied \n"
+" the next time InVesalius starts."
 msgstr ""
 
-#: slice_.py:1350
-msgid "XOR"
-msgstr ""
+"Conexiunile vor fi active \n"
+" la urmatorul restart"
+#: invesalius/gui/project_properties.py:36
+msgid "Project Properties"
+msgstr "Proprietati proiect"
 
-#: slice_menu.py:36
-msgid "Normal"
-msgstr "Normal"
+#: invesalius/gui/project_properties.py:50
+msgid "Other"
+msgstr "Altul"
 
-#: slice_menu.py:37
-msgid "MaxIP"
-msgstr ""
+#: invesalius/gui/project_properties.py:72
+msgid "Spacing"
+msgstr "Spatiere"
 
-#: slice_menu.py:38
-msgid "MinIP"
-msgstr ""
-
-#: slice_menu.py:39
-msgid "MeanIP"
-msgstr ""
-
-#: slice_menu.py:40
-msgid "MIDA"
-msgstr ""
-
-#: slice_menu.py:41
-msgid "Contour MaxIP"
-msgstr ""
-
-#: slice_menu.py:42
-msgid "Contour MIDA"
-msgstr ""
-
-#: slice_menu.py:160
-msgid "Window width and level"
-msgstr "Largime fereastra si nivel"
-
-#: slice_menu.py:161
-msgid "Pseudo color"
-msgstr "Pseudo culoare"
-
-#: slice_menu.py:162
-msgid "Projection type"
-msgstr "Tip proiectie"
-
-#: styles.py:68 task_slice.py:888
-msgid "Foreground"
-msgstr ""
-
-#: styles.py:69 task_slice.py:889
-msgid "Background"
-msgstr "Fundal"
-
-#: styles.py:1122
-msgid "Applying watershed ..."
-msgstr "Aplicare watershed .."
-
-#: styles.py:1957
-msgid "Fill hole"
-msgstr "Umple gaura ..."
-
-#: styles.py:1958
-msgid "Filling hole ..."
-msgstr " Umplere gaura ..."
-
-#: styles.py:2055
-msgid "Remove parts"
-msgstr "Sterge parti"
-
-#: styles.py:2056
-msgid "Remove part"
-msgstr "Sterge parte"
-
-#: styles.py:2057
-msgid "Removing part ..."
-msgstr "Stergere parti ..."
-
-#: styles.py:2306
-msgid "Segmenting ..."
-msgstr "Segmentare ..."
-
-#: surface.py:645
-msgid "InVesalius was not able to create the surface"
-msgstr "Programul nu a putut crea suprafata"
-
-#: surface.py:709
-msgid "Creating 3D surface..."
-msgstr "Creare suprafata 3D"
-
-#: task_exporter.py:115
+#: invesalius/gui/task_exporter.py:118
 msgid "Export InVesalius screen to an image file"
-msgstr "Exportă ecranul programului  ca imagine către un fișier"
+msgstr "Exporta screenul intr-un fisier imagine"
 
-#: task_exporter.py:117
+#: invesalius/gui/task_exporter.py:120
 msgid "Export picture..."
-msgstr "Exportă ilustrație..."
+msgstr "Exporta imagine..."
 
-#: task_exporter.py:128
+#: invesalius/gui/task_exporter.py:131
 msgid "Export 3D surface"
-msgstr "Exportă suprafață 3D"
+msgstr "Exporta suprafata 3D"
 
-#: task_exporter.py:129
+#: invesalius/gui/task_exporter.py:132
 msgid "Export 3D surface..."
-msgstr "Exportă suprafață 3D..."
+msgstr "Exporta suprafata 3D..."
 
-#: task_exporter.py:326
+#: invesalius/gui/task_exporter.py:329
 msgid "Save 3D surface as..."
 msgstr "Salvează suprafața 3D ca..."
 
-#: task_exporter.py:350
-msgid "It was not possible to save the surface."
-msgstr "Nu a fost posibil sa se salveze suprafata."
-
-#: task_exporter.py:351
-msgid "Error saving surface"
-msgstr "Eroarea la salvarea suprafetei"
-
-#: task_exporter.py:357
+#: invesalius/gui/task_exporter.py:353
 msgid "You need to create a surface and make it "
 msgstr "Trebuie sa creati o suprafata"
 
-#: task_exporter.py:358
+#: invesalius/gui/task_exporter.py:354
 msgid "visible before exporting it."
 msgstr "vizibili înainte să faceți exportul."
 
-#: task_generic.py:65
+#: invesalius/gui/task_generic.py:65
 msgid "Testing..."
 msgstr "Testare..."
 
-#: task_importer.py:71
-msgid "Select DICOM, Analyze, NIfTI or REC/PAR files to be reconstructed"
-msgstr "Selectati fisierele  DICOM, Analyze, NIfTI sau REC/PAR pentru a fi reconstruite"
+#: invesalius/gui/task_importer.py:73
+msgid "Select DICOM files to be reconstructed"
+msgstr "Selectati fisierele  DICOM pentru a fi reconstruite"
 
-#: task_importer.py:72
+#: invesalius/gui/task_importer.py:74
 msgid "Import medical images..."
-msgstr "Import imagini medicale ..."
+msgstr "Importa imagini medicale ..."
 
-#: task_importer.py:91
+#: invesalius/gui/task_importer.py:93
 msgid "Open an existing InVesalius project..."
 msgstr "Deschide un proiect  existent..."
 
-#: task_importer.py:92
+#: invesalius/gui/task_importer.py:94
 msgid "Open an existing project..."
 msgstr "Deschide un proiect existent..."
 
-#: task_navigator.py:80
+#: invesalius/gui/task_navigator.py:114
 msgid "Select fiducials and navigate"
 msgstr "Selectati regiunile fiduciale si navigati"
 
-#: task_navigator.py:151
+#: invesalius/gui/task_navigator.py:192
 msgid "Neuronavigation"
 msgstr "Neuronavigatie"
 
-#: task_navigator.py:160
+#: invesalius/gui/task_navigator.py:207
 msgid "Object registration"
 msgstr "Inregistrare obiect"
 
-#: task_navigator.py:168
-msgid "Extra tools"
-msgstr "Instrumente suplimentare"
+#: invesalius/gui/task_navigator.py:215
+msgid "Markers"
+msgstr "Marcaje"
 
-#: task_navigator.py:177
+#: invesalius/gui/task_navigator.py:224
+msgid "Tractography"
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:232
 msgid "Deep Brain Stimulation"
 msgstr "Stimulare profunda creier"
 
-#: task_navigator.py:186
+#: invesalius/gui/task_navigator.py:241
+msgid "Sessions"
+msgstr "Sesiuni"
+
+#: invesalius/gui/task_navigator.py:248
 msgid "Update camera in volume"
 msgstr "Actualizare camera in volum"
 
-#: task_navigator.py:187
+#: invesalius/gui/task_navigator.py:249
 msgid "Vol. camera"
 msgstr ""
 
-#: task_navigator.py:194
-msgid "Enable external trigger for creating markers"
+#: invesalius/gui/task_navigator.py:256
+msgid "Enable serial port communication to trigger pulse and create markers"
 msgstr "Activati declansatorul extern pentru creearea markerilor"
 
-#: task_navigator.py:195
-msgid "Ext. trigger"
-msgstr "Declansator extern"
+#: invesalius/gui/task_navigator.py:257
+msgid "Serial port"
+msgstr "Port serial"
 
-#: task_navigator.py:202
+#: invesalius/gui/task_navigator.py:264
 msgid "Show and track TMS coil"
-msgstr ""
+msgstr "Aratati si urmariti bucla TMS"
 
-#: task_navigator.py:203
+#: invesalius/gui/task_navigator.py:265
 msgid "Show coil"
 msgstr "Aratati bucla"
 
-#: task_navigator.py:312
-msgid "Choose the tracking device"
-msgstr "Alegeti dispozitiv inregistrare"
-
-#: task_navigator.py:321
+#: invesalius/gui/task_navigator.py:397
 msgid "Choose the navigation reference mode"
 msgstr "Alegeti modalitatea referinta de navigare"
 
-#: task_navigator.py:355
+#: invesalius/gui/task_navigator.py:434
 msgid "FRE:"
 msgstr ""
 
-#: task_navigator.py:358
+#: invesalius/gui/task_navigator.py:435
 msgid "Fiducial registration error"
 msgstr "Eroare de inregistrare fiduciala"
 
-#: task_navigator.py:367
+#: invesalius/gui/task_navigator.py:444
 msgid "Start navigation"
 msgstr "Incepere navigatie"
 
-#: task_navigator.py:368
+#: invesalius/gui/task_navigator.py:445
 msgid "Navigate"
 msgstr "Navigatie"
 
-#: task_navigator.py:465
+#: invesalius/gui/task_navigator.py:450
+msgid "Refine:"
+msgstr "Rafineaza:"
+
+#: invesalius/gui/task_navigator.py:451
+msgid "Refine the coregistration"
+msgstr "Rafineaza coregistrarea"
+
+#: invesalius/gui/task_navigator.py:452 invesalius/gui/task_navigator.py:463
+#: invesalius/gui/task_navigator.py:478
+msgid " "
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:461
+msgid "Pedal pressed:"
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:462
+msgid "Is the pedal pressed"
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:476
+msgid "Allow triggering stimulation pulse only if the coil is at the target"
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:477
+msgid "Lock to target:"
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:686
 msgid "Configuring tracker ..."
-msgstr "Cnfigurare inregistrator ..."
+msgstr ""
 
-#: task_navigator.py:481
-msgid "Disconnecting tracker..."
-msgstr "Deconectare inregistrator"
+#: invesalius/gui/task_navigator.py:806
+msgid "Invalid fiducials, select all coordinates."
+msgstr "Fiduciale invalide, selectati toate coordonatele"
 
-#: task_navigator.py:487
-msgid "Tracker disconnected successfully"
-msgstr "Inregistrator deconectat cu succes"
+#: invesalius/gui/task_navigator.py:806 invesalius/gui/task_navigator.py:1116
+#: invesalius/gui/task_navigator.py:1118 invesalius/gui/task_navigator.py:1451
+#: invesalius/gui/task_navigator.py:1521 invesalius/gui/task_navigator.py:1528
+#: invesalius/gui/task_navigator.py:1533 invesalius/gui/task_navigator.py:1568
+#: invesalius/gui/task_navigator.py:1601 invesalius/gui/task_navigator.py:1606
+#: invesalius/gui/task_navigator.py:1627 invesalius/gui/task_navigator.py:1648
+#: invesalius/gui/task_navigator.py:1682 invesalius/gui/task_navigator.py:2097
+#: invesalius/gui/task_navigator.py:2141 invesalius/gui/task_navigator.py:2145
+#: invesalius/gui/task_navigator.py:2169
+#: invesalius/navigation/navigation.py:275
+msgid "InVesalius 3"
+msgstr "INO-ORBITAL"
 
-#: task_navigator.py:502
-msgid "Disconnecting tracker ..."
-msgstr "Deconectare inregistrator ..."
-
-#: task_navigator.py:511
-msgid "Tracker disconnected"
-msgstr "Inregistrator deconectat"
-
-#: task_navigator.py:515
-msgid "Tracker still connected"
-msgstr "Inregistrator conectat"
-
-#: task_navigator.py:614
-msgid "Stop neuronavigation"
-msgstr "Finalizare neuronavigatie"
-
-#: task_navigator.py:694
+#: invesalius/gui/task_navigator.py:845
 msgid "Start neuronavigation"
 msgstr "Initiere neuronavigatie"
 
-#: task_navigator.py:762
+#: invesalius/gui/task_navigator.py:851
+msgid "Stop neuronavigation"
+msgstr "Opreste neuronavigarea"
+
+#: invesalius/gui/task_navigator.py:912
 msgid "Create new coil"
 msgstr "Creaza bucla noua"
 
-#: task_navigator.py:763
+#: invesalius/gui/task_navigator.py:913
 msgid "New"
 msgstr "Nou"
 
-#: task_navigator.py:770
+#: invesalius/gui/task_navigator.py:920
 msgid "Load coil configuration file"
 msgstr "Incarca fisier de configurare bucla"
 
-#: task_navigator.py:771 task_navigator.py:952 task_navigator.py:1025
-msgid "Load"
-msgstr "Incarcare"
-
-#: task_navigator.py:778
+#: invesalius/gui/task_navigator.py:928
 msgid "Save object registration file"
-msgstr ""
+msgstr "Salvati fisier obiect inregistrare"
 
-#: task_navigator.py:779 task_navigator.py:963 task_navigator.py:1022
-msgid "Save"
-msgstr "Salvare"
-
-#: task_navigator.py:792
+#: invesalius/gui/task_navigator.py:942
 msgid "Angle threshold [degrees]:"
 msgstr "Prag Unghi [grade]:"
 
-#: task_navigator.py:800
+#: invesalius/gui/task_navigator.py:950
 msgid "Distance threshold [mm]:"
 msgstr "Distanta prag [mm]:"
 
-#: task_navigator.py:808
+#: invesalius/gui/task_navigator.py:958
 msgid "Timestamp interval [s]:"
 msgstr "Interval timestamp [s]:"
 
-#: task_navigator.py:830
+#: invesalius/gui/task_navigator.py:980
 msgid "Record coordinates"
 msgstr "Inregistreaza coordonate"
 
-#: task_navigator.py:837
+#: invesalius/gui/task_navigator.py:987
 msgid "Track object"
 msgstr "Obiect inregistrat"
 
-#: task_navigator.py:952
+#: invesalius/gui/task_navigator.py:1090
+msgid "Load object registration"
+msgstr "Incarca inregistrarea obiect"
+
+#: invesalius/gui/task_navigator.py:1113 invesalius/gui/task_navigator.py:1116
 msgid "Object file successfully loaded"
 msgstr "Fisierul obiect incarcat cu succes"
 
-#: task_navigator.py:956
+#: invesalius/gui/task_navigator.py:1118
+msgid "Object registration file incompatible."
+msgstr "Fisier obiect inregistrare incompatibil"
+
+#: invesalius/gui/task_navigator.py:1123
 msgid "Digitize all object fiducials before saving"
 msgstr "Digitizeaza toate obiectele fiduciale inainte de salvare"
 
-#: task_navigator.py:956
+#: invesalius/gui/task_navigator.py:1123
 msgid "Save error"
 msgstr "Eroare de salvare"
 
-#: task_navigator.py:963
+#: invesalius/gui/task_navigator.py:1125
+msgid "Save object registration as..."
+msgstr "Salveaza obiectul de inregistrare ca..."
+
+#: invesalius/gui/task_navigator.py:1133
 msgid "Object file successfully saved"
 msgstr "Fisierul obiect salvat cu succes"
 
-#: task_navigator.py:1013
+#: invesalius/gui/task_navigator.py:1305
 msgid "Create marker"
 msgstr "Creeaza marker"
 
-#: task_navigator.py:1028
+#: invesalius/gui/task_navigator.py:1320
 msgid "Hide"
 msgstr "Ascunde"
 
-#: task_navigator.py:1040
+#: invesalius/gui/task_navigator.py:1332
 msgid "Delete all"
 msgstr "Sterge tot"
 
-#: task_navigator.py:1098
-msgid "Edit ID"
-msgstr "Editeaza ID"
+#: invesalius/gui/task_navigator.py:1451
+msgid "New target selected."
+msgstr "Tinta noua selectata."
 
-#: task_navigator.py:1100
+#: invesalius/gui/task_navigator.py:1479
+msgid "Edit label"
+msgstr "Editeaza eticheta"
+
+#: invesalius/gui/task_navigator.py:1481
 msgid "Edit color"
 msgstr "Editeaza culoare"
 
-#: task_navigator.py:1103
+#: invesalius/gui/task_navigator.py:1484
 msgid "Set as target"
 msgstr "Seteaza ca tinta"
 
-#: task_slice.py:92
+#: invesalius/gui/task_navigator.py:1487
+msgid "Send target to robot"
+msgstr "Trimite tinta la robot"
+
+#: invesalius/gui/task_navigator.py:1521 invesalius/gui/task_navigator.py:1528
+#: invesalius/gui/task_navigator.py:1533 invesalius/gui/task_navigator.py:1606
+msgid "No data selected."
+msgstr "Nici o data selectata."
+
+#: invesalius/gui/task_navigator.py:1561
+msgid "Remove all markers? Cannot be undone."
+msgstr "Stergeti toti marcarii? Operatia nu poate fi anulata."
+
+#: invesalius/gui/task_navigator.py:1568 invesalius/gui/task_navigator.py:1601
+msgid "Target deleted."
+msgstr "Tinta stearsa."
+
+#: invesalius/gui/task_navigator.py:1615
+msgid "Load markers"
+msgstr "Incarca marcari"
+
+#: invesalius/gui/task_navigator.py:1627
+msgid "Unknown version of the markers file."
+msgstr "Versiubne necunoscuta a fisierului de marcari"
+
+#: invesalius/gui/task_navigator.py:1648
+msgid "Invalid markers file."
+msgstr "Fisier de marcari invalid"
+
+#: invesalius/gui/task_navigator.py:1667
+msgid "Save markers as..."
+msgstr "Salveaza marcari ca ..."
+
+#: invesalius/gui/task_navigator.py:1682
+msgid "Error writing markers file."
+msgstr "Eroare la scrierea fisierului de marcari."
+
+#: invesalius/gui/task_navigator.py:1782
+msgid "Load FOD"
+msgstr "Incarca FOD"
+
+#: invesalius/gui/task_navigator.py:1783
+msgid "FOD"
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:1790
+msgid "Load Trekker configuration parameters"
+msgstr "Incarca parametrii de configurare Trekker"
+
+#: invesalius/gui/task_navigator.py:1791
+msgid "Configure"
+msgstr "Configurare"
+
+#: invesalius/gui/task_navigator.py:1798
+msgid "Load brain visualization"
+msgstr "Incarca vizualizare creier"
+
+#: invesalius/gui/task_navigator.py:1806
+msgid "Load anatomical labels"
+msgstr "Incarca etichete anatomice"
+
+#: invesalius/gui/task_navigator.py:1807 invesalius/gui/task_navigator.py:1918
+msgid "ACT"
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:1821
+msgid "Peeling depth (mm):"
+msgstr "Adancime decapare (mm)"
+
+#: invesalius/gui/task_navigator.py:1830
+msgid "Number tracts:"
+msgstr "Numar tracturi"
+
+#: invesalius/gui/task_navigator.py:1839
+msgid "Seed offset (mm):"
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:1849
+msgid "Seed radius (mm):"
+msgstr ""
+
+#: invesalius/gui/task_navigator.py:1859
+msgid "Sleep (s):"
+msgstr "Pauza (s)"
+
+#: invesalius/gui/task_navigator.py:1868
+msgid "Brain opacity:"
+msgstr "Opacitate creier:"
+
+#: invesalius/gui/task_navigator.py:1904
+msgid "Enable tracts"
+msgstr "Activeaza"
+
+#: invesalius/gui/task_navigator.py:1911
+msgid "Peel surface"
+msgstr "Suprafata decapata"
+
+#: invesalius/gui/task_navigator.py:2051
+msgid "Brain model loaded"
+msgstr "Model de creier incarcat"
+
+#: invesalius/gui/task_navigator.py:2060
+msgid "Import Trekker FOD"
+msgstr "Importa Trekker FOD"
+
+#: invesalius/gui/task_navigator.py:2080 invesalius/gui/task_navigator.py:2121
+msgid "Busy"
+msgstr "Ocupat"
+
+#: invesalius/gui/task_navigator.py:2092
+msgid "Trekker initialized"
+msgstr "Trekker initializat"
+
+#: invesalius/gui/task_navigator.py:2096
+msgid "Trekker initialization failed."
+msgstr "Initializare Trekker esuata"
+
+#: invesalius/gui/task_navigator.py:2097
+msgid "Unable to load FOD."
+msgstr "Imposibil de incarcat FOD"
+
+#: invesalius/gui/task_navigator.py:2104
+msgid "Import anatomical labels"
+msgstr "Importa etichete anatomice"
+
+#: invesalius/gui/task_navigator.py:2138
+msgid "Trekker ACT loaded"
+msgstr "Trekker ACT incarcat"
+
+#: invesalius/gui/task_navigator.py:2140
+msgid "ACT initialization failed."
+msgstr "Initializare ACT esuata"
+
+#: invesalius/gui/task_navigator.py:2141
+msgid "Unable to load ACT."
+msgstr "Imposibil de incarcat ACT."
+
+#: invesalius/gui/task_navigator.py:2145
+msgid "Load FOD image before the ACT."
+msgstr "Incarcati imaginea FOD inainte de ACT"
+
+#: invesalius/gui/task_navigator.py:2149
+msgid "Load Trekker configuration"
+msgstr "Incarcati configurarea Trekker"
+
+#: invesalius/gui/task_navigator.py:2150
+msgid "JSON file (*.json)|*.json"
+msgstr "Fisier JSON (*.json)|*.json"
+
+#: invesalius/gui/task_navigator.py:2164
+msgid "Trekker config loaded"
+msgstr "Configurare Trekker incarcata"
+
+#: invesalius/gui/task_navigator.py:2169
+msgid "File incompatible, using default configuration."
+msgstr "Fisier incompatibil, folosind configuratia implicita"
+
+#: invesalius/gui/task_slice.py:95
 msgid "Create mask for slice segmentation and editing"
 msgstr "Creează mască pentru segmentarea feliilor și pentru editare"
 
-#: task_slice.py:93
-msgid "Create new mask"
-msgstr "Creează o nouă mască"
-
-#: task_slice.py:128
+#: invesalius/gui/task_slice.py:131
 msgid "Create surface"
 msgstr "Creaza suprafata"
 
-#: task_slice.py:129
+#: invesalius/gui/task_slice.py:132
 msgid "Overwrite last surface"
 msgstr "Suprascrie ultima suprafață"
 
-#: task_slice.py:290
+#: invesalius/gui/task_slice.py:300
 msgid "Mask properties"
 msgstr "Proprietațile măștii"
 
-#: task_slice.py:298
+#: invesalius/gui/task_slice.py:308
 msgid "Manual edition"
 msgstr "Editare manuala"
 
-#: task_slice.py:455
+#: invesalius/gui/task_slice.py:466
 msgid "Set predefined or manual threshold:"
 msgstr "Selectare prag predefinit sau manual:"
 
-#: task_slice.py:683 task_slice.py:851
+#: invesalius/gui/task_slice.py:694 invesalius/gui/task_slice.py:858
 msgid "Choose brush type, size or operation:"
 msgstr "Alege tipul pensulei, mărime sau operație:"
 
-#: task_slice.py:689 task_slice.py:857
+#: invesalius/gui/task_slice.py:700 invesalius/gui/task_slice.py:864
 msgid "Circle"
 msgstr "Cerc"
 
-#: task_slice.py:693 task_slice.py:861
+#: invesalius/gui/task_slice.py:704 invesalius/gui/task_slice.py:868
 msgid "Square"
 msgstr "Pătrat"
 
-#: task_slice.py:734
+#: invesalius/gui/task_slice.py:740
 msgid "Brush threshold range:"
 msgstr "Intervalul pragurilor pensulei:"
 
-#: task_slice.py:908
+#: invesalius/gui/task_slice.py:910
 msgid "Overwrite mask"
 msgstr "Suprascrie masca"
 
-#: task_slice.py:918
+#: invesalius/gui/task_slice.py:920
 msgid "Expand watershed to 3D"
 msgstr "Extinde watershedul la 3D"
 
-#: task_surface.py:94
+#: invesalius/gui/task_surface.py:98
 msgid "Create 3D surface based on a mask"
 msgstr "Creeare suprafață 3D pe baza măștii"
 
-#: task_surface.py:95
+#: invesalius/gui/task_surface.py:99
 msgid "Create new 3D surface"
 msgstr "Creare suprafata 3D noua"
 
-#: task_surface.py:116
+#: invesalius/gui/task_surface.py:120
 msgid "Next step"
 msgstr "Următorul pas"
 
-#: task_surface.py:242
+#: invesalius/gui/task_surface.py:253
 msgid "Surface properties"
 msgstr "Proprietăți suprafață"
 
-#: task_surface.py:248
+#: invesalius/gui/task_surface.py:259
 msgid "Advanced options"
 msgstr "Opțiuni avansate"
 
-#: task_surface.py:303
-msgid ""
-"Automatically select largest disconnected region and create new surface"
-msgstr "Alege automat cea mai mare regiune întreruptă și creează o suprafață nouă "
+#: invesalius/gui/task_surface.py:314
+msgid "Automatically select largest disconnected region and create new surface"
+msgstr "Alege automat cea mai mare regiune întreruptă și creează o suprafață nouă"
 
-#: task_surface.py:304
+#: invesalius/gui/task_surface.py:315
 msgid "Select largest surface"
 msgstr "Selecteaza cea mai intinsa suprafata"
 
-#: task_surface.py:312
+#: invesalius/gui/task_surface.py:323
 msgid ""
-"Automatically select disconnected regions and create a new surface per "
-"region"
+"Automatically select disconnected regions and create a new surface per region"
 msgstr ""
-"Selecteaza automat regiunile deconectate si creaza o noua suprafata pe "
+"Selecteaza automat regiunile deconectate si creaza o noua suprafata pe\n "
 "regiune"
 
-#: task_surface.py:313
+#: invesalius/gui/task_surface.py:324
 msgid "Split all disconnected surfaces"
 msgstr "Desparte toate suprafețele întrerupte"
 
-#: task_surface.py:321
+#: invesalius/gui/task_surface.py:332
 msgid "Manually insert seeds of regions of interest and create a new surface"
 msgstr "Insereaza manoual o zona a regiunii de interes si creaza o noua suprafata"
 
-#: task_surface.py:322
+#: invesalius/gui/task_surface.py:333
 msgid "Select regions of interest..."
 msgstr "Selectează regiunile de interes..."
 
-#: task_surface.py:472
+#: invesalius/gui/task_surface.py:483
 msgid "Transparency:"
 msgstr "Transparență:"
 
-#: task_surface.py:621
+#: invesalius/gui/task_surface.py:639
 msgid "Decimate resolution:"
 msgstr "Reducere rezoluție:"
 
-#: task_surface.py:631
+#: invesalius/gui/task_surface.py:647
 msgid "Smooth iterations:"
 msgstr "Repetări omogene:"
 
-#: task_tools.py:67
+#: invesalius/gui/task_tools.py:67
 msgid "Measure distances"
 msgstr "Măsurare distanțe"
 
-#: task_tools.py:68
+#: invesalius/gui/task_tools.py:68
 msgid "Measure"
 msgstr "Măsură"
 
-#: task_tools.py:71 task_tools.py:72
+#: invesalius/gui/task_tools.py:71 invesalius/gui/task_tools.py:72
 msgid "Add text annotations"
 msgstr "Adaugă adnotări de text"
 
-#: trigger.py:46
-msgid "Connection with port COM1 failed"
-msgstr "Conectarea la portul COM1 a esuat"
+#: invesalius/gui/widgets/clut_raycasting.py:539
+#, python-format
+msgid "Value: %-6d"
+msgstr "Valoare: %-6d"
 
-#: trigger.py:46
-msgid "Communication error"
-msgstr "Eroare de comunicare"
-
-#: viewer_slice.py:79
-msgid "Number of slices used to compound the visualization."
-msgstr "Numarul sectiunilor care compun vizualizarea"
-
-#: viewer_slice.py:88
-msgid ""
-"Controls the sharpness of the contour. The greater the value, the sharper "
-"the contour."
-msgstr "Controlul preciziei conturului. Cu cat valoarea este mai mare cu atat conturul va fi mai exact"
-
-#: viewer_slice.py:96
-msgid "Inverted order"
-msgstr "Inverseaza ordinea"
-
-#: viewer_slice.py:97
-msgid ""
-"If checked, the slices are traversed in descending order to compound the "
-"visualization instead of ascending order."
-msgstr ""
-"Daca selectati, feliile vor fi accesate in ordine descrescatoare pentru a compune "
-"vizualizarea substituind ordinea crescatoare."
-
-#: viewer_slice.py:103
-msgid "Number of slices"
-msgstr "Numar sectiuni"
-
-#: viewer_slice.py:104
-msgid "Sharpness"
-msgstr "Claritate"
-
-#: viewer_slice.py:363 viewer_slice.py:367 viewer_slice.py:417
-#: viewer_slice.py:419 viewer_slice.py:431 viewer_slice.py:440
-#: viewer_slice.py:449 viewer_slice.py:458 viewer_slice.py:469
-#: viewer_slice.py:478 viewer_slice.py:487 viewer_slice.py:496
-msgid "R"
-msgstr "R"
-
-#: viewer_slice.py:363 viewer_slice.py:367 viewer_slice.py:417
-#: viewer_slice.py:419 viewer_slice.py:431 viewer_slice.py:440
-#: viewer_slice.py:449 viewer_slice.py:458 viewer_slice.py:469
-#: viewer_slice.py:478 viewer_slice.py:487 viewer_slice.py:496
-msgid "L"
-msgstr "L"
-
-#: viewer_slice.py:363 viewer_slice.py:365 viewer_slice.py:417
-#: viewer_slice.py:421 viewer_slice.py:431 viewer_slice.py:440
-#: viewer_slice.py:449 viewer_slice.py:458 viewer_slice.py:507
-#: viewer_slice.py:516 viewer_slice.py:525 viewer_slice.py:534
-msgid "A"
-msgstr "A"
-
-#: viewer_slice.py:363 viewer_slice.py:365 viewer_slice.py:417
-#: viewer_slice.py:421 viewer_slice.py:431 viewer_slice.py:440
-#: viewer_slice.py:449 viewer_slice.py:458 viewer_slice.py:507
-#: viewer_slice.py:516 viewer_slice.py:525 viewer_slice.py:534
-msgid "P"
-msgstr "P"
-
-#: viewer_slice.py:365 viewer_slice.py:367 viewer_slice.py:419
-#: viewer_slice.py:421 viewer_slice.py:469 viewer_slice.py:478
-#: viewer_slice.py:487 viewer_slice.py:496 viewer_slice.py:507
-#: viewer_slice.py:516 viewer_slice.py:525 viewer_slice.py:534
-msgid "T"
-msgstr "T"
-
-#: viewer_slice.py:365 viewer_slice.py:367 viewer_slice.py:419
-#: viewer_slice.py:421 viewer_slice.py:469 viewer_slice.py:478
-#: viewer_slice.py:487 viewer_slice.py:496 viewer_slice.py:507
-#: viewer_slice.py:516 viewer_slice.py:525 viewer_slice.py:534
-msgid "B"
-msgstr "B"
-
-#: viewer_slice.py:434 viewer_slice.py:443 viewer_slice.py:452
-#: viewer_slice.py:461
-msgid "AL"
+#: invesalius/gui/widgets/clut_raycasting.py:540
+#, python-format
+msgid "Alpha: %-.3f"
 msgstr ""
 
-#: viewer_slice.py:434 viewer_slice.py:443 viewer_slice.py:452
-#: viewer_slice.py:461
-msgid "RA"
+#: invesalius/gui/widgets/slice_menu.py:36
+msgid "Normal"
 msgstr ""
 
-#: viewer_slice.py:434 viewer_slice.py:443 viewer_slice.py:452
-#: viewer_slice.py:461
-msgid "PR"
+#: invesalius/gui/widgets/slice_menu.py:37
+msgid "MaxIP"
 msgstr ""
 
-#: viewer_slice.py:434 viewer_slice.py:443 viewer_slice.py:452
-#: viewer_slice.py:461
-msgid "LP"
+#: invesalius/gui/widgets/slice_menu.py:38
+msgid "MinIP"
 msgstr ""
 
-#: viewer_slice.py:437 viewer_slice.py:446 viewer_slice.py:455
-#: viewer_slice.py:464
-msgid "LA"
+#: invesalius/gui/widgets/slice_menu.py:39
+msgid "MeanIP"
 msgstr ""
 
-#: viewer_slice.py:437 viewer_slice.py:446 viewer_slice.py:455
-#: viewer_slice.py:464
-msgid "AR"
+#: invesalius/gui/widgets/slice_menu.py:40
+msgid "MIDA"
 msgstr ""
 
-#: viewer_slice.py:437 viewer_slice.py:446 viewer_slice.py:455
-#: viewer_slice.py:464
-msgid "RP"
+#: invesalius/gui/widgets/slice_menu.py:41
+msgid "Contour MaxIP"
 msgstr ""
 
-#: viewer_slice.py:437 viewer_slice.py:446 viewer_slice.py:455
-#: viewer_slice.py:464
-msgid "PL"
+#: invesalius/gui/widgets/slice_menu.py:42
+msgid "Contour MIDA"
 msgstr ""
 
-#: viewer_slice.py:472 viewer_slice.py:481 viewer_slice.py:490
-#: viewer_slice.py:499
-msgid "TL"
+#: invesalius/gui/widgets/slice_menu.py:160
+msgid "Window width and level"
+msgstr "Largime si nivel fereastra"
+
+#: invesalius/gui/widgets/slice_menu.py:161
+msgid "Pseudo color"
+msgstr "Pseudo culoare"
+
+#: invesalius/gui/widgets/slice_menu.py:162
+msgid "Projection type"
+msgstr "Tip proiectie"
+
+#: invesalius/navigation/navigation.py:275
+msgid "Perform coil registration before navigation."
+msgstr "Inregistreaza bucla inainte de navigare."
+
+#: invesalius/navigation/tracker.py:70
+msgid "Disconnecting tracker ..."
+msgstr "Se deconecteaza tracker ..."
+
+#: invesalius/navigation/tracker.py:88
+msgid "Tracker disconnected"
+msgstr "Tracker deconectat"
+
+#: invesalius/navigation/tracker.py:92
+msgid "Tracker still connected"
+msgstr "Tracker inca conectat"
+
+#: invesalius/presets.py:36 invesalius/presets.py:54 invesalius/presets.py:110
+#: invesalius/presets.py:142
+msgid "Soft Tissue"
+msgstr "Tesut moale"
+
+#: invesalius/presets.py:37 invesalius/presets.py:55 invesalius/presets.py:111
+#: invesalius/presets.py:143
+msgid "Enamel (Adult)"
 msgstr ""
 
-#: viewer_slice.py:472 viewer_slice.py:481 viewer_slice.py:490
-#: viewer_slice.py:499
-msgid "RT"
+#: invesalius/presets.py:38 invesalius/presets.py:56 invesalius/presets.py:112
+#: invesalius/presets.py:144
+msgid "Enamel (Child)"
 msgstr ""
 
-#: viewer_slice.py:472 viewer_slice.py:481 viewer_slice.py:490
-#: viewer_slice.py:499
-msgid "BR"
-msgstr ""
+#: invesalius/presets.py:39 invesalius/presets.py:57 invesalius/presets.py:113
+#: invesalius/presets.py:145
+msgid "Compact Bone (Adult)"
+msgstr "Os Compact (Adult)"
 
-#: viewer_slice.py:472 viewer_slice.py:481 viewer_slice.py:490
-#: viewer_slice.py:499
-msgid "LB"
-msgstr ""
+#: invesalius/presets.py:40 invesalius/presets.py:58 invesalius/presets.py:114
+#: invesalius/presets.py:146
+msgid "Compact Bone (Child)"
+msgstr "Os compact (Copil)"
 
-#: viewer_slice.py:475 viewer_slice.py:484 viewer_slice.py:493
-#: viewer_slice.py:502
-msgid "LT"
-msgstr ""
+#: invesalius/presets.py:41 invesalius/presets.py:59 invesalius/presets.py:115
+#: invesalius/presets.py:147
+msgid "Spongial Bone (Adult)"
+msgstr "Os Spongios (Adult)"
 
-#: viewer_slice.py:475 viewer_slice.py:484 viewer_slice.py:493
-#: viewer_slice.py:502
-msgid "TR"
-msgstr ""
+#: invesalius/presets.py:42 invesalius/presets.py:60 invesalius/presets.py:116
+#: invesalius/presets.py:148
+msgid "Spongial Bone (Child)"
+msgstr "Os Spongios (Copil)"
 
-#: viewer_slice.py:475 viewer_slice.py:484 viewer_slice.py:493
-#: viewer_slice.py:502
-msgid "RB"
-msgstr ""
+#: invesalius/presets.py:43 invesalius/presets.py:61 invesalius/presets.py:117
+#: invesalius/presets.py:149
+msgid "Muscle Tissue (Adult)"
+msgstr "Tesut Muscular (Adult)"
 
-#: viewer_slice.py:475 viewer_slice.py:484 viewer_slice.py:493
-#: viewer_slice.py:502
-msgid "BL"
-msgstr ""
+#: invesalius/presets.py:44 invesalius/presets.py:62 invesalius/presets.py:118
+#: invesalius/presets.py:150
+msgid "Muscle Tissue (Child)"
+msgstr "Tesut Muscular (Copil)"
 
-#: viewer_slice.py:510 viewer_slice.py:519 viewer_slice.py:528
-#: viewer_slice.py:537
-msgid "TA"
-msgstr ""
+#: invesalius/presets.py:45 invesalius/presets.py:63 invesalius/presets.py:119
+#: invesalius/presets.py:151
+msgid "Fat Tissue (Adult)"
+msgstr "Tesut Gras (Adult)"
 
-#: viewer_slice.py:510 viewer_slice.py:519 viewer_slice.py:528
-#: viewer_slice.py:537
-msgid "PT"
-msgstr "PS"
+#: invesalius/presets.py:46 invesalius/presets.py:64 invesalius/presets.py:120
+#: invesalius/presets.py:152
+msgid "Fat Tissue (Child)"
+msgstr "Tesut Gras (Copil)"
 
-#: viewer_slice.py:510 viewer_slice.py:519 viewer_slice.py:528
-#: viewer_slice.py:537
-msgid "BP"
-msgstr ""
+#: invesalius/presets.py:47 invesalius/presets.py:65 invesalius/presets.py:121
+#: invesalius/presets.py:153
+msgid "Skin Tissue (Adult)"
+msgstr "Tesut al Pielii (Adult)"
 
-#: viewer_slice.py:510 viewer_slice.py:519 viewer_slice.py:528
-#: viewer_slice.py:537
-msgid "AB"
-msgstr "AI"
+#: invesalius/presets.py:48 invesalius/presets.py:66 invesalius/presets.py:122
+#: invesalius/presets.py:154
+msgid "Skin Tissue (Child)"
+msgstr "Tesut al Pielii (Copil)"
 
-#: viewer_slice.py:513 viewer_slice.py:522 viewer_slice.py:531
-#: viewer_slice.py:540
-msgid "AT"
-msgstr ""
-
-#: viewer_slice.py:513 viewer_slice.py:522 viewer_slice.py:531
-#: viewer_slice.py:540
-msgid "TP"
-msgstr ""
-
-#: viewer_slice.py:513 viewer_slice.py:522 viewer_slice.py:531
-#: viewer_slice.py:540
-msgid "PB"
-msgstr ""
-
-#: viewer_slice.py:513 viewer_slice.py:522 viewer_slice.py:531
-#: viewer_slice.py:540
-msgid "BA"
-msgstr ""
-
-#: viewer_slice.py:963 viewer_volume.py:429
-msgid "InVesalius was not able to export this picture"
-msgstr "Programul nu a putut exporta aceasta imagine"
-
-#: viewer_slice.py:963 viewer_volume.py:429
-msgid "Export picture error"
-msgstr "Eroare la exportul imaginii"
-
-#~ msgid "Save raycasting preset"
-#~ msgstr "Salvare  raycasting prestabilita"
-
-#~ msgid "Untitled"
-#~ msgstr "Fara nume"
-
-#~ msgid "Import DICOM images..."
-#~ msgstr "Importa fisiere  DICOM ..."
-
-#~ msgid "Advanced editing tools"
-#~ msgstr "Instrumente de editare avansate"
-
-#~ msgid "Exit"
-#~ msgstr "Iesire"
-
-#~ msgid "Off"
-#~ msgstr " Oprit"
-
-#~ msgid "Save Project As..."
-#~ msgstr "Salveaza proiectul ca..."
-
-#~ msgid "Open a InVesalius project..."
-#~ msgstr Deschide un proiect..."
-
-#~ msgid "Image Tiling"
-#~ msgstr "Imagine de lucru"
+#: invesalius/reader/dicom.py:1552 invesalius/reader/dicom.py:1561
+#: invesalius/reader/dicom.py:1565
+msgid "unnamed"
+msgstr "fara nume"

@@ -95,7 +95,7 @@ class Frame(wx.Frame):
         wx.Frame.__init__(self, id=-1, name='', parent=prnt,
               pos=wx.Point(0, 0),
               size=wx.Size(1024, 748), #size = wx.DisplaySize(),
-              style=wx.DEFAULT_FRAME_STYLE, title='InVesalius 3')
+              style=wx.DEFAULT_FRAME_STYLE, title='INO-ORBITAL')
         self.Center(wx.BOTH)
         icon_path = inv_paths.ICON_DIR.joinpath("invesalius.ico")
         self.SetIcon(wx.Icon(str(icon_path), wx.BITMAP_TYPE_ICO))
@@ -322,9 +322,9 @@ class Frame(wx.Frame):
         Set project name into frame's title.
         """
         if not(proj_name):
-            self.SetTitle("InVesalius 3")
+            self.SetTitle("INO-ORBITAL")
         else:
-            self.SetTitle("%s - InVesalius 3"%(proj_name))
+            self.SetTitle("%s - INO-ORBITAL"%(proj_name))
 
     def _ShowContentPanel(self):
         """
@@ -649,6 +649,8 @@ class Frame(wx.Frame):
         """
         if ses.Session().language == 'pt_BR':
             user_guide = "user_guide_pt_BR.pdf"
+        elif ses.Session().language == 'ro':
+            user_guide = "user_guide_ro.pdf"
         else:
             user_guide = "user_guide_en.pdf"
 
