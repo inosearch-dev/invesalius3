@@ -141,9 +141,27 @@ class Inv3SplashScreen(SplashScreen):
     Splash screen to be shown in InVesalius initialization.
     """
     def __init__(self):
+#         # Splash screen image will depend on the current language
+#         lang = 'ro'
+#         self.locale = wx.Locale(wx.LANGUAGE_ROMANIAN)
+# 
+#         # Language information is available in session configuration
+#         # file. First we need to check if this file exist, if now, it
+#         # should be created
+#         create_session = LANG is None
+#         print(create_session)
+# 
+#         # Session file should be created... So we set the recently chosen language.
+#         if create_session:
+#             print("creating session")
+#             _ = i18n.InstallLanguage(lang)
+#             session.CreateItens()
+#             session.SetLanguage(lang)
+#             session.WriteSessionFile()
+
         # Splash screen image will depend on the current language
         lang = LANG
-        self.locale = wx.Locale(wx.LANGUAGE_ENGLISH)
+        self.locale = wx.Locale(wx.LANGUAGE_ROMANIAN)
 
         # Language information is available in session configuration
         # file. First we need to check if this file exist, if now, it
@@ -504,10 +522,11 @@ def init():
 
         #Click in the .inv3 file support
         root = winreg.HKEY_CLASSES_ROOT
-        key = "InVesalius 3.1\InstallationDir"
+        key = "INO-ORBITAL\InstallationDir"
         hKey = winreg.OpenKey (root, key, 0, winreg.KEY_READ)
         value, type_ = winreg.QueryValueEx (hKey, "")
-        path = os.path.join(value,'dist')
+        path = value
+#        path = os.path.join(value,'dist')
 
         os.chdir(path)
 
